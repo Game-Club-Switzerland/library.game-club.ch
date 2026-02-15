@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-ink-900 text-ink-50 font-body min-h-screen;
+  background-image: radial-gradient(circle at 20% 20%, rgba(127, 209, 217, 0.15), transparent 45%),
+    radial-gradient(circle at 80% 10%, rgba(255, 207, 77, 0.18), transparent 40%),
+    radial-gradient(circle at 70% 80%, rgba(79, 143, 159, 0.2), transparent 45%);
+}
+
+h1, h2, h3, h4 {
+  @apply font-display text-ink-50;
+}
+
+a {
+  @apply text-tide-200 hover:text-sun-300 transition-colors;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-grid {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 36px 36px;
+  background-position: -1px -1px;
+}
+
+.badge {
+  @apply inline-flex items-center gap-2 rounded-full border border-ink-700 px-3 py-1 text-xs uppercase tracking-wide text-ink-200;
+}
+
+.card {
+  @apply rounded-2xl border border-ink-700/60 bg-ink-800/70 p-6 shadow-glow;
+}
+
+.glass {
+  backdrop-filter: blur(16px);
+  background: rgba(30, 42, 49, 0.6);
+}
+
+.rich-text a {
+  @apply underline decoration-sun-300/60 underline-offset-4;
+}
+
+.rich-text strong {
+  @apply text-sun-200;
+}
+
+.rich-text em {
+  @apply text-tide-200;
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "appid": "flatout2",
+    "name": "FlatOut 2",
+    "thumbnail": "",
+    "genres": ["Racing", "Arcade"],
+    "players": { "min": 1, "max": 8, "type": "PvP" },
+    "short_description": "Arcade demolition racing with stacked stunt tracks, derby chaos, and multiplayer mayhem.",
+    "stats": { "starts": 42, "searches": 68, "downloads": 19 }
+  },
+  {
+    "appid": "hedgewars",
+    "name": "Hedgewars",
+    "thumbnail": "",
+    "genres": ["Strategy", "Party"],
+    "players": { "min": 1, "max": 8, "type": "LocalCoop" },
+    "short_description": "Turn-based artillery battles with silly weapons, destructible maps, and community mods.",
+    "stats": { "starts": 38, "searches": 55, "downloads": 21 }
+  },
+  {
+    "appid": "teeworlds",
+    "name": "Teeworlds",
+    "thumbnail": "",
+    "genres": ["Action", "Shooter"],
+    "players": { "min": 2, "max": 16, "type": "PvP" },
+    "short_description": "Fast 2D arena shooter with capture-the-flag, race servers, and highly competitive movement.",
+    "stats": { "starts": 57, "searches": 74, "downloads": 33 }
+  },
+  {
+    "appid": "openra",
+    "name": "OpenRA",
+    "thumbnail": "",
+    "genres": ["Strategy", "RTS"],
+    "players": { "min": 1, "max": 8, "type": "PvP" },
+    "short_description": "Modernized classic RTS with skirmish, co-op missions, and competitive ladder play.",
+    "stats": { "starts": 29, "searches": 46, "downloads": 27 }
+  },
+  {
+    "appid": "supertuxkart",
+    "name": "SuperTuxKart",
+    "thumbnail": "",
+    "genres": ["Racing", "Party"],
+    "players": { "min": 1, "max": 8, "type": "LocalCoop" },
+    "short_description": "Open-source kart racing with tournaments, battle arenas, and split-screen co-op.",
+    "stats": { "starts": 61, "searches": 80, "downloads": 44 }
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "appid": "openra",
+  "name": "OpenRA",
+  "description": "Modernized classic RTS with skirmish, co-op missions, and competitive ladder play.",
+  "preview_image": "",
+  "hero_image": "",
+  "gallery": [],
+  "icon": "",
+  "thumbnail": "",
+  "video": "",
+  "genres": ["Strategy", "RTS"],
+  "tags": ["base-building", "multiplayer", "classic"],
+  "players": { "min": 1, "max": 8, "type": "PvP" },
+  "links": {
+    "start_link": "https://www.openra.net/",
+    "download_windows": "https://www.openra.net/",
+    "download_linux": "https://www.openra.net/"
+  },
+  "added_by": {
+    "steamid": "12345678901234567",
+    "display_name": "GameClub",
+    "timestamp": "2026-02-15T10:20:00.000Z"
+  },
+  "modified_by": {
+    "steamid": "12345678901234567",
+    "display_name": "GameClub",
+    "timestamp": "2026-02-15T10:20:00.000Z"
+  },
+  "reviews": [],
+  "stats": { "starts": 29, "searches": 46, "downloads": 27 }
+}

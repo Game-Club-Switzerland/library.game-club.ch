@@ -1,0 +1,5 @@
+{
+  "steamRealm": "http://localhost:5173",
+  "steamReturnUrl": "http://localhost:5173/#/auth/steam/callback",
+  "writeMode": "local"
+}
