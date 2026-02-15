@@ -31,11 +31,6 @@ Game Library ist eine statische Webapp fuer den Game Club, die eine durchsuchbar
 - Die App speichert nach dem Callback eine lokale Session.
 - In Produktion muss die OpenID-Antwort serverseitig validiert werden.
 
-## Steam API Key (optional)
-- Der Steam API Key gehoert nicht in public/config.json.
-- Lege ihn als Secret im Serverless-Backend oder in CI an.
-- config.example.json zeigt die benoetigten Felder fuer die Server-Seite.
-
 ## Write API (GitHub Commit oder PR)
 - writeMode: "local" speichert Aenderungen im Browser (localStorage).
 - writeMode: "github" sendet Requests an githubApiUrl.
@@ -44,12 +39,6 @@ Game Library ist eine statische Webapp fuer den Game Club, die eine durchsuchbar
   - POST /api/game/{appid} (PATCH-Update)
   - POST /api/game/{appid}/review (Review hinzufuegen)
   - Optional: PR statt Commit erzeugen
-- githubToken und githubRepo duerfen nicht im Client liegen.
-
-### Serverless Stub
-- Ein Beispiel befindet sich unter /serverless/write-api.ts.
-- LOCAL_WRITE=true schreibt in /data/games (nur lokal fuer Entwicklung).
-- GITHUB_TOKEN und GITHUB_REPO aktivieren echte Commits via GitHub REST API.
 
 ## Datenpflege
 - Game-Dateien liegen unter /data/games/*.json.

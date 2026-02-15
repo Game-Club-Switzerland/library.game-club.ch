@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type FormEvent } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import GameCard from '../components/GameCard'
 import GameFilters from '../components/GameFilters'
 import { fetchGames } from '../lib/api'
@@ -68,7 +68,7 @@ function GamesPage() {
     )
   }
 
-  const handleCreateGame = async (event: FormEvent<HTMLFormElement>) => {
+  const handleCreateGame = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
     if (!session) {
       setError('Please sign in with Steam before adding games.')

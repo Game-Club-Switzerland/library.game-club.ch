@@ -1,4 +1,4 @@
-import { useEffect, useState, type FormEvent } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import ReviewList from '../components/ReviewList'
 import { fetchGame } from '../lib/api'
@@ -45,7 +45,7 @@ function GameDetailPage() {
       .catch((err) => setError(err instanceof Error ? err.message : 'Unable to load game'))
   }, [appid])
 
-  const handleReviewSubmit = async (event: FormEvent<HTMLFormElement>) => {
+  const handleReviewSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
     if (!game || !session) {
       setError('Sign in before leaving a review.')
@@ -72,7 +72,7 @@ function GameDetailPage() {
     }
   }
 
-  const handleEditSubmit = async (event: FormEvent<HTMLFormElement>) => {
+  const handleEditSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
     if (!game || !session) {
       setError('Sign in before editing a game.')
