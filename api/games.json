@@ -1,0 +1,191 @@
+[
+  {
+    "id": "flatout-2",
+    "name": "FlatOut 2",
+    "description": "Arcade racing chaos with crash physics and split-screen action.",
+    "genres": ["Racing", "Action"],
+    "tags": ["Arcade", "Destruction", "Split-Screen"],
+    "players": {"min": 1, "max": 4},
+    "addedAt": "2026-02-10",
+    "updatedAt": "2026-02-16",
+    "steam": {
+      "appid": 2990,
+      "steamdb": "https://steamdb.info/app/2990/",
+      "store": "https://store.steampowered.com/app/2990/"
+    },
+    "media": {
+      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/2990/header.jpg",
+      "hero": "https://cdn.akamai.steamstatic.com/steam/apps/2990/library_hero.jpg",
+      "icon": "https://cdn.akamai.steamstatic.com/steam/apps/2990/capsule_184x69.jpg"
+    }
+  },
+  {
+    "id": "world-in-conflict",
+    "name": "World in Conflict",
+    "description": "Cold-war RTS with cinematic battles and squad tactics.",
+    "genres": ["Strategy", "RTS"],
+    "tags": ["Tactics", "Cold War", "Story"],
+    "players": {"min": 1, "max": 16},
+    "addedAt": "2026-02-11",
+    "updatedAt": "2026-02-16",
+    "steam": {
+      "appid": 24740,
+      "steamdb": "https://steamdb.info/app/24740/",
+      "store": "https://store.steampowered.com/app/24740/"
+    },
+    "media": {
+      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/24740/header.jpg",
+      "hero": "https://cdn.akamai.steamstatic.com/steam/apps/24740/library_hero.jpg",
+      "icon": "https://cdn.akamai.steamstatic.com/steam/apps/24740/capsule_184x69.jpg"
+    }
+  },
+  {
+    "id": "hedgewars",
+    "name": "Hedgewars",
+    "description": "Turn-based artillery with hedgehogs, tools, and chaos.",
+    "genres": ["Strategy", "Party"],
+    "tags": ["Turn-Based", "Multiplayer", "Open Source"],
+    "players": {"min": 1, "max": 8},
+    "addedAt": "2026-02-12",
+    "updatedAt": "2026-02-15",
+    "homepage": "https://hedgewars.org/",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    }
+  },
+  {
+    "id": "teeworlds",
+    "name": "Teeworlds",
+    "description": "Fast 2D multiplayer shooter with simple controls.",
+    "genres": ["Action", "Shooter"],
+    "tags": ["2D", "Multiplayer", "Open Source"],
+    "players": {"min": 2, "max": 16},
+    "addedAt": "2026-02-13",
+    "updatedAt": "2026-02-15",
+    "homepage": "https://teeworlds.com/",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    }
+  },
+  {
+    "id": "beyond-all-reason",
+    "name": "Beyond All Reason",
+    "description": "Massive open-source RTS with large scale battles.",
+    "genres": ["Strategy", "RTS"],
+    "tags": ["Open Source", "Multiplayer", "Sci-Fi"],
+    "players": {"min": 1, "max": 16},
+    "addedAt": "2026-02-13",
+    "updatedAt": "2026-02-15",
+    "homepage": "https://www.beyondallreason.info/",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    }
+  },
+  {
+    "id": "soldat",
+    "name": "Soldat",
+    "description": "Classic 2D shooter with acrobatic movement and mods.",
+    "genres": ["Action", "Shooter"],
+    "tags": ["2D", "Competitive", "Community"],
+    "players": {"min": 2, "max": 32},
+    "addedAt": "2026-02-14",
+    "updatedAt": "2026-02-15",
+    "homepage": "https://soldat.pl/en/",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    }
+  },
+  {
+    "id": "supertuxkart",
+    "name": "SuperTuxKart",
+    "description": "Open-source kart racer packed with tracks and modes.",
+    "genres": ["Racing", "Party"],
+    "tags": ["Open Source", "Split-Screen", "Family"],
+    "players": {"min": 1, "max": 4},
+    "addedAt": "2026-02-14",
+    "updatedAt": "2026-02-16",
+    "steam": {
+      "appid": 45400,
+      "steamdb": "https://steamdb.info/app/45400/",
+      "store": "https://store.steampowered.com/app/45400/"
+    },
+    "homepage": "https://supertuxkart.net/Main_Page",
+    "media": {
+      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/45400/header.jpg",
+      "hero": "https://cdn.akamai.steamstatic.com/steam/apps/45400/library_hero.jpg",
+      "icon": "https://cdn.akamai.steamstatic.com/steam/apps/45400/capsule_184x69.jpg"
+    }
+  },
+  {
+    "id": "openra",
+    "name": "OpenRA",
+    "description": "Modernized classic RTS with moddable missions.",
+    "genres": ["Strategy", "RTS"],
+    "tags": ["Open Source", "Modding", "Classic"],
+    "players": {"min": 1, "max": 12},
+    "addedAt": "2026-02-14",
+    "updatedAt": "2026-02-15",
+    "homepage": "https://www.openra.net/",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    }
+  },
+  {
+    "id": "renegade-x",
+    "name": "Renegade X",
+    "description": "Fan-made FPS/RTS hybrid in the C&C universe.",
+    "genres": ["Action", "Shooter"],
+    "tags": ["Multiplayer", "Teamplay", "Sci-Fi"],
+    "players": {"min": 8, "max": 64},
+    "addedAt": "2026-02-15",
+    "updatedAt": "2026-02-15",
+    "homepage": "https://totemarts.games/games/renegade-x/",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    }
+  },
+  {
+    "id": "unreal-tournament",
+    "name": "Unreal Tournament",
+    "description": "Arena shooter classic with fast movement and mods.",
+    "genres": ["Action", "Shooter"],
+    "tags": ["Classic", "Arena", "Mods"],
+    "players": {"min": 1, "max": 16},
+    "addedAt": "2026-02-15",
+    "updatedAt": "2026-02-15",
+    "homepage": "https://oldunreal.com/downloads/unrealtournament/",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    }
+  },
+  {
+    "id": "unreal-tournament-2004",
+    "name": "Unreal Tournament 2004",
+    "description": "Large-scale arena shooter with vehicles and mods.",
+    "genres": ["Action", "Shooter"],
+    "tags": ["Classic", "Vehicles", "Mods"],
+    "players": {"min": 1, "max": 32},
+    "addedAt": "2026-02-16",
+    "updatedAt": "2026-02-16",
+    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    }
+  }
+]

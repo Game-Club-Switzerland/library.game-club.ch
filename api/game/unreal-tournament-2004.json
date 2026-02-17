@@ -1,0 +1,25 @@
+{
+  "id": "unreal-tournament-2004",
+  "name": "Unreal Tournament 2004",
+  "description": "Large-scale arena shooter with vehicles and mods.",
+  "genres": ["Action", "Shooter"],
+  "tags": ["Classic", "Vehicles", "Mods"],
+  "players": {"min": 1, "max": 32},
+  "addedAt": "2026-02-16",
+  "updatedAt": "2026-02-16",
+  "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/",
+  "downloads": {
+    "windows": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/",
+    "linux": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
+  },
+  "media": {
+    "cover": "assets/img/placeholder-cover.svg",
+    "hero": "assets/img/placeholder-hero.svg",
+    "icon": "assets/img/placeholder-icon.svg",
+    "screenshots": [
+      "assets/img/placeholder-cover.svg",
+      "assets/img/placeholder-cover.svg"
+    ],
+    "video": ""
+  }
+}

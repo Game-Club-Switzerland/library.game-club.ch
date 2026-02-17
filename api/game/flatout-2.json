@@ -1,0 +1,31 @@
+{
+  "id": "flatout-2",
+  "name": "FlatOut 2",
+  "description": "Arcade racing chaos with crash physics and split-screen action.",
+  "genres": ["Racing", "Action"],
+  "tags": ["Arcade", "Destruction", "Split-Screen"],
+  "players": {"min": 1, "max": 4},
+  "addedAt": "2026-02-10",
+  "updatedAt": "2026-02-16",
+  "startLink": "https://library.game-club.ch/downloads/flatout2/start",
+  "downloads": {
+    "windows": "https://library.game-club.ch/downloads/flatout2/windows.zip",
+    "linux": "https://library.game-club.ch/downloads/flatout2/linux.tar.gz"
+  },
+  "steam": {
+    "appid": 2990,
+    "steamdb": "https://steamdb.info/app/2990/",
+    "store": "https://store.steampowered.com/app/2990/"
+  },
+  "media": {
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/2990/header.jpg",
+    "hero": "https://cdn.akamai.steamstatic.com/steam/apps/2990/library_hero.jpg",
+    "icon": "https://cdn.akamai.steamstatic.com/steam/apps/2990/capsule_184x69.jpg",
+    "screenshots": [
+      "assets/img/placeholder-cover.svg",
+      "assets/img/placeholder-cover.svg",
+      "assets/img/placeholder-cover.svg"
+    ],
+    "video": ""
+  }
+}

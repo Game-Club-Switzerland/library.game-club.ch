@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zufallsgenerator - Game Club</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/img/game-club-logo.svg" alt="Game Club" />
+          <h1>Game Library</h1>
+        </a>
+        <nav class="nav">
+          <a href="index.html">Start</a>
+          <a href="library.html">Library</a>
+          <a class="active" href="random.html">Zufall</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section">
+      <div class="panel filters">
+        <select data-random-genre>
+          <option value="">Alle Genres</option>
+        </select>
+        <select data-random-players>
+          <option value="">Alle Player</option>
+          <option value="1">1</option>
+          <option value="2">2+</option>
+          <option value="3-4">3-4</option>
+          <option value="5+">5+</option>
+        </select>
+        <button data-random-pick>Game finden</button>
+      </div>
+
+      <div class="section" data-random-result></div>
+    </main>
+
+    <footer class="footer container">
+      <span>Zufalls-Generator mit Filter</span>
+    </footer>
+
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/random.js"></script>
+  </body>
+</html>

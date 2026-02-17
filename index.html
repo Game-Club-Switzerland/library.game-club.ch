@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Game Library - Game Club</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/img/game-club-logo.svg" alt="Game Club" />
+          <h1>Game Library</h1>
+        </a>
+        <nav class="nav">
+          <a class="active" href="index.html">Start</a>
+          <a href="library.html">Library</a>
+          <a href="random.html">Zufall</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div>
+          <h2>Die Game Club Library im SteamDB-Style.</h2>
+          <p>
+            Neue Games aus GitHub Discussions, automatisch angereichert mit Steam-Daten,
+            klar filterbar nach Genre, Player und Tags.
+          </p>
+          <div class="badges">
+            <span class="badge">GitHub Pages</span>
+            <span class="badge">Discussions Sync</span>
+            <span class="badge">SteamDB Look</span>
+          </div>
+        </div>
+        <a class="hero-card" data-featured href="#">
+          <img src="assets/img/placeholder-hero.svg" alt="Featured" />
+          <div class="card-body">
+            <h4 class="card-title">Featured Game</h4>
+            <div class="card-meta">Loading...</div>
+          </div>
+        </a>
+      </section>
+
+      <section class="section">
+        <h3>Neueste Games</h3>
+        <div class="card-grid stagger" data-latest></div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <span>Game Club Switzerland · library.game-club.ch</span>
+    </footer>
+
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>

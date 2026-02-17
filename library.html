@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Library - Game Club</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/img/game-club-logo.svg" alt="Game Club" />
+          <h1>Game Library</h1>
+        </a>
+        <nav class="nav">
+          <a href="index.html">Start</a>
+          <a class="active" href="library.html">Library</a>
+          <a href="random.html">Zufall</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section">
+      <div class="panel">
+        <div class="filters">
+          <input type="search" placeholder="Suche nach Titel" data-search />
+          <select data-genre>
+            <option value="">Alle Genres</option>
+          </select>
+          <select data-players>
+            <option value="">Alle Player</option>
+            <option value="1">1</option>
+            <option value="2">2+</option>
+            <option value="3-4">3-4</option>
+            <option value="5+">5+</option>
+          </select>
+        </div>
+        <div style="margin-top:12px" data-tags class="badges"></div>
+      </div>
+
+      <div class="section">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Game</th>
+              <th>Genre</th>
+              <th>Player</th>
+              <th>Tags</th>
+              <th>Updated</th>
+            </tr>
+          </thead>
+          <tbody data-library-body></tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer class="footer container">
+      <span>Filters: Genre, Player, Tags · API: /api/games.json</span>
+    </footer>
+
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/library.js"></script>
+  </body>
+</html>

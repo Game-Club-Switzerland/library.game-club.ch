@@ -1,0 +1,30 @@
+{
+  "id": "supertuxkart",
+  "name": "SuperTuxKart",
+  "description": "Open-source kart racer packed with tracks and modes.",
+  "genres": ["Racing", "Party"],
+  "tags": ["Open Source", "Split-Screen", "Family"],
+  "players": {"min": 1, "max": 4},
+  "addedAt": "2026-02-14",
+  "updatedAt": "2026-02-16",
+  "homepage": "https://supertuxkart.net/Main_Page",
+  "downloads": {
+    "windows": "https://supertuxkart.net/Main_Page",
+    "linux": "https://supertuxkart.net/Main_Page"
+  },
+  "steam": {
+    "appid": 45400,
+    "steamdb": "https://steamdb.info/app/45400/",
+    "store": "https://store.steampowered.com/app/45400/"
+  },
+  "media": {
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/45400/header.jpg",
+    "hero": "https://cdn.akamai.steamstatic.com/steam/apps/45400/library_hero.jpg",
+    "icon": "https://cdn.akamai.steamstatic.com/steam/apps/45400/capsule_184x69.jpg",
+    "screenshots": [
+      "assets/img/placeholder-cover.svg",
+      "assets/img/placeholder-cover.svg"
+    ],
+    "video": ""
+  }
+}

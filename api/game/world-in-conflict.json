@@ -1,0 +1,29 @@
+{
+  "id": "world-in-conflict",
+  "name": "World in Conflict",
+  "description": "Cold-war RTS with cinematic battles and squad tactics.",
+  "genres": ["Strategy", "RTS"],
+  "tags": ["Tactics", "Cold War", "Story"],
+  "players": {"min": 1, "max": 16},
+  "addedAt": "2026-02-11",
+  "updatedAt": "2026-02-16",
+  "startLink": "https://library.game-club.ch/downloads/world-in-conflict/start",
+  "downloads": {
+    "windows": "https://library.game-club.ch/downloads/world-in-conflict/windows.zip"
+  },
+  "steam": {
+    "appid": 24740,
+    "steamdb": "https://steamdb.info/app/24740/",
+    "store": "https://store.steampowered.com/app/24740/"
+  },
+  "media": {
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/24740/header.jpg",
+    "hero": "https://cdn.akamai.steamstatic.com/steam/apps/24740/library_hero.jpg",
+    "icon": "https://cdn.akamai.steamstatic.com/steam/apps/24740/capsule_184x69.jpg",
+    "screenshots": [
+      "assets/img/placeholder-cover.svg",
+      "assets/img/placeholder-cover.svg"
+    ],
+    "video": ""
+  }
+}
