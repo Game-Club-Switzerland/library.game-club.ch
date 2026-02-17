@@ -8,6 +8,7 @@ const gameDir = path.join(apiDir, 'game');
 const owner = process.env.REPO_OWNER;
 const repo = process.env.REPO_NAME;
 const token = process.env.GITHUB_TOKEN;
+const newestLimit = Number.parseInt(process.env.NEW_GAMES_LIMIT || '6', 10);
 
 const fetchGraphQL = async (query, variables) => {
   const response = await fetch('https://api.github.com/graphql', {
@@ -50,6 +51,42 @@ const buildSteamMedia = (steamAppId) => ({
 
 const ensureDir = async (dir) => {
   await fs.mkdir(dir, { recursive: true });
+};
+
+const readJsonFile = async (filePath) => {
+  try {
+    const raw = await fs.readFile(filePath, 'utf-8');
+    return JSON.parse(raw);
+  } catch (error) {
+    console.warn(`Failed to read ${filePath}: ${error.message}`);
+    return null;
+  }
+};
+
+const loadExistingGames = async () => {
+  try {
+    const entries = await fs.readdir(gameDir, { withFileTypes: true });
+    const files = entries.filter((entry) => entry.isFile() && entry.name.endsWith('.json'));
+    const games = await Promise.all(
+      files.map((entry) => readJsonFile(path.join(gameDir, entry.name)))
+    );
+    return games.filter((game) => game?.id);
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return [];
+    }
+    throw error;
+  }
+};
+
+const getNewestTimestamp = (game) => {
+  const date = game.addedAt || game.updatedAt || 0;
+  return new Date(date).getTime();
+};
+
+const getUpdatedTimestamp = (game) => {
+  const date = game.updatedAt || game.addedAt || 0;
+  return new Date(date).getTime();
 };
 
 const loadDiscussions = async () => {
@@ -120,14 +157,20 @@ const buildGame = (discussion) => {
 const main = async () => {
   await ensureDir(gameDir);
 
+  const existingGames = await loadExistingGames();
   const discussions = await loadDiscussions();
-  const games = discussions
-    .map(buildGame)
-    .filter(Boolean)
-    .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt));
+  const discussionGames = discussions.map(buildGame).filter(Boolean);
+
+  const gameMap = new Map();
+  existingGames.forEach((game) => gameMap.set(game.id, game));
+  discussionGames.forEach((game) => gameMap.set(game.id, game));
+
+  const games = Array.from(gameMap.values()).sort(
+    (a, b) => getUpdatedTimestamp(b) - getUpdatedTimestamp(a)
+  );
 
   if (!games.length) {
-    console.warn('No discussions found. Keeping existing JSON.');
+    console.warn('No games found. Keeping existing JSON.');
     return;
   }
 
@@ -151,13 +194,19 @@ const main = async () => {
 
   await fs.writeFile(path.join(apiDir, 'games.json'), JSON.stringify(summary, null, 2));
 
+  const newest = [...summary]
+    .sort((a, b) => getNewestTimestamp(b) - getNewestTimestamp(a))
+    .slice(0, newestLimit);
+
+  await fs.writeFile(path.join(apiDir, 'new.json'), JSON.stringify(newest, null, 2));
+
   await Promise.all(
     games.map((game) =>
       fs.writeFile(path.join(gameDir, `${game.id}.json`), JSON.stringify(game, null, 2))
     )
   );
 
-  console.log(`Updated ${games.length} games from discussions.`);
+  console.log(`Updated ${games.length} games (discussions + existing files).`);
 };
 
 main().catch((error) => {
