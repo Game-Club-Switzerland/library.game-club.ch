@@ -17,12 +17,12 @@
     },
     "addedAt": "2026-02-17",
     "updatedAt": "2026-02-17",
-    "homepage": "https://play0ad.com/",
     "media": {
-      "cover": "https://play0ad.com/wp-content/gallery/download-banners/dl1.jpg",
+      "cover": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
       "hero": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
-      "icon": "https://en.wikipedia.org/wiki/0_A.D._(video_game)#/media/File:0_A.D._logo.svg"
-    }
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/9/99/0_A.D._logo.svg"
+    },
+    "homepage": "https://play0ad.com/"
   },
   {
     "id": "rocket-league",
@@ -42,16 +42,16 @@
     },
     "addedAt": "2026-02-17",
     "updatedAt": "2026-02-17",
+    "media": {
+      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
+      "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
+      "icon": "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_184x69.jpg"
+    },
     "homepage": "https://store.steampowered.com/app/252950/Rocket_League",
     "steam": {
       "appid": 252950,
       "steamdb": "https://steamdb.info/app/252950/",
       "store": "https://store.steampowered.com/app/252950/"
-    },
-    "media": {
-      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
-      "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
-      "icon": "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_184x69.jpg"
     }
   },
   {
@@ -73,15 +73,15 @@
     },
     "addedAt": "2026-02-10",
     "updatedAt": "2026-02-16",
-    "steam": {
-      "appid": 2990,
-      "steamdb": "https://steamdb.info/app/2990/",
-      "store": "https://store.steampowered.com/app/2990/"
-    },
     "media": {
       "cover": "https://cdn.akamai.steamstatic.com/steam/apps/2990/header.jpg",
       "hero": "https://cdn.akamai.steamstatic.com/steam/apps/2990/library_hero.jpg",
       "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/2990/0e4abf32430e26b53ee0acd5d0396e1b2ec352f1.jpg"
+    },
+    "steam": {
+      "appid": 2990,
+      "steamdb": "https://steamdb.info/app/2990/",
+      "store": "https://store.steampowered.com/app/2990/"
     }
   },
   {
@@ -103,12 +103,12 @@
     },
     "addedAt": "2026-02-14",
     "updatedAt": "2026-02-16",
-    "homepage": "https://supertuxkart.net/Main_Page",
     "media": {
       "cover": "https://supertuxkart.net/assets/images/header.jpg",
       "hero": "https://supertuxkart.net/assets/images/library_hero.jpg",
       "icon": "https://supertuxkart.net/assets/images/capsule_184x69.jpg"
-    }
+    },
+    "homepage": "https://supertuxkart.net/Main_Page"
   },
   {
     "id": "unreal-tournament-2004",
@@ -129,12 +129,12 @@
     },
     "addedAt": "2026-02-16",
     "updatedAt": "2026-02-16",
-    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/",
     "media": {
       "cover": "assets/img/placeholder-cover.svg",
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
-    }
+    },
+    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
   },
   {
     "id": "world-in-conflict",
@@ -155,15 +155,15 @@
     },
     "addedAt": "2026-02-11",
     "updatedAt": "2026-02-16",
-    "steam": {
-      "appid": 24740,
-      "steamdb": "https://steamdb.info/app/24740/",
-      "store": "https://store.steampowered.com/app/24740/"
-    },
     "media": {
       "cover": "https://cdn.akamai.steamstatic.com/steam/apps/21760/header.jpg",
       "hero": "https://images.gog-statics.com/a09dbaf28268d605cb7ec7434c620008f3ac88c19b75377b5e171bca90b9b3b3_bg_crop_1366x655.jpg",
       "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/21760/177d0b92597475f22d07c5e985cfe9e47032e12f.jpg"
+    },
+    "steam": {
+      "appid": 21760,
+      "steamdb": "https://steamdb.info/app/21760/",
+      "store": "https://store.steampowered.com/app/21760/"
     }
   },
   {
@@ -185,12 +185,12 @@
     },
     "addedAt": "2026-02-13",
     "updatedAt": "2026-02-15",
-    "homepage": "https://www.beyondallreason.info/",
     "media": {
       "cover": "assets/img/placeholder-cover.svg",
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
-    }
+    },
+    "homepage": "https://www.beyondallreason.info/"
   },
   {
     "id": "hedgewars",
@@ -211,12 +211,12 @@
     },
     "addedAt": "2026-02-12",
     "updatedAt": "2026-02-15",
-    "homepage": "https://hedgewars.org/",
     "media": {
       "cover": "assets/img/placeholder-cover.svg",
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
-    }
+    },
+    "homepage": "https://hedgewars.org/"
   },
   {
     "id": "openra",
@@ -237,12 +237,12 @@
     },
     "addedAt": "2026-02-14",
     "updatedAt": "2026-02-15",
-    "homepage": "https://www.openra.net/",
     "media": {
       "cover": "assets/img/placeholder-cover.svg",
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
-    }
+    },
+    "homepage": "https://www.openra.net/"
   },
   {
     "id": "renegade-x",
@@ -263,12 +263,12 @@
     },
     "addedAt": "2026-02-15",
     "updatedAt": "2026-02-15",
-    "homepage": "https://totemarts.games/games/renegade-x/",
     "media": {
       "cover": "assets/img/placeholder-cover.svg",
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
-    }
+    },
+    "homepage": "https://totemarts.games/games/renegade-x/"
   },
   {
     "id": "soldat",
@@ -289,12 +289,12 @@
     },
     "addedAt": "2026-02-14",
     "updatedAt": "2026-02-15",
-    "homepage": "https://soldat.pl/en/",
     "media": {
       "cover": "assets/img/placeholder-cover.svg",
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
-    }
+    },
+    "homepage": "https://soldat.pl/en/"
   },
   {
     "id": "teeworlds",
@@ -315,12 +315,12 @@
     },
     "addedAt": "2026-02-13",
     "updatedAt": "2026-02-15",
-    "homepage": "https://teeworlds.com/",
     "media": {
       "cover": "assets/img/placeholder-cover.svg",
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
-    }
+    },
+    "homepage": "https://teeworlds.com/"
   },
   {
     "id": "unreal-tournament",
@@ -341,11 +341,11 @@
     },
     "addedAt": "2026-02-15",
     "updatedAt": "2026-02-15",
-    "homepage": "https://oldunreal.com/downloads/unrealtournament/",
     "media": {
       "cover": "assets/img/placeholder-cover.svg",
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
-    }
+    },
+    "homepage": "https://oldunreal.com/downloads/unrealtournament/"
   }
 ]

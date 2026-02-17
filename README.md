@@ -15,7 +15,7 @@ Static webapp for library.game-club.ch with SteamDB-like styling. Data is served
 │  ├─ css/styles.css
 │  ├─ js/
 │  └─ img/
-├─ scripts/build-games.mjs
+├─ scripts/build-games.py
 ├─ .github/workflows/build-games.yml
 ├─ index.html
 ├─ library.html
@@ -131,7 +131,7 @@ If `steamAppId` is present, the build script auto-fills SteamDB links and media 
 
 See .github/workflows/build-games.yml:
 - Trigger: discussion created/edited, schedule, or manual
-- Steps: checkout, setup node, run scripts/build-games.mjs, commit updated JSON
+- Steps: checkout, setup python, run scripts/build-games.py, commit updated JSON
 
 ## Example data
 
