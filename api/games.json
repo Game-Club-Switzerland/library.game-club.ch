@@ -18,15 +18,10 @@
     "addedAt": "2026-02-17",
     "updatedAt": "2026-02-17",
     "homepage": "https://play0ad.com/",
-    "steam": {
-      "appid": 252950,
-      "steamdb": "https://steamdb.info/app/252950/",
-      "store": "https://store.steampowered.com/app/252950/"
-    },
     "media": {
-      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
-      "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
-      "icon": "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_184x69.jpg"
+      "cover": "https://play0ad.com/wp-content/gallery/download-banners/dl1.jpg",
+      "hero": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
+      "icon": "https://en.wikipedia.org/wiki/0_A.D._(video_game)#/media/File:0_A.D._logo.svg"
     }
   },
   {
@@ -86,7 +81,7 @@
     "media": {
       "cover": "https://cdn.akamai.steamstatic.com/steam/apps/2990/header.jpg",
       "hero": "https://cdn.akamai.steamstatic.com/steam/apps/2990/library_hero.jpg",
-      "icon": "https://cdn.akamai.steamstatic.com/steam/apps/2990/capsule_184x69.jpg"
+      "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/2990/0e4abf32430e26b53ee0acd5d0396e1b2ec352f1.jpg"
     }
   },
   {

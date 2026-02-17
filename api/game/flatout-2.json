@@ -30,12 +30,14 @@
   "media": {
     "cover": "https://cdn.akamai.steamstatic.com/steam/apps/2990/header.jpg",
     "hero": "https://cdn.akamai.steamstatic.com/steam/apps/2990/library_hero.jpg",
-    "icon": "https://cdn.akamai.steamstatic.com/steam/apps/2990/capsule_184x69.jpg",
+    "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/2990/0e4abf32430e26b53ee0acd5d0396e1b2ec352f1.jpg",
     "screenshots": [
-      "assets/img/placeholder-cover.svg",
-      "assets/img/placeholder-cover.svg",
-      "assets/img/placeholder-cover.svg"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/0000001055.1920x1080.jpg?t=1765237363",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/0000001056.1920x1080.jpg?t=1765237363",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/0000001057.1920x1080.jpg?t=1765237363",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/0000001058.1920x1080.jpg?t=1765237363",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/0000001059.1920x1080.jpg?t=1765237363"
     ],
-    "video": ""
+    "video": "https://www.youtube.com/watch?v=zGpVuknnN78"
   }
 }
