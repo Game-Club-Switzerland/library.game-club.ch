@@ -22,14 +22,19 @@
     "windows": "https://play0ad.com/download/win",
     "linux": "https://play0ad.com/"
   },
+  "steam": {
+    "appid": 252950,
+    "steamdb": "https://steamdb.info/app/252950/",
+    "store": "https://store.steampowered.com/app/252950/"
+  },
   "media": {
-    "cover": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
-    "hero": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/9/99/0_A.D._logo.svg",
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
+    "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
+    "icon": "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_184x69.jpg",
     "screenshots": [
       "https://play0ad.com/wp-content/gallery/screenshots/han_wonder.jpg",
       "https://play0ad.com/wp-content/gallery/screenshots/shewolf.jpg"
     ],
-    "video": "https://www.youtube.com/embed/3MhcRPm7Zhg?si=0X_PkhUNZ29GhSG9"
+    "video": "https://www.youtube.com/watch?v=3MhcRPm7Zhg"
   }
 }
