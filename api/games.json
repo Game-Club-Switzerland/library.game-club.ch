@@ -1,5 +1,35 @@
 [
   {
+    "id": "0-a-d",
+    "name": "0 A.D.",
+    "description": "0 A.D. ist ein kostenloses, open-source Echtzeit-Strategiespiel von Wildfire Games, das sich in der Antike zwischen 500 v. Chr.  und 1 n. Chr. abspielt und den Aufbau einer Wirtschafts- und Kriegsproduktion zur Bekämpfung der Gegner mit historisch inspirierten Zivilisationen, realistischen Einheiten und ohne Magie bietet",
+    "genres": [
+      "Strategy",
+      "RTS"
+    ],
+    "tags": [
+      "RTS",
+      "Multiplayer"
+    ],
+    "players": {
+      "min": 1,
+      "max": 20
+    },
+    "addedAt": "2026-02-17",
+    "updatedAt": "2026-02-17",
+    "homepage": "https://play0ad.com/",
+    "steam": {
+      "appid": 252950,
+      "steamdb": "https://steamdb.info/app/252950/",
+      "store": "https://store.steampowered.com/app/252950/"
+    },
+    "media": {
+      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
+      "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
+      "icon": "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_184x69.jpg"
+    }
+  },
+  {
     "id": "rocket-league",
     "name": "Rocket League®",
     "description": "Fußball und Autofahren treffen wieder aufeinander in der lang erwarteten, physikbasierten Fortsetzung zum beliebten Arena-Klassiker Supersonic Acrobatic Rocket-Powered Battle-Cars!",
@@ -18,36 +48,6 @@
     "addedAt": "2026-02-17",
     "updatedAt": "2026-02-17",
     "homepage": "https://store.steampowered.com/app/252950/Rocket_League",
-    "steam": {
-      "appid": 252950,
-      "steamdb": "https://steamdb.info/app/252950/",
-      "store": "https://store.steampowered.com/app/252950/"
-    },
-    "media": {
-      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
-      "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
-      "icon": "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_184x69.jpg"
-    }
-  },
-  {
-    "id": "0-a-d",
-    "name": "0 A.D.",
-    "description": "0 A.D. ist ein kostenloses, open-source Echtzeit-Strategiespiel von Wildfire Games, das sich in der Antike zwischen 500 v. Chr.  und 1 n. Chr. abspielt und den Aufbau einer Wirtschafts- und Kriegsproduktion zur Bekämpfung der Gegner mit historisch inspirierten Zivilisationen, realistischen Einheiten und ohne Magie bietet",
-    "genres": [
-      "Strategy",
-      "RTS"
-    ],
-    "tags": [
-      "RTS",
-      "Multiplayer"
-    ],
-    "players": {
-      "min": 1,
-      "max": 8
-    },
-    "addedAt": "2026-02-17",
-    "updatedAt": "2026-02-17",
-    "homepage": "https://play0ad.com/",
     "steam": {
       "appid": 252950,
       "steamdb": "https://steamdb.info/app/252950/",
