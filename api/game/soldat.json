@@ -2,9 +2,19 @@
   "id": "soldat",
   "name": "Soldat",
   "description": "Classic 2D shooter with acrobatic movement and mods.",
-  "genres": ["Action", "Shooter"],
-  "tags": ["2D", "Competitive", "Community"],
-  "players": {"min": 2, "max": 32},
+  "genres": [
+    "Action",
+    "Shooter"
+  ],
+  "tags": [
+    "2D",
+    "Competitive",
+    "Community"
+  ],
+  "players": {
+    "min": 2,
+    "max": 32
+  },
   "addedAt": "2026-02-14",
   "updatedAt": "2026-02-15",
   "homepage": "https://soldat.pl/en/",

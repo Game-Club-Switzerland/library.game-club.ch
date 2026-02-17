@@ -2,9 +2,19 @@
   "id": "openra",
   "name": "OpenRA",
   "description": "Modernized classic RTS with moddable missions.",
-  "genres": ["Strategy", "RTS"],
-  "tags": ["Open Source", "Modding", "Classic"],
-  "players": {"min": 1, "max": 12},
+  "genres": [
+    "Strategy",
+    "RTS"
+  ],
+  "tags": [
+    "Open Source",
+    "Modding",
+    "Classic"
+  ],
+  "players": {
+    "min": 1,
+    "max": 12
+  },
   "addedAt": "2026-02-14",
   "updatedAt": "2026-02-15",
   "homepage": "https://www.openra.net/",

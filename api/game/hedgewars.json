@@ -2,9 +2,19 @@
   "id": "hedgewars",
   "name": "Hedgewars",
   "description": "Turn-based artillery with hedgehogs, tools, and chaos.",
-  "genres": ["Strategy", "Party"],
-  "tags": ["Turn-Based", "Multiplayer", "Open Source"],
-  "players": {"min": 1, "max": 8},
+  "genres": [
+    "Strategy",
+    "Party"
+  ],
+  "tags": [
+    "Turn-Based",
+    "Multiplayer",
+    "Open Source"
+  ],
+  "players": {
+    "min": 1,
+    "max": 8
+  },
   "addedAt": "2026-02-12",
   "updatedAt": "2026-02-15",
   "homepage": "https://hedgewars.org/",

@@ -2,9 +2,19 @@
   "id": "supertuxkart",
   "name": "SuperTuxKart",
   "description": "Open-source kart racer packed with tracks and modes.",
-  "genres": ["Racing", "Party"],
-  "tags": ["Open Source", "Split-Screen", "Family"],
-  "players": {"min": 1, "max": 8},
+  "genres": [
+    "Racing",
+    "Party"
+  ],
+  "tags": [
+    "Open Source",
+    "Split-Screen",
+    "Family"
+  ],
+  "players": {
+    "min": 1,
+    "max": 8
+  },
   "addedAt": "2026-02-14",
   "updatedAt": "2026-02-16",
   "homepage": "https://supertuxkart.net/Main_Page",
@@ -21,8 +31,8 @@
       "https://supertuxkart.net/assets/wiki/STK1.3_2.jpg",
       "https://supertuxkart.net/assets/wiki/STK1.3_3.jpg",
       "https://supertuxkart.net/assets/wiki/STK1.3_4.jpg",
-        "https://supertuxkart.net/assets/wiki/STK1.3_5.jpg",
-        "https://supertuxkart.net/assets/wiki/STK1.3_6.jpg"
+      "https://supertuxkart.net/assets/wiki/STK1.3_5.jpg",
+      "https://supertuxkart.net/assets/wiki/STK1.3_6.jpg"
     ],
     "video": "https://www.youtube.com/watch?v=H1Lo7PlTGBk"
   }

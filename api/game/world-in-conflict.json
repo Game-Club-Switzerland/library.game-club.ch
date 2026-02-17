@@ -2,9 +2,19 @@
   "id": "world-in-conflict",
   "name": "World in Conflict",
   "description": "Cold-war RTS with cinematic battles and squad tactics.",
-  "genres": ["Strategy", "RTS"],
-  "tags": ["Tactics", "Cold War", "Story"],
-  "players": {"min": 1, "max": 16},
+  "genres": [
+    "Strategy",
+    "RTS"
+  ],
+  "tags": [
+    "Tactics",
+    "Cold War",
+    "Story"
+  ],
+  "players": {
+    "min": 1,
+    "max": 16
+  },
   "addedAt": "2026-02-11",
   "updatedAt": "2026-02-16",
   "startLink": "https://library.game-club.ch/downloads/world-in-conflict/start",

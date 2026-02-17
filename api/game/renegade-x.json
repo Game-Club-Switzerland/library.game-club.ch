@@ -2,9 +2,19 @@
   "id": "renegade-x",
   "name": "Renegade X",
   "description": "Fan-made FPS/RTS hybrid in the C&C universe.",
-  "genres": ["Action", "Shooter"],
-  "tags": ["Multiplayer", "Teamplay", "Sci-Fi"],
-  "players": {"min": 8, "max": 64},
+  "genres": [
+    "Action",
+    "Shooter"
+  ],
+  "tags": [
+    "Multiplayer",
+    "Teamplay",
+    "Sci-Fi"
+  ],
+  "players": {
+    "min": 8,
+    "max": 64
+  },
   "addedAt": "2026-02-15",
   "updatedAt": "2026-02-15",
   "homepage": "https://totemarts.games/games/renegade-x/",

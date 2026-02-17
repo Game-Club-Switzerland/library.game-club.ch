@@ -2,9 +2,19 @@
   "id": "teeworlds",
   "name": "Teeworlds",
   "description": "Fast 2D multiplayer shooter with simple controls.",
-  "genres": ["Action", "Shooter"],
-  "tags": ["2D", "Multiplayer", "Open Source"],
-  "players": {"min": 2, "max": 16},
+  "genres": [
+    "Action",
+    "Shooter"
+  ],
+  "tags": [
+    "2D",
+    "Multiplayer",
+    "Open Source"
+  ],
+  "players": {
+    "min": 2,
+    "max": 16
+  },
   "addedAt": "2026-02-13",
   "updatedAt": "2026-02-15",
   "homepage": "https://teeworlds.com/",

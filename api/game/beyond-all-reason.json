@@ -2,9 +2,19 @@
   "id": "beyond-all-reason",
   "name": "Beyond All Reason",
   "description": "Massive open-source RTS with large scale battles.",
-  "genres": ["Strategy", "RTS"],
-  "tags": ["Open Source", "Multiplayer", "Sci-Fi"],
-  "players": {"min": 1, "max": 16},
+  "genres": [
+    "Strategy",
+    "RTS"
+  ],
+  "tags": [
+    "Open Source",
+    "Multiplayer",
+    "Sci-Fi"
+  ],
+  "players": {
+    "min": 1,
+    "max": 16
+  },
   "addedAt": "2026-02-13",
   "updatedAt": "2026-02-15",
   "homepage": "https://www.beyondallreason.info/",

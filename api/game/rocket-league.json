@@ -32,7 +32,7 @@
     "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
     "icon": "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_184x69.jpg",
     "screenshots": [
-      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/448a46094a7f9eb3e856fb58dacfa64dae0b25d9/header_alt_assets_14.jpg?t=1765385510"
+      "[assets/img/placeholder-cover.svg](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/448a46094a7f9eb3e856fb58dacfa64dae0b25d9/header_alt_assets_14.jpg?t=1765385510)"
     ],
     "video": "https://www.youtube.com/watch?v=SgSX3gOrj60"
   }
