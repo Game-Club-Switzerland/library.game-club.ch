@@ -1,0 +1,166 @@
+[
+  {
+    "id": "0-a-d",
+    "name": "0 A.D.",
+    "description": "0 A.D. ist ein kostenloses, open-source Echtzeit-Strategiespiel von Wildfire Games, das sich in der Antike zwischen 500 v. Chr.  und 1 n. Chr. abspielt und den Aufbau einer Wirtschafts- und Kriegsproduktion zur Bekämpfung der Gegner mit historisch inspirierten Zivilisationen, realistischen Einheiten und ohne Magie bietet",
+    "genres": [
+      "Strategy",
+      "RTS"
+    ],
+    "tags": [
+      "RTS",
+      "Multiplayer"
+    ],
+    "players": {
+      "min": 1,
+      "max": 20
+    },
+    "addedAt": "2026-02-17",
+    "updatedAt": "2026-02-17",
+    "homepage": "https://play0ad.com/",
+    "steam": {
+      "appid": 252950,
+      "steamdb": "https://steamdb.info/app/252950/",
+      "store": "https://store.steampowered.com/app/252950/"
+    },
+    "media": {
+      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
+      "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
+      "icon": "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_184x69.jpg"
+    }
+  },
+  {
+    "id": "rocket-league",
+    "name": "Rocket League®",
+    "description": "Fußball und Autofahren treffen wieder aufeinander in der lang erwarteten, physikbasierten Fortsetzung zum beliebten Arena-Klassiker Supersonic Acrobatic Rocket-Powered Battle-Cars!",
+    "genres": [
+      "Strategy",
+      "Action"
+    ],
+    "tags": [
+      "Racing",
+      "Multiplayer"
+    ],
+    "players": {
+      "min": 1,
+      "max": 8
+    },
+    "addedAt": "2026-02-17",
+    "updatedAt": "2026-02-17",
+    "homepage": "https://store.steampowered.com/app/252950/Rocket_League",
+    "steam": {
+      "appid": 252950,
+      "steamdb": "https://steamdb.info/app/252950/",
+      "store": "https://store.steampowered.com/app/252950/"
+    },
+    "media": {
+      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
+      "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
+      "icon": "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_184x69.jpg"
+    }
+  },
+  {
+    "id": "unreal-tournament-2004",
+    "name": "Unreal Tournament 2004",
+    "description": "Large-scale arena shooter with vehicles and mods.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "tags": [
+      "Classic",
+      "Vehicles",
+      "Mods"
+    ],
+    "players": {
+      "min": 1,
+      "max": 32
+    },
+    "addedAt": "2026-02-16",
+    "updatedAt": "2026-02-16",
+    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    }
+  },
+  {
+    "id": "renegade-x",
+    "name": "Renegade X",
+    "description": "Fan-made FPS/RTS hybrid in the C&C universe.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "tags": [
+      "Multiplayer",
+      "Teamplay",
+      "Sci-Fi"
+    ],
+    "players": {
+      "min": 8,
+      "max": 64
+    },
+    "addedAt": "2026-02-15",
+    "updatedAt": "2026-02-15",
+    "homepage": "https://totemarts.games/games/renegade-x/",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    }
+  },
+  {
+    "id": "unreal-tournament",
+    "name": "Unreal Tournament",
+    "description": "Arena shooter classic with fast movement and mods.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "tags": [
+      "Classic",
+      "Arena",
+      "Mods"
+    ],
+    "players": {
+      "min": 1,
+      "max": 16
+    },
+    "addedAt": "2026-02-15",
+    "updatedAt": "2026-02-15",
+    "homepage": "https://oldunreal.com/downloads/unrealtournament/",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    }
+  },
+  {
+    "id": "supertuxkart",
+    "name": "SuperTuxKart",
+    "description": "Open-source kart racer packed with tracks and modes.",
+    "genres": [
+      "Racing",
+      "Party"
+    ],
+    "tags": [
+      "Open Source",
+      "Split-Screen",
+      "Family"
+    ],
+    "players": {
+      "min": 1,
+      "max": 8
+    },
+    "addedAt": "2026-02-14",
+    "updatedAt": "2026-02-16",
+    "homepage": "https://supertuxkart.net/Main_Page",
+    "media": {
+      "cover": "https://supertuxkart.net/assets/images/header.jpg",
+      "hero": "https://supertuxkart.net/assets/images/library_hero.jpg",
+      "icon": "https://supertuxkart.net/assets/images/capsule_184x69.jpg"
+    }
+  }
+]
