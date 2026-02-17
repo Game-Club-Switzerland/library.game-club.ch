@@ -22,14 +22,14 @@
     "windows": "https://library.game-club.ch/downloads/world-in-conflict/windows.zip"
   },
   "steam": {
-    "appid": 24740,
-    "steamdb": "https://steamdb.info/app/24740/",
-    "store": "https://store.steampowered.com/app/24740/"
+    "appid": 21760,
+    "steamdb": "https://steamdb.info/app/21760/",
+    "store": "https://store.steampowered.com/app/21760/"
   },
   "media": {
-    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/24740/header.jpg",
-    "hero": "https://cdn.akamai.steamstatic.com/steam/apps/24740/library_hero.jpg",
-    "icon": "https://cdn.akamai.steamstatic.com/steam/apps/24740/capsule_184x69.jpg",
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/21760/header.jpg",
+    "hero": "https://images.gog-statics.com/a09dbaf28268d605cb7ec7434c620008f3ac88c19b75377b5e171bca90b9b3b3_bg_crop_1366x655.jpg",
+    "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/21760/177d0b92597475f22d07c5e985cfe9e47032e12f.jpg",
     "screenshots": [
       "assets/img/placeholder-cover.svg",
       "assets/img/placeholder-cover.svg"
