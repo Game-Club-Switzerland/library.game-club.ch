@@ -22,11 +22,6 @@
     "windows": "https://play0ad.com/download/win",
     "linux": "https://play0ad.com/"
   },
-  "steam": {
-    "appid": 252950,
-    "steamdb": "https://steamdb.info/app/252950/",
-    "store": "https://store.steampowered.com/app/252950/"
-  },
   "media": {
     "cover": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
     "hero": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
