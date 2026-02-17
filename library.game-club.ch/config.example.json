@@ -1,9 +1,0 @@
-{
-  "steamRealm": "https://library.game-club.ch",
-  "steamReturnUrl": "https://library.game-club.ch/#/auth/steam/callback",
-  "writeMode": "local",
-  "githubApiUrl": "https://your-serverless-endpoint.example.com",
-  "githubRepo": "tsolenthaler/library.game-club.ch",
-  "githubToken": "REPLACE_WITH_SERVER_SIDE_SECRET",
-  "steamApiKey": "REPLACE_WITH_SERVER_SIDE_SECRET"
-}
