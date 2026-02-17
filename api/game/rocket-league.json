@@ -1,0 +1,39 @@
+{
+  "id": "rocket-league",
+  "name": "Rocket League®",
+  "description": "Fußball und Autofahren treffen wieder aufeinander in der lang erwarteten, physikbasierten Fortsetzung zum beliebten Arena-Klassiker Supersonic Acrobatic Rocket-Powered Battle-Cars!",
+  "genres": [
+    "Strategy",
+    "Action"
+  ],
+  "tags": [
+    "Racing",
+    "Multiplayer"
+  ],
+  "players": {
+    "min": 1,
+    "max": 8
+  },
+  "addedAt": "2026-02-17",
+  "updatedAt": "2026-02-17",
+  "homepage": "https://store.steampowered.com/app/252950/Rocket_League",
+  "startLink": "https://store.steampowered.com/app/252950/Rocket_League/",
+  "downloads": {
+    "windows": "https://store.steampowered.com/app/252950/Rocket_League/",
+    "linux": "https://store.steampowered.com/app/252950/Rocket_League/"
+  },
+  "steam": {
+    "appid": 252950,
+    "steamdb": "https://steamdb.info/app/252950/",
+    "store": "https://store.steampowered.com/app/252950/"
+  },
+  "media": {
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
+    "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
+    "icon": "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_184x69.jpg",
+    "screenshots": [
+      "[assets/img/placeholder-cover.svg](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/448a46094a7f9eb3e856fb58dacfa64dae0b25d9/header_alt_assets_14.jpg?t=1765385510)"
+    ],
+    "video": "https://www.youtube.com/watch?v=SgSX3gOrj60"
+  }
+}
