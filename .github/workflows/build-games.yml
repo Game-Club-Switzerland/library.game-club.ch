@@ -6,6 +6,11 @@ on:
     - cron: '0 */6 * * *'
   discussion:
     types: [created, edited]
+  push:
+    branches:
+      - main
+    paths:
+      - 'api/game/*.json'
 
 permissions:
   contents: write

@@ -130,7 +130,7 @@ If `steamAppId` is present, the build script auto-fills SteamDB links and media 
 ## GitHub Actions workflow sketch
 
 See .github/workflows/build-games.yml:
-- Trigger: discussion created/edited, schedule, or manual
+- Trigger: discussion created/edited, schedule (every 6h), manual, or push to api/game/*.json
 - Steps: checkout, setup python, run scripts/build-games.py, commit updated JSON
 
 ## Example data
