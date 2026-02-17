@@ -4,27 +4,26 @@
   "description": "Open-source kart racer packed with tracks and modes.",
   "genres": ["Racing", "Party"],
   "tags": ["Open Source", "Split-Screen", "Family"],
-  "players": {"min": 1, "max": 4},
+  "players": {"min": 1, "max": 8},
   "addedAt": "2026-02-14",
   "updatedAt": "2026-02-16",
   "homepage": "https://supertuxkart.net/Main_Page",
   "downloads": {
-    "windows": "https://supertuxkart.net/Main_Page",
-    "linux": "https://supertuxkart.net/Main_Page"
-  },
-  "steam": {
-    "appid": 45400,
-    "steamdb": "https://steamdb.info/app/45400/",
-    "store": "https://store.steampowered.com/app/45400/"
+    "windows": "https://github.com/supertuxkart/stk-code/releases/download/1.5/SuperTuxKart-1.5-installer-x86_64.exe",
+    "linux": "https://github.com/supertuxkart/stk-code/releases/download/1.5/SuperTuxKart-1.5-linux-x86_64.tar.gz"
   },
   "media": {
-    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/45400/header.jpg",
-    "hero": "https://cdn.akamai.steamstatic.com/steam/apps/45400/library_hero.jpg",
-    "icon": "https://cdn.akamai.steamstatic.com/steam/apps/45400/capsule_184x69.jpg",
+    "cover": "https://supertuxkart.net/assets/images/header.jpg",
+    "hero": "https://supertuxkart.net/assets/images/library_hero.jpg",
+    "icon": "https://supertuxkart.net/assets/images/capsule_184x69.jpg",
     "screenshots": [
-      "assets/img/placeholder-cover.svg",
-      "assets/img/placeholder-cover.svg"
+      "https://supertuxkart.net/assets/wiki/STK1.3_1.jpg",
+      "https://supertuxkart.net/assets/wiki/STK1.3_2.jpg",
+      "https://supertuxkart.net/assets/wiki/STK1.3_3.jpg",
+      "https://supertuxkart.net/assets/wiki/STK1.3_4.jpg",
+        "https://supertuxkart.net/assets/wiki/STK1.3_5.jpg",
+        "https://supertuxkart.net/assets/wiki/STK1.3_6.jpg"
     ],
-    "video": ""
+    "video": "https://www.youtube.com/watch?v=H1Lo7PlTGBk"
   }
 }
