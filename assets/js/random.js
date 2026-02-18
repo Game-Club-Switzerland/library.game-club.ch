@@ -7,7 +7,12 @@ const tagsWrap = GameLibrary.qs('[data-random-tags]');
 let allGames = [];
 
 const renderTags = (tags) => {
+  if (!tagsWrap) return;
   tagsWrap.innerHTML = '';
+  if (!tags.length) {
+    tagsWrap.innerHTML = '<span class="badge">Keine Tags verfügbar</span>';
+    return;
+  }
   tags.forEach((tag) => {
     const label = document.createElement('label');
     label.className = 'badge';
@@ -22,7 +27,9 @@ const renderTags = (tags) => {
 const applyRandom = () => {
   const genre = genreSelect.value;
   const players = playersSelect.value;
-  const selectedTags = GameLibrary.qsa('input[type="checkbox"]:checked', tagsWrap).map((input) => input.value);
+  const selectedTags = tagsWrap
+    ? GameLibrary.qsa('input[type="checkbox"]:checked', tagsWrap).map((input) => input.value)
+    : [];
 
   const filtered = allGames.filter((game) => {
     if (genre && !game.genres.includes(genre)) return false;
@@ -34,7 +41,8 @@ const applyRandom = () => {
       if (selectedPlayers < min || selectedPlayers > max) return false;
     }
     if (selectedTags.length) {
-      return selectedTags.every((tag) => game.tags.includes(tag));
+      const gameTags = game.tags ?? [];
+      return selectedTags.every((tag) => gameTags.includes(tag));
     }
     return true;
   });
@@ -52,7 +60,7 @@ const applyRandom = () => {
         <h4 class="card-title">${game.name}</h4>
         <div class="card-meta">${game.genres.join(' / ')}</div>
         <div class="badges">
-          ${game.tags.slice(0, 4).map((tag) => `<span class="badge">${tag}</span>`).join('')}
+          ${(game.tags ?? []).slice(0, 4).map((tag) => `<span class="badge">${tag}</span>`).join('')}
         </div>
       </div>
     </a>
@@ -64,7 +72,7 @@ const initFilters = (games) => {
   const tags = new Set();
   games.forEach((game) => {
     game.genres.forEach((genre) => genres.add(genre));
-    game.tags.forEach((tag) => tags.add(tag));
+    (game.tags ?? []).forEach((tag) => tags.add(tag));
   });
 
   genreSelect.innerHTML = '<option value="">Alle Genres</option>';
