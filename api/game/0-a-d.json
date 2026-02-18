@@ -1,35 +1,14 @@
 {
   "id": "0-a-d",
   "name": "0 A.D.",
-  "description": "Встречайте долгожданное продолжение Supersonic Acrobatic Rocket-Powered Battle-Cars — всеми любимого основанного на физике сочетания футбола и гонок!",
+  "description": "0 A.D. ist ein kostenloses, open-source Echtzeit-Strategiespiel von Wildfire Games, das sich in der Antike zwischen 500 v. Chr.  und 1 n. Chr. abspielt und den Aufbau einer Wirtschafts- und Kriegsproduktion zur Bekämpfung der Gegner mit historisch inspirierten Zivilisationen, realistischen Einheiten und ohne Magie bietet",
   "genres": [
-    "Экшены",
-    "Инди",
-    "Гонки",
-    "Спорт"
+    "Strategy",
+    "RTS"
   ],
   "tags": [
-    "Для одного игрока",
-    "Для нескольких игроков",
-    "Игрок против игрока",
-    "Игрок против игрока (по сети)",
-    "Игрок против игрока (общий/разделённый экран)",
-    "Кооператив",
-    "Кооператив (по сети)",
-    "Кооператив (общий/разделённый экран)",
-    "Общий/разделённый экран",
-    "Кросс-платформенный мультиплеер",
-    "Достижения Steam",
-    "Коллекционные карточки Steam",
-    "Мастерская Steam",
-    "Частичная поддержка контроллеров",
-    "Steam Cloud",
-    "Статистика",
-    "Remote Play на телефоне",
-    "Remote Play на планшете",
-    "Remote Play на телевизоре",
-    "Remote Play Together",
-    "Семейный доступ"
+    "RTS",
+    "Multiplayer"
   ],
   "players": {
     "min": 1,
@@ -37,29 +16,20 @@
   },
   "addedAt": "2026-02-17",
   "updatedAt": "2026-02-17",
-  "homepage": "http://www.rocketleague.com/",
+  "homepage": "https://play0ad.com/",
   "startLink": "https://play0ad.com/",
   "downloads": {
     "windows": "https://play0ad.com/download/win",
     "linux": "https://play0ad.com/"
   },
-  "steam": {
-    "appid": 252950,
-    "steamdb": "https://steamdb.info/app/252950/",
-    "store": "https://store.steampowered.com/app/252950/"
-  },
   "media": {
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/448a46094a7f9eb3e856fb58dacfa64dae0b25d9/header_alt_assets_14.jpg?t=1765385510",
-    "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
-    "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/8013c32e1a013849b328d4cba852a29f7ba06a77/capsule_231x87_alt_assets_14.jpg?t=1765385510",
+    "cover": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
+    "hero": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/9/99/0_A.D._logo.svg",
     "screenshots": [
-      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/002820f64f665e2cb81861bb43d32a726d0bc411/ss_002820f64f665e2cb81861bb43d32a726d0bc411.1920x1080.jpg?t=1765385510",
-      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/b329f16495a5b9fa17158775f2a5a31998db040b/ss_b329f16495a5b9fa17158775f2a5a31998db040b.1920x1080.jpg?t=1765385510",
-      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/503ed3e00ed7bf1a78b1de2fe80bef359331e1fd/ss_503ed3e00ed7bf1a78b1de2fe80bef359331e1fd.1920x1080.jpg?t=1765385510",
-      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/83765c76e623e3cd9fa44c1bf75394fb96efd6bc/ss_83765c76e623e3cd9fa44c1bf75394fb96efd6bc.1920x1080.jpg?t=1765385510",
-      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/7ffd4cbfa9be6ed28d3c2b35ffdcff4a8f3ea3e2/ss_7ffd4cbfa9be6ed28d3c2b35ffdcff4a8f3ea3e2.1920x1080.jpg?t=1765385510",
-      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/44886516c82f68039ffbb4e6478e64bf9fa0fa84/ss_44886516c82f68039ffbb4e6478e64bf9fa0fa84.1920x1080.jpg?t=1765385510"
+      "https://play0ad.com/wp-content/gallery/screenshots/han_wonder.jpg",
+      "https://play0ad.com/wp-content/gallery/screenshots/shewolf.jpg"
     ],
-    "video": "https://www.youtube.com/watch?v=3MhcRPm7Zhg"
+    "video": "https://www.youtube.com/embed/3MhcRPm7Zhg?si=0X_PkhUNZ29GhSG9"
   }
 }
