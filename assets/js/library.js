@@ -51,12 +51,11 @@ const applyFilters = () => {
     if (term && !normalize(game.name).includes(term)) return false;
     if (genre && !game.genres.includes(genre)) return false;
     if (players) {
+      const selectedPlayers = Number.parseInt(players, 10);
       const min = game.players?.min ?? 1;
       const max = game.players?.max ?? min;
-      if (players === '1' && min > 1) return false;
-      if (players === '2' && max < 2) return false;
-      if (players === '3-4' && max < 3) return false;
-      if (players === '5+' && max < 5) return false;
+      if (Number.isNaN(selectedPlayers)) return false;
+      if (selectedPlayers < min || selectedPlayers > max) return false;
     }
     if (selectedTags.length) {
       return selectedTags.every((tag) => game.tags.includes(tag));
