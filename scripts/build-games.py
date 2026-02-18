@@ -152,6 +152,64 @@ def extract_steam_movie_url(movies) -> str:
     )
 
 
+def extract_steam_app_id(game: dict):
+    steam_payload = game.get('steam') if isinstance(game.get('steam'), dict) else {}
+    return game.get('steamAppId') or steam_payload.get('appid')
+
+
+def has_non_empty_items(values) -> bool:
+    return isinstance(values, list) and any(
+        isinstance(item, str) and item.strip() for item in values
+    )
+
+
+def is_placeholder_asset(value) -> bool:
+    return isinstance(value, str) and value.strip().startswith('assets/img/placeholder-')
+
+
+def has_meaningful_media_value(value) -> bool:
+    return isinstance(value, str) and value.strip() and not is_placeholder_asset(value)
+
+
+def has_meaningful_screenshots(values) -> bool:
+    if not has_non_empty_items(values):
+        return False
+    return any(not is_placeholder_asset(item) for item in values if isinstance(item, str) and item.strip())
+
+
+def normalize_media_with_steam(game: dict) -> dict:
+    steam_app_id = extract_steam_app_id(game)
+    if not steam_app_id:
+        return game
+
+    steam_media = build_steam_media(steam_app_id)
+    steam_details = fetch_steam_app_details(steam_app_id)
+
+    steam_header_image = steam_details.get('header_image') if isinstance(steam_details, dict) else None
+    steam_capsule_image = steam_details.get('capsule_image') if isinstance(steam_details, dict) else None
+    steam_screenshots = (
+        [item.get('path_full') for item in steam_details.get('screenshots', []) if item.get('path_full')]
+        if isinstance(steam_details, dict)
+        else []
+    )
+    steam_video = extract_steam_movie_url(steam_details.get('movies')) if isinstance(steam_details, dict) else ''
+
+    payload_media = game.get('media') if isinstance(game.get('media'), dict) else {}
+    payload_screenshots = payload_media.get('screenshots')
+    payload_video = payload_media.get('video')
+
+    normalized_game = dict(game)
+    normalized_game['media'] = {
+        'cover': payload_media.get('cover') if has_meaningful_media_value(payload_media.get('cover')) else (steam_header_image or steam_media.get('cover') or 'assets/img/placeholder-cover.svg'),
+        'hero': payload_media.get('hero') if has_meaningful_media_value(payload_media.get('hero')) else (steam_media.get('hero') or 'assets/img/placeholder-hero.svg'),
+        'icon': payload_media.get('icon') if has_meaningful_media_value(payload_media.get('icon')) else (steam_capsule_image or steam_media.get('icon') or 'assets/img/placeholder-icon.svg'),
+        'screenshots': payload_screenshots if has_meaningful_screenshots(payload_screenshots) else (steam_screenshots or ['assets/img/placeholder-cover.svg']),
+        'video': payload_video if isinstance(payload_video, str) and payload_video.strip() else (steam_video or ''),
+    }
+
+    return normalized_game
+
+
 def read_json_file(file_path: Path):
     try:
         return json.loads(file_path.read_text(encoding='utf-8'))
@@ -240,7 +298,6 @@ def build_game(discussion: dict):
         else (payload.get('steam') or None)
     )
 
-    steam_media = build_steam_media(steam_app_id) if steam_app_id else {}
     steam_details = fetch_steam_app_details(steam_app_id) if steam_app_id else None
 
     steam_header_image = steam_details.get('header_image') if isinstance(steam_details, dict) else None
@@ -269,14 +326,14 @@ def build_game(discussion: dict):
     payload_media = payload.get('media') if isinstance(payload.get('media'), dict) else {}
 
     media = {
-        'cover': steam_header_image or payload_media.get('cover') or steam_media.get('cover') or 'assets/img/placeholder-cover.svg',
-        'hero': payload_media.get('hero') or steam_media.get('hero') or 'assets/img/placeholder-hero.svg',
-        'icon': steam_capsule_image or payload_media.get('icon') or steam_media.get('icon') or 'assets/img/placeholder-icon.svg',
-        'screenshots': steam_screenshots or payload_media.get('screenshots') or ['assets/img/placeholder-cover.svg'],
-        'video': steam_video or payload_media.get('video') or '',
+        'cover': payload_media.get('cover') or steam_header_image or 'assets/img/placeholder-cover.svg',
+        'hero': payload_media.get('hero') or 'assets/img/placeholder-hero.svg',
+        'icon': payload_media.get('icon') or steam_capsule_image or 'assets/img/placeholder-icon.svg',
+        'screenshots': payload_media.get('screenshots') or steam_screenshots or ['assets/img/placeholder-cover.svg'],
+        'video': payload_media.get('video') or steam_video or '',
     }
 
-    return {
+    game = {
         'id': payload['id'],
         'name': payload.get('name') or discussion.get('title', ''),
         'description': steam_short_description or payload.get('description') or '',
@@ -292,6 +349,8 @@ def build_game(discussion: dict):
         'media': media,
     }
 
+    return normalize_media_with_steam(game)
+
 
 def main() -> None:
     game_dir.mkdir(parents=True, exist_ok=True)
@@ -304,7 +363,8 @@ def main() -> None:
     for game in discussion_games:
         game_map[game['id']] = game
 
-    games = sorted(game_map.values(), key=get_updated_timestamp, reverse=True)
+    normalized_games = [normalize_media_with_steam(game) for game in game_map.values()]
+    games = sorted(normalized_games, key=get_updated_timestamp, reverse=True)
 
     if not games:
         print('No games found. Keeping existing JSON.', file=sys.stderr)

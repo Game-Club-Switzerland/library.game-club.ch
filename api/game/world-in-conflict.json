@@ -31,8 +31,22 @@
     "hero": "https://images.gog-statics.com/a09dbaf28268d605cb7ec7434c620008f3ac88c19b75377b5e171bca90b9b3b3_bg_crop_1366x655.jpg",
     "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/21760/177d0b92597475f22d07c5e985cfe9e47032e12f.jpg",
     "screenshots": [
-      "assets/img/placeholder-cover.svg",
-      "assets/img/placeholder-cover.svg"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006423.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006424.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006425.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006426.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006427.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006428.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006429.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006430.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006431.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006432.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006433.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006434.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006435.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006436.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006437.1920x1080.jpg?t=1468510512",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/0000006438.1920x1080.jpg?t=1468510512"
     ],
     "video": ""
   }
