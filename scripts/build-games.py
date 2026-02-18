@@ -76,7 +76,7 @@ def fetch_steam_app_details(steam_app_id: int | str) -> dict | None:
         return steam_appdetails_cache[app_id]
 
     request = Request(
-        url=f'https://store.steampowered.com/api/appdetails/?appids={app_id}',
+        url=f'https://store.steampowered.com/api/appdetails/?appids={app_id}&l=de',
         headers={
             'User-Agent': 'game-club-library-build/1.0',
             'Accept': 'application/json',
