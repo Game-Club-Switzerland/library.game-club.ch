@@ -15,13 +15,14 @@
     "max": 20
   },
   "addedAt": "2026-02-17",
-  "updatedAt": "2026-02-17",
+  "updatedAt": "2026-02-18",
   "homepage": "https://play0ad.com/",
   "startLink": "https://play0ad.com/",
   "downloads": {
     "windows": "https://play0ad.com/download/win",
     "linux": "https://play0ad.com/"
   },
+  "steam": null,
   "media": {
     "cover": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
     "hero": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",

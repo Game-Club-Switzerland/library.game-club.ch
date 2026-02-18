@@ -264,7 +264,12 @@
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
     },
-    "homepage": "https://teeworlds.com/"
+    "homepage": "https://teeworlds.com/",
+    "steam": {
+      "appid": 380840,
+      "steamdb": "https://steamdb.info/app/380840/",
+      "store": "https://store.steampowered.com/app/380840/"
+    }
   },
   {
     "id": "unreal-tournament",
