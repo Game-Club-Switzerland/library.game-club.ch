@@ -4,12 +4,33 @@
     "name": "Rocket League®",
     "description": "Fußball und Autofahren treffen wieder aufeinander in der lang erwarteten, physikbasierten Fortsetzung zum beliebten Arena-Klassiker Supersonic Acrobatic Rocket-Powered Battle-Cars!",
     "genres": [
-      "Strategy",
-      "Action"
+      "Action",
+      "Indie",
+      "Rennspiele",
+      "Sport"
     ],
     "tags": [
-      "Racing",
-      "Multiplayer"
+      "Einzelspieler",
+      "Mehrspieler",
+      "PvP",
+      "Online-PvP",
+      "PvP-Spiele mit geteiltem Bildschirm",
+      "Koop",
+      "Online-Koop",
+      "Koop-Spiele mit geteiltem Bildschirm",
+      "Geteilter Bildschirm",
+      "Plattformübergreifender Mehrspieler",
+      "Steam-Errungenschaften",
+      "Steam-Sammelkarten",
+      "Steam Workshop",
+      "Teilweise Controllerunterstützung",
+      "Steam Cloud",
+      "Statistiken",
+      "Remote Play auf Smartphones",
+      "Remote Play auf Tablets",
+      "Remote Play auf TV-Geräten",
+      "Remote Play Together",
+      "Familienbibliothek"
     ],
     "players": {
       "min": 1,
@@ -18,11 +39,11 @@
     "addedAt": "2026-02-17",
     "updatedAt": "2026-02-17",
     "media": {
-      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/448a46094a7f9eb3e856fb58dacfa64dae0b25d9/header_alt_assets_14.jpg?t=1765385510",
       "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
-      "icon": "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_184x69.jpg"
+      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/8013c32e1a013849b328d4cba852a29f7ba06a77/capsule_231x87_alt_assets_14.jpg?t=1765385510"
     },
-    "homepage": "https://store.steampowered.com/app/252950/Rocket_League",
+    "homepage": "http://www.rocketleague.com/",
     "steam": {
       "appid": 252950,
       "steamdb": "https://steamdb.info/app/252950/",
@@ -32,14 +53,35 @@
   {
     "id": "0-a-d",
     "name": "0 A.D.",
-    "description": "0 A.D. ist ein kostenloses, open-source Echtzeit-Strategiespiel von Wildfire Games, das sich in der Antike zwischen 500 v. Chr.  und 1 n. Chr. abspielt und den Aufbau einer Wirtschafts- und Kriegsproduktion zur Bekämpfung der Gegner mit historisch inspirierten Zivilisationen, realistischen Einheiten und ohne Magie bietet",
+    "description": "Fußball und Autofahren treffen wieder aufeinander in der lang erwarteten, physikbasierten Fortsetzung zum beliebten Arena-Klassiker Supersonic Acrobatic Rocket-Powered Battle-Cars!",
     "genres": [
-      "Strategy",
-      "RTS"
+      "Action",
+      "Indie",
+      "Rennspiele",
+      "Sport"
     ],
     "tags": [
-      "RTS",
-      "Multiplayer"
+      "Einzelspieler",
+      "Mehrspieler",
+      "PvP",
+      "Online-PvP",
+      "PvP-Spiele mit geteiltem Bildschirm",
+      "Koop",
+      "Online-Koop",
+      "Koop-Spiele mit geteiltem Bildschirm",
+      "Geteilter Bildschirm",
+      "Plattformübergreifender Mehrspieler",
+      "Steam-Errungenschaften",
+      "Steam-Sammelkarten",
+      "Steam Workshop",
+      "Teilweise Controllerunterstützung",
+      "Steam Cloud",
+      "Statistiken",
+      "Remote Play auf Smartphones",
+      "Remote Play auf Tablets",
+      "Remote Play auf TV-Geräten",
+      "Remote Play Together",
+      "Familienbibliothek"
     ],
     "players": {
       "min": 1,
@@ -48,11 +90,11 @@
     "addedAt": "2026-02-17",
     "updatedAt": "2026-02-17",
     "media": {
-      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/448a46094a7f9eb3e856fb58dacfa64dae0b25d9/header_alt_assets_14.jpg?t=1765385510",
       "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
-      "icon": "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_184x69.jpg"
+      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/8013c32e1a013849b328d4cba852a29f7ba06a77/capsule_231x87_alt_assets_14.jpg?t=1765385510"
     },
-    "homepage": "https://play0ad.com/",
+    "homepage": "http://www.rocketleague.com/",
     "steam": {
       "appid": 252950,
       "steamdb": "https://steamdb.info/app/252950/",

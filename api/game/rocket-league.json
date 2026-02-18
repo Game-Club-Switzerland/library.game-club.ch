@@ -3,12 +3,33 @@
   "name": "Rocket League®",
   "description": "Fußball und Autofahren treffen wieder aufeinander in der lang erwarteten, physikbasierten Fortsetzung zum beliebten Arena-Klassiker Supersonic Acrobatic Rocket-Powered Battle-Cars!",
   "genres": [
-    "Strategy",
-    "Action"
+    "Action",
+    "Indie",
+    "Rennspiele",
+    "Sport"
   ],
   "tags": [
-    "Racing",
-    "Multiplayer"
+    "Einzelspieler",
+    "Mehrspieler",
+    "PvP",
+    "Online-PvP",
+    "PvP-Spiele mit geteiltem Bildschirm",
+    "Koop",
+    "Online-Koop",
+    "Koop-Spiele mit geteiltem Bildschirm",
+    "Geteilter Bildschirm",
+    "Plattformübergreifender Mehrspieler",
+    "Steam-Errungenschaften",
+    "Steam-Sammelkarten",
+    "Steam Workshop",
+    "Teilweise Controllerunterstützung",
+    "Steam Cloud",
+    "Statistiken",
+    "Remote Play auf Smartphones",
+    "Remote Play auf Tablets",
+    "Remote Play auf TV-Geräten",
+    "Remote Play Together",
+    "Familienbibliothek"
   ],
   "players": {
     "min": 1,
@@ -16,7 +37,7 @@
   },
   "addedAt": "2026-02-17",
   "updatedAt": "2026-02-17",
-  "homepage": "https://store.steampowered.com/app/252950/Rocket_League",
+  "homepage": "http://www.rocketleague.com/",
   "startLink": "https://store.steampowered.com/app/252950/Rocket_League/",
   "downloads": {
     "windows": "https://store.steampowered.com/app/252950/Rocket_League/",
@@ -28,11 +49,16 @@
     "store": "https://store.steampowered.com/app/252950/"
   },
   "media": {
-    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/448a46094a7f9eb3e856fb58dacfa64dae0b25d9/header_alt_assets_14.jpg?t=1765385510",
     "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
-    "icon": "https://cdn.akamai.steamstatic.com/steam/apps/252950/capsule_184x69.jpg",
+    "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/8013c32e1a013849b328d4cba852a29f7ba06a77/capsule_231x87_alt_assets_14.jpg?t=1765385510",
     "screenshots": [
-      "[assets/img/placeholder-cover.svg](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/448a46094a7f9eb3e856fb58dacfa64dae0b25d9/header_alt_assets_14.jpg?t=1765385510)"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/002820f64f665e2cb81861bb43d32a726d0bc411/ss_002820f64f665e2cb81861bb43d32a726d0bc411.1920x1080.jpg?t=1765385510",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/b329f16495a5b9fa17158775f2a5a31998db040b/ss_b329f16495a5b9fa17158775f2a5a31998db040b.1920x1080.jpg?t=1765385510",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/503ed3e00ed7bf1a78b1de2fe80bef359331e1fd/ss_503ed3e00ed7bf1a78b1de2fe80bef359331e1fd.1920x1080.jpg?t=1765385510",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/83765c76e623e3cd9fa44c1bf75394fb96efd6bc/ss_83765c76e623e3cd9fa44c1bf75394fb96efd6bc.1920x1080.jpg?t=1765385510",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/7ffd4cbfa9be6ed28d3c2b35ffdcff4a8f3ea3e2/ss_7ffd4cbfa9be6ed28d3c2b35ffdcff4a8f3ea3e2.1920x1080.jpg?t=1765385510",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/44886516c82f68039ffbb4e6478e64bf9fa0fa84/ss_44886516c82f68039ffbb4e6478e64bf9fa0fa84.1920x1080.jpg?t=1765385510"
     ],
     "video": "https://www.youtube.com/watch?v=SgSX3gOrj60"
   }
