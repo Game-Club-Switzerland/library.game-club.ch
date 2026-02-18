@@ -7,7 +7,34 @@ from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
-repo_root = Path.cwd()
+def resolve_repo_root() -> Path:
+    script_dir = Path(__file__).resolve().parent
+    candidates: list[Path] = []
+
+    github_workspace = os.environ.get('GITHUB_WORKSPACE')
+    if github_workspace:
+        candidates.append(Path(github_workspace).resolve())
+
+    candidates.extend(
+        [
+            Path.cwd().resolve(),
+            script_dir,
+            script_dir.parent,
+        ]
+    )
+
+    for candidate in candidates:
+        if (candidate / 'api' / 'game').exists():
+            return candidate
+
+    for parent in script_dir.parents:
+        if (parent / 'api' / 'game').exists():
+            return parent
+
+    return script_dir.parent
+
+
+repo_root = resolve_repo_root()
 api_dir = repo_root / 'api'
 game_dir = api_dir / 'game'
 
