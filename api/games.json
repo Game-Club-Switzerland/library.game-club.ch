@@ -28,35 +28,35 @@
   {
     "id": "rocket-league",
     "name": "Rocket League®",
-    "description": "Fußball und Autofahren treffen wieder aufeinander in der lang erwarteten, physikbasierten Fortsetzung zum beliebten Arena-Klassiker Supersonic Acrobatic Rocket-Powered Battle-Cars!",
+    "description": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
     "genres": [
       "Action",
       "Indie",
-      "Rennspiele",
-      "Sport"
+      "Racing",
+      "Sports"
     ],
     "tags": [
-      "Einzelspieler",
-      "Mehrspieler",
+      "Single-player",
+      "Multi-player",
       "PvP",
-      "Online-PvP",
-      "PvP-Spiele mit geteiltem Bildschirm",
-      "Koop",
-      "Online-Koop",
-      "Koop-Spiele mit geteiltem Bildschirm",
-      "Geteilter Bildschirm",
-      "Plattformübergreifender Mehrspieler",
-      "Steam-Errungenschaften",
-      "Steam-Sammelkarten",
+      "Online PvP",
+      "Shared/Split Screen PvP",
+      "Co-op",
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Shared/Split Screen",
+      "Cross-Platform Multiplayer",
+      "Steam Achievements",
+      "Steam Trading Cards",
       "Steam Workshop",
-      "Teilweise Controllerunterstützung",
+      "Partial Controller Support",
       "Steam Cloud",
-      "Statistiken",
-      "Remote Play auf Smartphones",
-      "Remote Play auf Tablets",
-      "Remote Play auf TV-Geräten",
+      "Stats",
+      "Remote Play on Phone",
+      "Remote Play on Tablet",
+      "Remote Play on TV",
       "Remote Play Together",
-      "Familienbibliothek"
+      "Family Sharing"
     ],
     "players": {
       "min": 1,
@@ -75,62 +75,6 @@
       "steamdb": "https://steamdb.info/app/252950/",
       "store": "https://store.steampowered.com/app/252950/"
     }
-  },
-  {
-    "id": "flatout-2",
-    "name": "FlatOut 2",
-    "description": "Arcade racing chaos with crash physics and split-screen action.",
-    "genres": [
-      "Racing",
-      "Action"
-    ],
-    "tags": [
-      "Arcade",
-      "Destruction",
-      "Split-Screen"
-    ],
-    "players": {
-      "min": 1,
-      "max": 4
-    },
-    "addedAt": "2026-02-10",
-    "updatedAt": "2026-02-16",
-    "media": {
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/header.jpg?t=1765237363",
-      "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/library_hero.jpg",
-      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/capsule_231x87.jpg?t=1765237363"
-    },
-    "steam": {
-      "appid": 2990,
-      "steamdb": "https://steamdb.info/app/2990/",
-      "store": "https://store.steampowered.com/app/2990/"
-    }
-  },
-  {
-    "id": "supertuxkart",
-    "name": "SuperTuxKart",
-    "description": "Open-source kart racer packed with tracks and modes.",
-    "genres": [
-      "Racing",
-      "Party"
-    ],
-    "tags": [
-      "Open Source",
-      "Split-Screen",
-      "Family"
-    ],
-    "players": {
-      "min": 1,
-      "max": 8
-    },
-    "addedAt": "2026-02-14",
-    "updatedAt": "2026-02-16",
-    "media": {
-      "cover": "https://supertuxkart.net/assets/images/header.jpg",
-      "hero": "https://supertuxkart.net/assets/images/library_hero.jpg",
-      "icon": "https://supertuxkart.net/assets/images/capsule_184x69.jpg"
-    },
-    "homepage": "https://supertuxkart.net/Main_Page"
   },
   {
     "id": "unreal-tournament-2004",
@@ -189,6 +133,62 @@
     }
   },
   {
+    "id": "supertuxkart",
+    "name": "SuperTuxKart",
+    "description": "Open-source kart racer packed with tracks and modes.",
+    "genres": [
+      "Racing",
+      "Party"
+    ],
+    "tags": [
+      "Open Source",
+      "Split-Screen",
+      "Family"
+    ],
+    "players": {
+      "min": 1,
+      "max": 8
+    },
+    "addedAt": "2026-02-14",
+    "updatedAt": "2026-02-16",
+    "media": {
+      "cover": "https://supertuxkart.net/assets/images/header.jpg",
+      "hero": "https://supertuxkart.net/assets/images/library_hero.jpg",
+      "icon": "https://supertuxkart.net/assets/images/capsule_184x69.jpg"
+    },
+    "homepage": "https://supertuxkart.net/Main_Page"
+  },
+  {
+    "id": "flatout-2",
+    "name": "FlatOut 2",
+    "description": "Arcade racing chaos with crash physics and split-screen action.",
+    "genres": [
+      "Racing",
+      "Action"
+    ],
+    "tags": [
+      "Arcade",
+      "Destruction",
+      "Split-Screen"
+    ],
+    "players": {
+      "min": 1,
+      "max": 4
+    },
+    "addedAt": "2026-02-10",
+    "updatedAt": "2026-02-16",
+    "media": {
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/header.jpg?t=1765237363",
+      "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/library_hero.jpg",
+      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/capsule_231x87.jpg?t=1765237363"
+    },
+    "steam": {
+      "appid": 2990,
+      "steamdb": "https://steamdb.info/app/2990/",
+      "store": "https://store.steampowered.com/app/2990/"
+    }
+  },
+  {
     "id": "beyond-all-reason",
     "name": "Beyond All Reason",
     "description": "Massive open-source RTS with large scale battles.",
@@ -215,37 +215,6 @@
     "homepage": "https://www.beyondallreason.info/"
   },
   {
-    "id": "hedgewars",
-    "name": "Hedgewars",
-    "description": "Turn-based artillery with hedgehogs, tools, and chaos.",
-    "genres": [
-      "Strategy",
-      "Party"
-    ],
-    "tags": [
-      "Turn-Based",
-      "Multiplayer",
-      "Open Source"
-    ],
-    "players": {
-      "min": 1,
-      "max": 8
-    },
-    "addedAt": "2026-02-12",
-    "updatedAt": "2026-02-15",
-    "media": {
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223810/header.jpg?t=1700249227",
-      "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223810/library_hero.jpg",
-      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223810/capsule_231x87.jpg?t=1700249227"
-    },
-    "homepage": "https://hedgewars.org/",
-    "steam": {
-      "appid": 2223810,
-      "steamdb": "https://steamdb.info/app/2223810/",
-      "store": "https://store.steampowered.com/app/2223810"
-    }
-  },
-  {
     "id": "openra",
     "name": "OpenRA",
     "description": "Modernized classic RTS with moddable missions.",
@@ -270,63 +239,6 @@
       "icon": "assets/img/placeholder-icon.svg"
     },
     "homepage": "https://www.openra.net/"
-  },
-  {
-    "id": "renegade-x",
-    "name": "Renegade X",
-    "description": "Fan-made FPS/RTS hybrid in the C&C universe.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "tags": [
-      "Multiplayer",
-      "Teamplay",
-      "Sci-Fi"
-    ],
-    "players": {
-      "min": 8,
-      "max": 64
-    },
-    "addedAt": "2026-02-15",
-    "updatedAt": "2026-02-15",
-    "media": {
-      "cover": "assets/img/placeholder-cover.svg",
-      "hero": "assets/img/placeholder-hero.svg",
-      "icon": "assets/img/placeholder-icon.svg"
-    },
-    "homepage": "https://totemarts.games/games/renegade-x/"
-  },
-  {
-    "id": "soldat",
-    "name": "Soldat",
-    "description": "Classic 2D shooter with acrobatic movement and mods.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "tags": [
-      "2D",
-      "Competitive",
-      "Community"
-    ],
-    "players": {
-      "min": 2,
-      "max": 32
-    },
-    "addedAt": "2026-02-14",
-    "updatedAt": "2026-02-15",
-    "media": {
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638490/header.jpg?t=1756567404",
-      "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638490/library_hero.jpg",
-      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638490/capsule_231x87.jpg?t=1756567404"
-    },
-    "homepage": "https://soldat.pl/en/",
-    "steam": {
-      "appid": 638490,
-      "steamdb": "https://steamdb.info/app/638490/",
-      "store": "https://store.steampowered.com/app/638490/"
-    }
   },
   {
     "id": "teeworlds",
@@ -384,5 +296,93 @@
       "icon": "assets/img/placeholder-icon.svg"
     },
     "homepage": "https://oldunreal.com/downloads/unrealtournament/"
+  },
+  {
+    "id": "hedgewars",
+    "name": "Hedgewars",
+    "description": "Turn-based artillery with hedgehogs, tools, and chaos.",
+    "genres": [
+      "Strategy",
+      "Party"
+    ],
+    "tags": [
+      "Turn-Based",
+      "Multiplayer",
+      "Open Source"
+    ],
+    "players": {
+      "min": 1,
+      "max": 8
+    },
+    "addedAt": "2026-02-12",
+    "updatedAt": "2026-02-15",
+    "media": {
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223810/header.jpg?t=1700249227",
+      "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223810/library_hero.jpg",
+      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223810/capsule_231x87.jpg?t=1700249227"
+    },
+    "homepage": "https://hedgewars.org/",
+    "steam": {
+      "appid": 2223810,
+      "steamdb": "https://steamdb.info/app/2223810/",
+      "store": "https://store.steampowered.com/app/2223810"
+    }
+  },
+  {
+    "id": "renegade-x",
+    "name": "Renegade X",
+    "description": "Fan-made FPS/RTS hybrid in the C&C universe.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "tags": [
+      "Multiplayer",
+      "Teamplay",
+      "Sci-Fi"
+    ],
+    "players": {
+      "min": 8,
+      "max": 64
+    },
+    "addedAt": "2026-02-15",
+    "updatedAt": "2026-02-15",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    },
+    "homepage": "https://totemarts.games/games/renegade-x/"
+  },
+  {
+    "id": "soldat",
+    "name": "Soldat",
+    "description": "Classic 2D shooter with acrobatic movement and mods.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "tags": [
+      "2D",
+      "Competitive",
+      "Community"
+    ],
+    "players": {
+      "min": 2,
+      "max": 32
+    },
+    "addedAt": "2026-02-14",
+    "updatedAt": "2026-02-15",
+    "media": {
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638490/header.jpg?t=1756567404",
+      "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638490/library_hero.jpg",
+      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638490/capsule_231x87.jpg?t=1756567404"
+    },
+    "homepage": "https://soldat.pl/en/",
+    "steam": {
+      "appid": 638490,
+      "steamdb": "https://steamdb.info/app/638490/",
+      "store": "https://store.steampowered.com/app/638490/"
+    }
   }
 ]
