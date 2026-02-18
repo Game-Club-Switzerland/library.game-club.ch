@@ -125,7 +125,7 @@ Create or update a discussion in category Game. Add a JSON block in the body:
 }
 ```
 
-If `steamAppId` is present, the build script auto-fills SteamDB links and media URLs.
+If `steamAppId` is present, the build script auto-fills SteamDB links and fetches `header_image`, `short_description`, `capsule_image`, `website`, `categories` (mapped to `tags`), `genres`, `screenshots`, and `movies` from Steam appdetails.
 
 ## GitHub Actions workflow sketch
 

@@ -15,6 +15,7 @@ owner = os.environ.get('REPO_OWNER')
 repo = os.environ.get('REPO_NAME')
 token = os.environ.get('GITHUB_TOKEN')
 newest_limit = int(os.environ.get('NEW_GAMES_LIMIT', '6'))
+steam_appdetails_cache: dict[str, dict | None] = {}
 
 
 def fetch_graphql(query: str, variables: dict) -> dict:
@@ -64,6 +65,64 @@ def build_steam_media(steam_app_id: int | str) -> dict:
         'hero': f'{base}/library_hero.jpg',
         'icon': f'{base}/capsule_184x69.jpg',
     }
+
+
+def fetch_steam_app_details(steam_app_id: int | str) -> dict | None:
+    app_id = str(steam_app_id).strip()
+    if not app_id:
+        return None
+
+    if app_id in steam_appdetails_cache:
+        return steam_appdetails_cache[app_id]
+
+    request = Request(
+        url=f'https://store.steampowered.com/api/appdetails/?appids={app_id}',
+        headers={
+            'User-Agent': 'game-club-library-build/1.0',
+            'Accept': 'application/json',
+        },
+        method='GET',
+    )
+
+    try:
+        with urlopen(request) as response:
+            if response.status < 200 or response.status >= 300:
+                raise RuntimeError(f'Steam API error: {response.status}')
+            payload = json.loads(response.read().decode('utf-8'))
+    except Exception as error:
+        print(f'Failed to fetch Steam appdetails for {app_id}: {error}', file=sys.stderr)
+        steam_appdetails_cache[app_id] = None
+        return None
+
+    app_payload = payload.get(app_id)
+    if not isinstance(app_payload, dict) or not app_payload.get('success'):
+        steam_appdetails_cache[app_id] = None
+        return None
+
+    data = app_payload.get('data')
+    if not isinstance(data, dict):
+        steam_appdetails_cache[app_id] = None
+        return None
+
+    steam_appdetails_cache[app_id] = data
+    return data
+
+
+def extract_steam_movie_url(movies) -> str:
+    if not isinstance(movies, list) or not movies:
+        return ''
+
+    first = movies[0] if isinstance(movies[0], dict) else {}
+    mp4 = first.get('mp4') if isinstance(first.get('mp4'), dict) else {}
+    webm = first.get('webm') if isinstance(first.get('webm'), dict) else {}
+
+    return (
+        mp4.get('max')
+        or mp4.get('480')
+        or webm.get('max')
+        or webm.get('480')
+        or ''
+    )
 
 
 def read_json_file(file_path: Path):
@@ -155,26 +214,51 @@ def build_game(discussion: dict):
     )
 
     steam_media = build_steam_media(steam_app_id) if steam_app_id else {}
+    steam_details = fetch_steam_app_details(steam_app_id) if steam_app_id else None
+
+    steam_header_image = steam_details.get('header_image') if isinstance(steam_details, dict) else None
+    steam_short_description = (
+        steam_details.get('short_description') if isinstance(steam_details, dict) else None
+    )
+    steam_capsule_image = steam_details.get('capsule_image') if isinstance(steam_details, dict) else None
+    steam_website = steam_details.get('website') if isinstance(steam_details, dict) else None
+    steam_categories = (
+        [item.get('description') for item in steam_details.get('categories', []) if item.get('description')]
+        if isinstance(steam_details, dict)
+        else []
+    )
+    steam_genres = (
+        [item.get('description') for item in steam_details.get('genres', []) if item.get('description')]
+        if isinstance(steam_details, dict)
+        else []
+    )
+    steam_screenshots = (
+        [item.get('path_full') for item in steam_details.get('screenshots', []) if item.get('path_full')]
+        if isinstance(steam_details, dict)
+        else []
+    )
+    steam_video = extract_steam_movie_url(steam_details.get('movies')) if isinstance(steam_details, dict) else ''
+
     payload_media = payload.get('media') if isinstance(payload.get('media'), dict) else {}
 
     media = {
-        'cover': payload_media.get('cover') or steam_media.get('cover') or 'assets/img/placeholder-cover.svg',
+        'cover': steam_header_image or payload_media.get('cover') or steam_media.get('cover') or 'assets/img/placeholder-cover.svg',
         'hero': payload_media.get('hero') or steam_media.get('hero') or 'assets/img/placeholder-hero.svg',
-        'icon': payload_media.get('icon') or steam_media.get('icon') or 'assets/img/placeholder-icon.svg',
-        'screenshots': payload_media.get('screenshots') or ['assets/img/placeholder-cover.svg'],
-        'video': payload_media.get('video') or '',
+        'icon': steam_capsule_image or payload_media.get('icon') or steam_media.get('icon') or 'assets/img/placeholder-icon.svg',
+        'screenshots': steam_screenshots or payload_media.get('screenshots') or ['assets/img/placeholder-cover.svg'],
+        'video': steam_video or payload_media.get('video') or '',
     }
 
     return {
         'id': payload['id'],
         'name': payload.get('name') or discussion.get('title', ''),
-        'description': payload.get('description') or '',
-        'genres': payload.get('genres') or [],
-        'tags': payload.get('tags') or [],
+        'description': steam_short_description or payload.get('description') or '',
+        'genres': steam_genres or payload.get('genres') or [],
+        'tags': steam_categories or payload.get('tags') or [],
         'players': payload.get('players') or {'min': 1, 'max': 1},
         'addedAt': payload.get('addedAt') or (discussion.get('createdAt', '')[:10]),
         'updatedAt': (discussion.get('updatedAt', '')[:10]),
-        'homepage': payload.get('homepage') or '',
+        'homepage': steam_website or payload.get('homepage') or '',
         'startLink': payload.get('startLink') or '',
         'downloads': payload.get('downloads') or {},
         'steam': steam,
