@@ -24,8 +24,8 @@
   },
   "media": {
     "cover": "https://supertuxkart.net/assets/images/header.jpg",
-    "hero": "https://supertuxkart.net/assets/images/library_hero.jpg",
-    "icon": "https://supertuxkart.net/assets/images/capsule_184x69.jpg",
+    "hero": "https://supertuxkart.net/assets/images/header.jpg",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/3/37/Logo_de_SuperTuxKart.png",
     "screenshots": [
       "https://supertuxkart.net/assets/wiki/STK1.3_1.jpg",
       "https://supertuxkart.net/assets/wiki/STK1.3_2.jpg",
