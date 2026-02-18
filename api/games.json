@@ -153,8 +153,8 @@
     "updatedAt": "2026-02-16",
     "media": {
       "cover": "https://supertuxkart.net/assets/images/header.jpg",
-      "hero": "https://supertuxkart.net/assets/images/library_hero.jpg",
-      "icon": "https://supertuxkart.net/assets/images/capsule_184x69.jpg"
+      "hero": "https://supertuxkart.net/assets/images/header.jpg",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/3/37/Logo_de_SuperTuxKart.png"
     },
     "homepage": "https://supertuxkart.net/Main_Page"
   },
