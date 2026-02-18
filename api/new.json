@@ -103,32 +103,6 @@
     "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
   },
   {
-    "id": "renegade-x",
-    "name": "Renegade X",
-    "description": "Fan-made FPS/RTS hybrid in the C&C universe.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "tags": [
-      "Multiplayer",
-      "Teamplay",
-      "Sci-Fi"
-    ],
-    "players": {
-      "min": 8,
-      "max": 64
-    },
-    "addedAt": "2026-02-15",
-    "updatedAt": "2026-02-15",
-    "media": {
-      "cover": "assets/img/placeholder-cover.svg",
-      "hero": "assets/img/placeholder-hero.svg",
-      "icon": "assets/img/placeholder-icon.svg"
-    },
-    "homepage": "https://totemarts.games/games/renegade-x/"
-  },
-  {
     "id": "unreal-tournament",
     "name": "Unreal Tournament",
     "description": "Arena shooter classic with fast movement and mods.",
@@ -153,6 +127,32 @@
       "icon": "assets/img/placeholder-icon.svg"
     },
     "homepage": "https://oldunreal.com/downloads/unrealtournament/"
+  },
+  {
+    "id": "renegade-x",
+    "name": "Renegade X",
+    "description": "Fan-made FPS/RTS hybrid in the C&C universe.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "tags": [
+      "Multiplayer",
+      "Teamplay",
+      "Sci-Fi"
+    ],
+    "players": {
+      "min": 8,
+      "max": 64
+    },
+    "addedAt": "2026-02-15",
+    "updatedAt": "2026-02-15",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    },
+    "homepage": "https://totemarts.games/games/renegade-x/"
   },
   {
     "id": "supertuxkart",
