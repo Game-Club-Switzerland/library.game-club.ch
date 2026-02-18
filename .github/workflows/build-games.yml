@@ -7,8 +7,8 @@ on:
   discussion:
     types: [created, edited]
   push:
-    branches:
-      - main
+    #branches:
+    #  - main
     paths:
       - 'api/game/*.json'
 
