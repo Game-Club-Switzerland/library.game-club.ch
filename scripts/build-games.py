@@ -136,20 +136,7 @@ def fetch_steam_app_details(steam_app_id: int | str) -> dict | None:
 
 
 def extract_steam_movie_url(movies) -> str:
-    if not isinstance(movies, list) or not movies:
-        return ''
-
-    first = movies[0] if isinstance(movies[0], dict) else {}
-    mp4 = first.get('mp4') if isinstance(first.get('mp4'), dict) else {}
-    webm = first.get('webm') if isinstance(first.get('webm'), dict) else {}
-
-    return (
-        mp4.get('max')
-        or mp4.get('480')
-        or webm.get('max')
-        or webm.get('480')
-        or ''
-    )
+    return extract_movie_url(movies)
 
 
 def extract_movie_url(value) -> str:
@@ -165,6 +152,18 @@ def extract_movie_url(value) -> str:
 
     if not isinstance(value, dict):
         return ''
+
+    if isinstance(value.get('hls_h264'), str) and value.get('hls_h264').strip():
+        return value.get('hls_h264').strip()
+
+    if isinstance(value.get('hls'), dict):
+        hls = value.get('hls')
+        hls_url = hls.get('hls_h264') or hls.get('max') or hls.get('480') or ''
+        if isinstance(hls_url, str) and hls_url.strip():
+            return hls_url.strip()
+
+    if isinstance(value.get('hls'), str) and value.get('hls').strip():
+        return value.get('hls').strip()
 
     if isinstance(value.get('url'), str) and value.get('url').strip():
         return value.get('url').strip()
