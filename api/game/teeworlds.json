@@ -22,6 +22,11 @@
     "windows": "https://teeworlds.com/",
     "linux": "https://teeworlds.com/"
   },
+  "steam": {
+    "appid": 380840,
+    "steamdb": "https://steamdb.info/app/380840/",
+    "store": "https://store.steampowered.com/app/380840/"
+  },
   "media": {
     "cover": "assets/img/placeholder-cover.svg",
     "hero": "assets/img/placeholder-hero.svg",
