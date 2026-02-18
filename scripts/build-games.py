@@ -152,6 +152,34 @@ def extract_steam_movie_url(movies) -> str:
     )
 
 
+def extract_movie_url(value) -> str:
+    if isinstance(value, str):
+        return value.strip()
+
+    if isinstance(value, list):
+        for item in value:
+            url = extract_movie_url(item)
+            if url:
+                return url
+        return ''
+
+    if not isinstance(value, dict):
+        return ''
+
+    if isinstance(value.get('url'), str) and value.get('url').strip():
+        return value.get('url').strip()
+
+    if isinstance(value.get('webm'), dict):
+        webm = value.get('webm')
+        return (webm.get('max') or webm.get('480') or '').strip()
+
+    if isinstance(value.get('mp4'), dict):
+        mp4 = value.get('mp4')
+        return (mp4.get('max') or mp4.get('480') or '').strip()
+
+    return ''
+
+
 def extract_steam_app_id(game: dict):
     steam_payload = game.get('steam') if isinstance(game.get('steam'), dict) else {}
     return game.get('steamAppId') or steam_payload.get('appid')
@@ -197,6 +225,7 @@ def normalize_media_with_steam(game: dict) -> dict:
     payload_media = game.get('media') if isinstance(game.get('media'), dict) else {}
     payload_screenshots = payload_media.get('screenshots')
     payload_video = payload_media.get('video')
+    payload_movies_video = extract_movie_url(payload_media.get('movies') or game.get('movies'))
 
     normalized_game = dict(game)
     normalized_game['media'] = {
@@ -204,7 +233,7 @@ def normalize_media_with_steam(game: dict) -> dict:
         'hero': payload_media.get('hero') if has_meaningful_media_value(payload_media.get('hero')) else (steam_media.get('hero') or 'assets/img/placeholder-hero.svg'),
         'icon': payload_media.get('icon') if has_meaningful_media_value(payload_media.get('icon')) else (steam_capsule_image or steam_media.get('icon') or 'assets/img/placeholder-icon.svg'),
         'screenshots': payload_screenshots if has_meaningful_screenshots(payload_screenshots) else (steam_screenshots or ['assets/img/placeholder-cover.svg']),
-        'video': payload_video if isinstance(payload_video, str) and payload_video.strip() else (steam_video or ''),
+        'video': payload_video if isinstance(payload_video, str) and payload_video.strip() else (payload_movies_video or steam_video or ''),
     }
 
     return normalized_game
@@ -324,13 +353,14 @@ def build_game(discussion: dict):
     steam_video = extract_steam_movie_url(steam_details.get('movies')) if isinstance(steam_details, dict) else ''
 
     payload_media = payload.get('media') if isinstance(payload.get('media'), dict) else {}
+    payload_movies_video = extract_movie_url(payload_media.get('movies') or payload.get('movies'))
 
     media = {
         'cover': payload_media.get('cover') or steam_header_image or 'assets/img/placeholder-cover.svg',
         'hero': payload_media.get('hero') or 'assets/img/placeholder-hero.svg',
         'icon': payload_media.get('icon') or steam_capsule_image or 'assets/img/placeholder-icon.svg',
         'screenshots': payload_media.get('screenshots') or steam_screenshots or ['assets/img/placeholder-cover.svg'],
-        'video': payload_media.get('video') or steam_video or '',
+        'video': payload_media.get('video') or payload_movies_video or steam_video or '',
     }
 
     game = {
