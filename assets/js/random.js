@@ -2,22 +2,39 @@ const pickButton = GameLibrary.qs('[data-random-pick]');
 const resultWrap = GameLibrary.qs('[data-random-result]');
 const genreSelect = GameLibrary.qs('[data-random-genre]');
 const playersSelect = GameLibrary.qs('[data-random-players]');
+const tagsWrap = GameLibrary.qs('[data-random-tags]');
 
 let allGames = [];
+
+const renderTags = (tags) => {
+  tagsWrap.innerHTML = '';
+  tags.forEach((tag) => {
+    const label = document.createElement('label');
+    label.className = 'badge';
+    label.style.cursor = 'pointer';
+    label.innerHTML = `
+      <input type="checkbox" value="${tag}" style="margin-right:6px" />${tag}
+    `;
+    tagsWrap.appendChild(label);
+  });
+};
 
 const applyRandom = () => {
   const genre = genreSelect.value;
   const players = playersSelect.value;
+  const selectedTags = GameLibrary.qsa('input[type="checkbox"]:checked', tagsWrap).map((input) => input.value);
 
   const filtered = allGames.filter((game) => {
     if (genre && !game.genres.includes(genre)) return false;
     if (players) {
+      const selectedPlayers = Number.parseInt(players, 10);
       const min = game.players?.min ?? 1;
       const max = game.players?.max ?? min;
-      if (players === '1' && min > 1) return false;
-      if (players === '2' && max < 2) return false;
-      if (players === '3-4' && max < 3) return false;
-      if (players === '5+' && max < 5) return false;
+      if (Number.isNaN(selectedPlayers)) return false;
+      if (selectedPlayers < min || selectedPlayers > max) return false;
+    }
+    if (selectedTags.length) {
+      return selectedTags.every((tag) => game.tags.includes(tag));
     }
     return true;
   });
@@ -44,8 +61,10 @@ const applyRandom = () => {
 
 const initFilters = (games) => {
   const genres = new Set();
+  const tags = new Set();
   games.forEach((game) => {
     game.genres.forEach((genre) => genres.add(genre));
+    game.tags.forEach((tag) => tags.add(tag));
   });
 
   genreSelect.innerHTML = '<option value="">Alle Genres</option>';
@@ -55,6 +74,8 @@ const initFilters = (games) => {
     option.textContent = genre;
     genreSelect.appendChild(option);
   });
+
+  renderTags(Array.from(tags).sort());
 };
 
 GameLibrary.fetchGames()
