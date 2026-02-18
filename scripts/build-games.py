@@ -317,10 +317,10 @@ def main() -> None:
         json.dumps(newest, indent=2, ensure_ascii=False), encoding='utf-8'
     )
 
-    for game in games:
-        (game_dir / f"{game['id']}.json").write_text(
-            json.dumps(game, indent=2, ensure_ascii=False), encoding='utf-8'
-        )
+    #for game in games:
+    #    (game_dir / f"{game['id']}.json").write_text(
+    #        json.dumps(game, indent=2, ensure_ascii=False), encoding='utf-8'
+    #    )
 
     print(f'Updated {len(games)} games (discussions + existing files).')
 
