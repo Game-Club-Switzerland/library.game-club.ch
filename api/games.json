@@ -178,9 +178,9 @@
     "addedAt": "2026-02-11",
     "updatedAt": "2026-02-16",
     "media": {
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/header.jpg?t=1468510512",
-      "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/library_hero.jpg",
-      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21760/capsule_231x87.jpg?t=1468510512"
+      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/21760/header.jpg",
+      "hero": "https://images.gog-statics.com/a09dbaf28268d605cb7ec7434c620008f3ac88c19b75377b5e171bca90b9b3b3_bg_crop_1366x655.jpg",
+      "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/21760/177d0b92597475f22d07c5e985cfe9e47032e12f.jpg"
     },
     "steam": {
       "appid": 21760,
