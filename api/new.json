@@ -28,35 +28,35 @@
   {
     "id": "rocket-league",
     "name": "Rocket League®",
-    "description": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
+    "description": "Fußball und Autofahren treffen wieder aufeinander in der lang erwarteten, physikbasierten Fortsetzung zum beliebten Arena-Klassiker Supersonic Acrobatic Rocket-Powered Battle-Cars!",
     "genres": [
       "Action",
       "Indie",
-      "Racing",
-      "Sports"
+      "Rennspiele",
+      "Sport"
     ],
     "tags": [
-      "Single-player",
-      "Multi-player",
+      "Einzelspieler",
+      "Mehrspieler",
       "PvP",
-      "Online PvP",
-      "Shared/Split Screen PvP",
-      "Co-op",
-      "Online Co-op",
-      "Shared/Split Screen Co-op",
-      "Shared/Split Screen",
-      "Cross-Platform Multiplayer",
-      "Steam Achievements",
-      "Steam Trading Cards",
+      "Online-PvP",
+      "PvP-Spiele mit geteiltem Bildschirm",
+      "Koop",
+      "Online-Koop",
+      "Koop-Spiele mit geteiltem Bildschirm",
+      "Geteilter Bildschirm",
+      "Plattformübergreifender Mehrspieler",
+      "Steam-Errungenschaften",
+      "Steam-Sammelkarten",
       "Steam Workshop",
-      "Partial Controller Support",
+      "Teilweise Controllerunterstützung",
       "Steam Cloud",
-      "Stats",
-      "Remote Play on Phone",
-      "Remote Play on Tablet",
-      "Remote Play on TV",
+      "Statistiken",
+      "Remote Play auf Smartphones",
+      "Remote Play auf Tablets",
+      "Remote Play auf TV-Geräten",
       "Remote Play Together",
-      "Family Sharing"
+      "Familienbibliothek"
     ],
     "players": {
       "min": 1,
@@ -103,32 +103,6 @@
     "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
   },
   {
-    "id": "renegade-x",
-    "name": "Renegade X",
-    "description": "Fan-made FPS/RTS hybrid in the C&C universe.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "tags": [
-      "Multiplayer",
-      "Teamplay",
-      "Sci-Fi"
-    ],
-    "players": {
-      "min": 8,
-      "max": 64
-    },
-    "addedAt": "2026-02-15",
-    "updatedAt": "2026-02-15",
-    "media": {
-      "cover": "assets/img/placeholder-cover.svg",
-      "hero": "assets/img/placeholder-hero.svg",
-      "icon": "assets/img/placeholder-icon.svg"
-    },
-    "homepage": "https://totemarts.games/games/renegade-x/"
-  },
-  {
     "id": "unreal-tournament",
     "name": "Unreal Tournament",
     "description": "Arena shooter classic with fast movement and mods.",
@@ -153,6 +127,32 @@
       "icon": "assets/img/placeholder-icon.svg"
     },
     "homepage": "https://oldunreal.com/downloads/unrealtournament/"
+  },
+  {
+    "id": "renegade-x",
+    "name": "Renegade X",
+    "description": "Fan-made FPS/RTS hybrid in the C&C universe.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "tags": [
+      "Multiplayer",
+      "Teamplay",
+      "Sci-Fi"
+    ],
+    "players": {
+      "min": 8,
+      "max": 64
+    },
+    "addedAt": "2026-02-15",
+    "updatedAt": "2026-02-15",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    },
+    "homepage": "https://totemarts.games/games/renegade-x/"
   },
   {
     "id": "supertuxkart",
