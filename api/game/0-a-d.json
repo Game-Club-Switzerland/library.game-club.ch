@@ -1,14 +1,35 @@
 {
   "id": "0-a-d",
   "name": "0 A.D.",
-  "description": "0 A.D. ist ein kostenloses, open-source Echtzeit-Strategiespiel von Wildfire Games, das sich in der Antike zwischen 500 v. Chr.  und 1 n. Chr. abspielt und den Aufbau einer Wirtschafts- und Kriegsproduktion zur Bekämpfung der Gegner mit historisch inspirierten Zivilisationen, realistischen Einheiten und ohne Magie bietet",
+  "description": "Il calcio incontra ancora una volta le corse automobilistiche nel tanto atteso seguito dell'amato gioco in arena basato sulle leggi della fisica, battle-car acrobatiche supersoniche a razzi!",
   "genres": [
-    "Strategy",
-    "RTS"
+    "Azione",
+    "Indie",
+    "Corse",
+    "Sport"
   ],
   "tags": [
-    "RTS",
-    "Multiplayer"
+    "Giocatore singolo",
+    "Multigiocatore",
+    "PvP",
+    "PvP online",
+    "PvP locale a schermo condiviso",
+    "Co-op",
+    "Co-op online",
+    "Co-op locale a schermo condiviso",
+    "Schermo condiviso",
+    "Multigiocatore multipiattaforma",
+    "Achievement di Steam",
+    "Carte collezionabili di Steam",
+    "Workshop di Steam",
+    "Supporto parziale per i controller",
+    "Steam Cloud",
+    "Statistiche",
+    "Remote Play sul telefono",
+    "Remote Play sul tablet",
+    "Remote Play sulla TV",
+    "Remote Play Together",
+    "Condivisione familiare"
   ],
   "players": {
     "min": 1,
@@ -16,20 +37,29 @@
   },
   "addedAt": "2026-02-17",
   "updatedAt": "2026-02-17",
-  "homepage": "https://play0ad.com/",
+  "homepage": "http://www.rocketleague.com/",
   "startLink": "https://play0ad.com/",
   "downloads": {
     "windows": "https://play0ad.com/download/win",
     "linux": "https://play0ad.com/"
   },
+  "steam": {
+    "appid": 252950,
+    "steamdb": "https://steamdb.info/app/252950/",
+    "store": "https://store.steampowered.com/app/252950/"
+  },
   "media": {
-    "cover": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
-    "hero": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/9/99/0_A.D._logo.svg",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/448a46094a7f9eb3e856fb58dacfa64dae0b25d9/header_alt_assets_14.jpg?t=1765385510",
+    "hero": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
+    "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/8013c32e1a013849b328d4cba852a29f7ba06a77/capsule_231x87_alt_assets_14.jpg?t=1765385510",
     "screenshots": [
-      "https://play0ad.com/wp-content/gallery/screenshots/han_wonder.jpg",
-      "https://play0ad.com/wp-content/gallery/screenshots/shewolf.jpg"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/002820f64f665e2cb81861bb43d32a726d0bc411/ss_002820f64f665e2cb81861bb43d32a726d0bc411.1920x1080.jpg?t=1765385510",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/b329f16495a5b9fa17158775f2a5a31998db040b/ss_b329f16495a5b9fa17158775f2a5a31998db040b.1920x1080.jpg?t=1765385510",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/503ed3e00ed7bf1a78b1de2fe80bef359331e1fd/ss_503ed3e00ed7bf1a78b1de2fe80bef359331e1fd.1920x1080.jpg?t=1765385510",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/83765c76e623e3cd9fa44c1bf75394fb96efd6bc/ss_83765c76e623e3cd9fa44c1bf75394fb96efd6bc.1920x1080.jpg?t=1765385510",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/7ffd4cbfa9be6ed28d3c2b35ffdcff4a8f3ea3e2/ss_7ffd4cbfa9be6ed28d3c2b35ffdcff4a8f3ea3e2.1920x1080.jpg?t=1765385510",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/44886516c82f68039ffbb4e6478e64bf9fa0fa84/ss_44886516c82f68039ffbb4e6478e64bf9fa0fa84.1920x1080.jpg?t=1765385510"
     ],
-    "video": "https://www.youtube.com/embed/3MhcRPm7Zhg?si=0X_PkhUNZ29GhSG9"
+    "video": "https://www.youtube.com/watch?v=3MhcRPm7Zhg"
   }
 }
