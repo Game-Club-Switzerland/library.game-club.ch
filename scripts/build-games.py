@@ -59,11 +59,11 @@ def extract_json_block(body: str):
 
 
 def build_steam_media(steam_app_id: int | str) -> dict:
-    base = f'https://cdn.akamai.steamstatic.com/steam/apps/{steam_app_id}'
+    base = f'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/{steam_app_id}'
     return {
         'cover': f'{base}/header.jpg',
         'hero': f'{base}/library_hero.jpg',
-        'icon': f'{base}/capsule_184x69.jpg',
+        'icon': f'{base}/capsule_231x87.jpg',
     }
 
 
