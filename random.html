@@ -22,8 +22,8 @@
     </header>
 
     <main class="container section">
-      <div class="library-layout">
-        <div class="panel library-filters">
+      <div class="library-layout" style="display:grid;grid-template-columns:320px minmax(0, 1fr);gap:20px;align-items:start;">
+        <div class="panel library-filters" style="grid-column:1;">
           <div class="filters">
             <select data-random-genre>
               <option value="">Alle Genres</option>
@@ -55,7 +55,7 @@
           </div>
         </div>
 
-        <div class="library-table" data-random-result>
+        <div class="library-table" data-random-result style="grid-column:2;min-width:0;">
         </div>
       </div>
     </main>
