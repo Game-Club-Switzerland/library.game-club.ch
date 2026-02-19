@@ -22,19 +22,21 @@
     "windows": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/",
     "linux": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
   },
+  "links": {
+		"steamgriddb": "https://www.steamgriddb.com/game/1427"
+	},
   "media": {
-    "cover": "assets/img/placeholder-cover.svg",
-    "hero": "assets/img/placeholder-hero.svg",
-    "icon": "assets/img/placeholder-icon.svg",
+    "cover": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
+    "hero": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
+    "icon": "https://cdn2.unrealengine.com/ut-badge-tournament-2003-128x128-6a67dacd99ad.png",
     "screenshots": [
-      "assets/img/placeholder-cover.svg",
-      "assets/img/placeholder-cover.svg"
+      "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
+      "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp"
     ],
     "video": ""
   },
   "tags": [
     "Classic",
-    "Vehicles",
-    "Mods"
+    "Vehicles"
   ]
 }

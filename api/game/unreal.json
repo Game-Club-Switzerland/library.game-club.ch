@@ -1,0 +1,43 @@
+{
+	"id": "unreal",
+	"name": "Unreal",
+	"description": "Classic sci-fi FPS with campaign and multiplayer modes.",
+	"genres": [
+		"Action",
+		"Shooter"
+	],
+	"categories": [
+		"Classic",
+		"Sci-Fi",
+		"Singleplayer"
+	],
+	"players": {
+		"min": 1,
+		"max": 16
+	},
+	"addedAt": "2026-02-19",
+	"updatedAt": "2026-02-19",
+	"homepage": "https://oldunreal.com/downloads/unreal/",
+	"downloads": {
+		"windows": "https://www.oldunreal.com/downloads/unreal/full-game-installers/",
+		"linux": "https://www.oldunreal.com/downloads/unreal/full-game-installers/"
+	},
+	"links": {
+		"steamgriddb": "https://www.steamgriddb.com/game/37755"
+	},
+	"media": {
+		"cover": "https://cdn2.steamgriddb.com/grid/3bcc8997df233ab581f30dd65f14698c.png",
+		"hero": "https://cdn2.steamgriddb.com/hero/11c77d5ee60af4f679780201bfe6790e.jpg",
+		"icon": "https://cdn2.steamgriddb.com/icon/a285fa36991e098383162bba75bf78d9.png",
+		"screenshots": [
+			"https://cdn2.steamgriddb.com/grid/93445cb7f631b4e0f98d4c97db4b816f.png",
+			"https://cdn2.steamgriddb.com/grid/0e75c5caa34eceaa99542992161ded7e.png"
+		],
+		"video": ""
+	},
+	"tags": [
+		"Classic",
+		"Sci-Fi",
+        "Singleplayer"
+	]
+}

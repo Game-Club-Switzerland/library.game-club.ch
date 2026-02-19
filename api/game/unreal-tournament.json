@@ -22,19 +22,21 @@
     "windows": "https://oldunreal.com/downloads/unrealtournament/",
     "linux": "https://oldunreal.com/downloads/unrealtournament/"
   },
+  "links": {
+		"steamgriddb": "https://www.steamgriddb.com/game/5248506"
+	},
   "media": {
-    "cover": "assets/img/placeholder-cover.svg",
-    "hero": "assets/img/placeholder-hero.svg",
-    "icon": "assets/img/placeholder-icon.svg",
+    "cover": "https://oldunreal.com/site/assets/files/1040/liandri.jpg",
+    "hero": "https://oldunreal.com/site/assets/files/1040/liandri.jpg",
+    "icon": "https://cdn2.unrealengine.com/ut-badge-gold-161x160-ecbb9adf06da.png",
     "screenshots": [
-      "assets/img/placeholder-cover.svg",
-      "assets/img/placeholder-cover.svg"
+      "https://oldunreal.com/site/assets/files/1040/liandri.jpg",
+      "https://oldunreal.com/site/assets/files/1040/liandri.jpg"
     ],
     "video": ""
   },
   "tags": [
     "Classic",
-    "Arena",
-    "Mods"
+    "Arena"
   ]
 }

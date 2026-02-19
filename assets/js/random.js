@@ -127,9 +127,11 @@ const applyRandom = () => {
       <div class="card-body">
         <h4 class="card-title">${game.name}</h4>
         <div class="card-meta">${game.genres.join(' / ')}</div>
+        <div class="card-meta">Categories</div>
         <div class="badges">
           ${(game.categories ?? []).slice(0, 4).map((category) => `<span class="badge">${category}</span>`).join('')}
         </div>
+        <div class="card-meta">Tags</div>
         <div class="badges" style="margin-top:8px">
           ${(game.tags ?? []).slice(0, 4).map((tag) => `<span class="badge">${tag}</span>`).join('')}
         </div>
