@@ -1,33 +1,5 @@
 [
   {
-    "id": "unreal",
-    "name": "Unreal",
-    "description": "Classic sci-fi FPS with campaign and multiplayer modes.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "categories": [
-      "Classic",
-      "Sci-Fi",
-      "Singleplayer"
-    ],
-    "tags": [
-      "Classic",
-      "Sci-Fi",
-      "Singleplayer"
-    ],
-    "players": null,
-    "addedAt": "2026-02-19",
-    "updatedAt": "2026-02-19",
-    "media": {
-      "cover": "https://cdn2.steamgriddb.com/grid/3bcc8997df233ab581f30dd65f14698c.png",
-      "hero": "https://cdn2.steamgriddb.com/hero/11c77d5ee60af4f679780201bfe6790e.jpg",
-      "icon": "https://cdn2.steamgriddb.com/icon/a285fa36991e098383162bba75bf78d9.png"
-    },
-    "homepage": "https://oldunreal.com/downloads/unreal/"
-  },
-  {
     "id": "battlefield-2",
     "name": "Battlefield 2",
     "description": "Classic team-based tactical shooter with large-scale battles.",
@@ -57,6 +29,73 @@
       "icon": "https://cdn2.steamgriddb.com/icon/e02a35b1563d0db53486ec068ebab80f.png"
     },
     "homepage": "https://oldgamesdownload.com/battlefield-2-ttry/"
+  },
+  {
+    "id": "deep-rock-galactic",
+    "name": "Deep Rock Galactic",
+    "description": "Award-winning co-op FPS featuring dwarven space miners exploring procedurally-generated destructible cave systems filled with alien hordes.",
+    "genres": [
+      "Action",
+      "Co-op",
+      "FPS"
+    ],
+    "categories": [
+      "Co-op",
+      "PvE",
+      "Multiplayer"
+    ],
+    "tags": [
+      "Co-op",
+      "PvE",
+      "Dwarf",
+      "Procedural Generation",
+      "fun"
+    ],
+    "players": {
+      "min": 1,
+      "max": 4
+    },
+    "addedAt": "2026-02-19",
+    "updatedAt": "2026-02-19",
+    "media": {
+      "cover": "https://cdn2.steamgriddb.com/grid/9c8d8b6698dd0dc195d35179f7e27543.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/786a16ce5a6ba7d3213838f0ca3b4163-fakepng.png",
+      "icon": "https://cdn2.steamgriddb.com/icon/08178acdaf59fb8ef375c94d8977cc93.ico"
+    },
+    "homepage": "https://store.steampowered.com/app/548430/Deep_Rock_Galactic/",
+    "steam": {
+      "appid": 548430,
+      "steamdb": "https://steamdb.info/app/548430/",
+      "store": "https://store.steampowered.com/app/548430/Deep_Rock_Galactic/"
+    }
+  },
+  {
+    "id": "unreal",
+    "name": "Unreal",
+    "description": "Classic sci-fi FPS with campaign and multiplayer modes.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "tags": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "players": null,
+    "addedAt": "2026-02-19",
+    "updatedAt": "2026-02-19",
+    "media": {
+      "cover": "https://cdn2.steamgriddb.com/grid/3bcc8997df233ab581f30dd65f14698c.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/11c77d5ee60af4f679780201bfe6790e.jpg",
+      "icon": "https://cdn2.steamgriddb.com/icon/a285fa36991e098383162bba75bf78d9.png"
+    },
+    "homepage": "https://oldunreal.com/downloads/unreal/"
   },
   {
     "id": "unreal2",
@@ -170,35 +209,5 @@
       "steamdb": "https://steamdb.info/app/252950/",
       "store": "https://store.steampowered.com/app/252950/"
     }
-  },
-  {
-    "id": "unreal-tournament-2004",
-    "name": "Unreal Tournament 2004",
-    "description": "Large-scale arena shooter with vehicles and mods.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "categories": [
-      "Classic",
-      "Vehicles",
-      "Mods"
-    ],
-    "tags": [
-      "Classic",
-      "Vehicles"
-    ],
-    "players": {
-      "min": 1,
-      "max": 32
-    },
-    "addedAt": "2026-02-16",
-    "updatedAt": "2026-02-16",
-    "media": {
-      "cover": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
-      "hero": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
-      "icon": "https://cdn2.unrealengine.com/ut-badge-tournament-2003-128x128-6a67dacd99ad.png"
-    },
-    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
   }
 ]

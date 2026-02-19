@@ -1,0 +1,50 @@
+{
+  "id": "deep-rock-galactic",
+  "name": "Deep Rock Galactic",
+  "description": "Award-winning co-op FPS featuring dwarven space miners exploring procedurally-generated destructible cave systems filled with alien hordes.",
+  "genres": [
+    "Action",
+    "Co-op",
+    "FPS"
+  ],
+  "categories": [
+    "Co-op",
+    "PvE",
+    "Multiplayer"
+  ],
+  "players": {
+    "min": 1,
+    "max": 4
+  },
+  "addedAt": "2026-02-19",
+  "updatedAt": "2026-02-19",
+  "homepage": "https://store.steampowered.com/app/548430/Deep_Rock_Galactic/",
+  "downloads": {
+    "windows": "https://store.steampowered.com/app/548430/Deep_Rock_Galactic/"
+  },
+  "steam": {
+    "appid": 548430,
+    "steamdb": "https://steamdb.info/app/548430/",
+    "store": "https://store.steampowered.com/app/548430/Deep_Rock_Galactic/"
+  },
+  "links": {
+    "steamgriddb": "https://www.steamgriddb.com/game/14939"
+  },
+  "media": {
+    "cover": "https://cdn2.steamgriddb.com/grid/9c8d8b6698dd0dc195d35179f7e27543.png",
+    "hero": "https://cdn2.steamgriddb.com/hero/786a16ce5a6ba7d3213838f0ca3b4163-fakepng.png",
+    "icon": "https://cdn2.steamgriddb.com/icon/08178acdaf59fb8ef375c94d8977cc93.ico",
+    "screenshots": [
+      "https://cdn2.steamgriddb.com/hero/6345a8841a72751d7a407a8cdb2b1111.jpg",
+      "https://cdn2.steamgriddb.com/hero/59ae56bbc358064fc377c75190fa25cb.png"
+    ],
+    "video": "https://video.akamai.steamstatic.com/store_trailers/548430/1912821037/a9a4174ee3e32773076b9f64e2f27cd7627bdbed/1769597323/hls_264_master.m3u8?t=1769688641"
+  },
+  "tags": [
+    "Co-op",
+    "PvE",
+    "Dwarf",
+    "Procedural Generation",
+    "fun"
+  ]
+}
