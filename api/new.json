@@ -1,5 +1,67 @@
 [
   {
+    "id": "unreal",
+    "name": "Unreal",
+    "description": "Classic sci-fi FPS with campaign and multiplayer modes.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "tags": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "players": {
+      "min": 1,
+      "max": 16
+    },
+    "addedAt": "2026-02-19",
+    "updatedAt": "2026-02-19",
+    "media": {
+      "cover": "https://cdn2.steamgriddb.com/grid/3bcc8997df233ab581f30dd65f14698c.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/11c77d5ee60af4f679780201bfe6790e.jpg",
+      "icon": "https://cdn2.steamgriddb.com/icon/a285fa36991e098383162bba75bf78d9.png"
+    },
+    "homepage": "https://oldunreal.com/downloads/unreal/"
+  },
+  {
+    "id": "unreal2",
+    "name": "Unreal II: The Awakening",
+    "description": "Story-driven sci-fi FPS sequel in the Unreal universe.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "tags": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "players": {
+      "min": 1,
+      "max": 16
+    },
+    "addedAt": "2026-02-19",
+    "updatedAt": "2026-02-19",
+    "media": {
+      "cover": "https://cdn2.steamgriddb.com/grid/e20f793e651635554511138a6d91965d.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/de594ef5c314372edec29b93cab9d72e.png",
+      "icon": "https://cdn2.steamgriddb.com/icon/9af045098a9f3886f936f8ad9d576d71.png"
+    },
+    "homepage": "https://oldunreal.com/downloads/unreal2/"
+  },
+  {
     "id": "0-a-d",
     "name": "0 A.D.",
     "description": "0 A.D. ist ein kostenloses, open-source Echtzeit-Strategiespiel von Wildfire Games, das sich in der Antike zwischen 500 v. Chr.  und 1 n. Chr. abspielt und den Aufbau einer Wirtschafts- und Kriegsproduktion zur Bekämpfung der Gegner mit historisch inspirierten Zivilisationen, realistischen Einheiten und ohne Magie bietet",
@@ -99,8 +161,7 @@
     ],
     "tags": [
       "Classic",
-      "Vehicles",
-      "Mods"
+      "Vehicles"
     ],
     "players": {
       "min": 1,
@@ -109,9 +170,9 @@
     "addedAt": "2026-02-16",
     "updatedAt": "2026-02-16",
     "media": {
-      "cover": "assets/img/placeholder-cover.svg",
-      "hero": "assets/img/placeholder-hero.svg",
-      "icon": "assets/img/placeholder-icon.svg"
+      "cover": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
+      "hero": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
+      "icon": "https://cdn2.unrealengine.com/ut-badge-tournament-2003-128x128-6a67dacd99ad.png"
     },
     "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
   },
@@ -130,8 +191,7 @@
     ],
     "tags": [
       "Classic",
-      "Arena",
-      "Mods"
+      "Arena"
     ],
     "players": {
       "min": 1,
@@ -140,72 +200,10 @@
     "addedAt": "2026-02-15",
     "updatedAt": "2026-02-15",
     "media": {
-      "cover": "assets/img/placeholder-cover.svg",
-      "hero": "assets/img/placeholder-hero.svg",
-      "icon": "assets/img/placeholder-icon.svg"
+      "cover": "https://oldunreal.com/site/assets/files/1040/liandri.jpg",
+      "hero": "https://oldunreal.com/site/assets/files/1040/liandri.jpg",
+      "icon": "https://cdn2.unrealengine.com/ut-badge-gold-161x160-ecbb9adf06da.png"
     },
     "homepage": "https://oldunreal.com/downloads/unrealtournament/"
-  },
-  {
-    "id": "renegade-x",
-    "name": "Renegade X",
-    "description": "Fan-made FPS/RTS hybrid in the C&C universe.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "categories": [
-      "Multiplayer",
-      "Teamplay",
-      "Sci-Fi"
-    ],
-    "tags": [
-      "Multiplayer",
-      "Teamplay",
-      "Sci-Fi"
-    ],
-    "players": {
-      "min": 8,
-      "max": 64
-    },
-    "addedAt": "2026-02-15",
-    "updatedAt": "2026-02-15",
-    "media": {
-      "cover": "assets/img/placeholder-cover.svg",
-      "hero": "assets/img/placeholder-hero.svg",
-      "icon": "assets/img/placeholder-icon.svg"
-    },
-    "homepage": "https://totemarts.games/games/renegade-x/"
-  },
-  {
-    "id": "supertuxkart",
-    "name": "SuperTuxKart",
-    "description": "Open-source kart racer packed with tracks and modes.",
-    "genres": [
-      "Racing",
-      "Party"
-    ],
-    "categories": [
-      "Open Source",
-      "Split-Screen",
-      "Family"
-    ],
-    "tags": [
-      "Open Source",
-      "Split-Screen",
-      "Family"
-    ],
-    "players": {
-      "min": 1,
-      "max": 8
-    },
-    "addedAt": "2026-02-14",
-    "updatedAt": "2026-02-16",
-    "media": {
-      "cover": "https://supertuxkart.net/assets/images/header.jpg",
-      "hero": "https://supertuxkart.net/assets/images/header.jpg",
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/3/37/Logo_de_SuperTuxKart.png"
-    },
-    "homepage": "https://supertuxkart.net/Main_Page"
   }
 ]
