@@ -35,6 +35,8 @@ const renderFilterOptions = (wrap, values, key, emptyText) => {
     const label = document.createElement('label');
     label.className = 'badge';
     label.style.cursor = 'pointer';
+    label.style.display = 'block';
+    label.style.width = '100%';
 
     const input = document.createElement('input');
     input.type = 'checkbox';
