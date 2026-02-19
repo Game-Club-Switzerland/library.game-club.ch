@@ -11,6 +11,10 @@
       "RTS",
       "Multiplayer"
     ],
+    "tags": [
+      "RTS",
+      "Multiplayer"
+    ],
     "players": {
       "min": 1,
       "max": 20
@@ -23,11 +27,7 @@
       "icon": "https://upload.wikimedia.org/wikipedia/commons/9/99/0_A.D._logo.svg"
     },
     "homepage": "https://play0ad.com/",
-    "steam": null,
-    "tags": [
-      "RTS",
-      "Multiplayer"
-    ]
+    "steam": null
   },
   {
     "id": "rocket-league",
@@ -62,6 +62,10 @@
       "Remote Play Together",
       "Family Sharing"
     ],
+    "tags": [
+      "Racing",
+      "Multiplayer"
+    ],
     "players": {
       "min": 1,
       "max": 8
@@ -78,30 +82,7 @@
       "appid": 252950,
       "steamdb": "https://steamdb.info/app/252950/",
       "store": "https://store.steampowered.com/app/252950/"
-    },
-    "tags": [
-      "Single-player",
-      "Multi-player",
-      "PvP",
-      "Online PvP",
-      "Shared/Split Screen PvP",
-      "Co-op",
-      "Online Co-op",
-      "Shared/Split Screen Co-op",
-      "Shared/Split Screen",
-      "Cross-Platform Multiplayer",
-      "Steam Achievements",
-      "Steam Trading Cards",
-      "Steam Workshop",
-      "Partial Controller Support",
-      "Steam Cloud",
-      "Stats",
-      "Remote Play on Phone",
-      "Remote Play on Tablet",
-      "Remote Play on TV",
-      "Remote Play Together",
-      "Family Sharing"
-    ]
+    }
   },
   {
     "id": "unreal-tournament-2004",
@@ -112,6 +93,11 @@
       "Shooter"
     ],
     "categories": [
+      "Classic",
+      "Vehicles",
+      "Mods"
+    ],
+    "tags": [
       "Classic",
       "Vehicles",
       "Mods"
@@ -127,12 +113,7 @@
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
     },
-    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/",
-    "tags": [
-      "Classic",
-      "Vehicles",
-      "Mods"
-    ]
+    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
   },
   {
     "id": "unreal-tournament",
@@ -143,6 +124,11 @@
       "Shooter"
     ],
     "categories": [
+      "Classic",
+      "Arena",
+      "Mods"
+    ],
+    "tags": [
       "Classic",
       "Arena",
       "Mods"
@@ -158,12 +144,7 @@
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
     },
-    "homepage": "https://oldunreal.com/downloads/unrealtournament/",
-    "tags": [
-      "Classic",
-      "Arena",
-      "Mods"
-    ]
+    "homepage": "https://oldunreal.com/downloads/unrealtournament/"
   },
   {
     "id": "renegade-x",
@@ -174,6 +155,11 @@
       "Shooter"
     ],
     "categories": [
+      "Multiplayer",
+      "Teamplay",
+      "Sci-Fi"
+    ],
+    "tags": [
       "Multiplayer",
       "Teamplay",
       "Sci-Fi"
@@ -189,12 +175,7 @@
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
     },
-    "homepage": "https://totemarts.games/games/renegade-x/",
-    "tags": [
-      "Multiplayer",
-      "Teamplay",
-      "Sci-Fi"
-    ]
+    "homepage": "https://totemarts.games/games/renegade-x/"
   },
   {
     "id": "supertuxkart",
@@ -205,6 +186,11 @@
       "Party"
     ],
     "categories": [
+      "Open Source",
+      "Split-Screen",
+      "Family"
+    ],
+    "tags": [
       "Open Source",
       "Split-Screen",
       "Family"
@@ -220,11 +206,6 @@
       "hero": "https://supertuxkart.net/assets/images/header.jpg",
       "icon": "https://upload.wikimedia.org/wikipedia/commons/3/37/Logo_de_SuperTuxKart.png"
     },
-    "homepage": "https://supertuxkart.net/Main_Page",
-    "tags": [
-      "Open Source",
-      "Split-Screen",
-      "Family"
-    ]
+    "homepage": "https://supertuxkart.net/Main_Page"
   }
 ]
