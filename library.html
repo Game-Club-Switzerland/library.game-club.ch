@@ -22,52 +22,54 @@
     </header>
 
     <main class="container section">
-      <div class="panel">
-        <div class="filters">
-          <input type="search" placeholder="Suche nach Titel" data-search />
-          <select data-genre>
-            <option value="">Alle Genres</option>
-          </select>
-          <select data-players>
-            <option value="">Alle Player</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-          </select>
+      <div class="library-layout">
+        <div class="panel library-filters">
+          <div class="filters">
+            <input type="search" placeholder="Suche nach Titel" data-search />
+            <select data-genre>
+              <option value="">Alle Genres</option>
+            </select>
+            <select data-players>
+              <option value="">Alle Player</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+          </div>
+          <div class="filter-group" style="margin-top:12px">
+            <div class="filter-group-title">Categories</div>
+            <div data-categories class="badges"></div>
+          </div>
+          <div class="filter-group" style="margin-top:12px">
+            <div class="filter-group-title">Tags</div>
+            <div data-tags class="badges"></div>
+          </div>
         </div>
-        <div class="filter-group" style="margin-top:12px">
-          <div class="filter-group-title">Categories</div>
-          <div data-categories class="badges"></div>
-        </div>
-        <div class="filter-group" style="margin-top:12px">
-          <div class="filter-group-title">Tags</div>
-          <div data-tags class="badges"></div>
-        </div>
-      </div>
 
-      <div class="section">
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Game</th>
-              <th>Genre</th>
-              <th>Player</th>
-              <th>Categories</th>
-              <th>Tags</th>
-              <th>Updated</th>
-            </tr>
-          </thead>
-          <tbody data-library-body></tbody>
-        </table>
+        <div class="library-table">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Game</th>
+                <th>Genre</th>
+                <th>Player</th>
+                <th>Categories</th>
+                <th>Tags</th>
+                <th>Updated</th>
+              </tr>
+            </thead>
+            <tbody data-library-body></tbody>
+          </table>
+        </div>
       </div>
     </main>
 

@@ -4,35 +4,63 @@ const genreSelect = GameLibrary.qs('[data-genre]');
 const playersSelect = GameLibrary.qs('[data-players]');
 const categoriesWrap = GameLibrary.qs('[data-categories]');
 const tagsWrap = GameLibrary.qs('[data-tags]');
+const FILTER_OPTION_LIMIT = 10;
+const expandedFilterOptions = {
+  categories: false,
+  tags: false,
+};
 
 let allGames = [];
 
 const normalize = (value) => value.toLowerCase();
 
-const renderCategories = (categories) => {
-  categoriesWrap.innerHTML = '';
-  categories.forEach((category) => {
+const getCheckedValues = (wrap) =>
+  GameLibrary.qsa('input[type="checkbox"]:checked', wrap).map((input) => input.value);
+
+const renderFilterOptions = (wrap, values, key) => {
+  const selectedValues = new Set(getCheckedValues(wrap));
+  const isExpanded = expandedFilterOptions[key];
+  const visibleValues =
+    !isExpanded && values.length > FILTER_OPTION_LIMIT
+      ? values.slice(0, FILTER_OPTION_LIMIT)
+      : values;
+
+  wrap.innerHTML = '';
+  visibleValues.forEach((value) => {
     const label = document.createElement('label');
     label.className = 'badge';
     label.style.cursor = 'pointer';
-    label.innerHTML = `
-      <input type="checkbox" value="${category}" style="margin-right:6px" />${category}
-    `;
-    categoriesWrap.appendChild(label);
+
+    const input = document.createElement('input');
+    input.type = 'checkbox';
+    input.value = value;
+    input.style.marginRight = '6px';
+    input.checked = selectedValues.has(value);
+
+    label.appendChild(input);
+    label.append(value);
+    wrap.appendChild(label);
   });
+
+  if (values.length > FILTER_OPTION_LIMIT) {
+    const toggleButton = document.createElement('button');
+    toggleButton.type = 'button';
+    toggleButton.className = 'filter-toggle-button';
+    toggleButton.textContent = isExpanded ? 'Weniger anzeigen' : 'Mehr anzeigen';
+    toggleButton.addEventListener('click', () => {
+      expandedFilterOptions[key] = !expandedFilterOptions[key];
+      renderFilterOptions(wrap, values, key);
+    });
+    wrap.appendChild(toggleButton);
+  }
+};
+
+const renderCategories = (categories) => {
+  renderFilterOptions(categoriesWrap, categories, 'categories');
 };
 
 const renderTags = (tags) => {
-  tagsWrap.innerHTML = '';
-  tags.forEach((tag) => {
-    const label = document.createElement('label');
-    label.className = 'badge';
-    label.style.cursor = 'pointer';
-    label.innerHTML = `
-      <input type="checkbox" value="${tag}" style="margin-right:6px" />${tag}
-    `;
-    tagsWrap.appendChild(label);
-  });
+  renderFilterOptions(tagsWrap, tags, 'tags');
 };
 
 const renderRows = (games) => {
