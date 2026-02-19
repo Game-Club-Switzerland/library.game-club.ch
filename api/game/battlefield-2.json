@@ -1,0 +1,42 @@
+{
+  "id": "battlefield-2",
+  "name": "Battlefield 2",
+  "description": "Classic team-based tactical shooter with large-scale battles.",
+  "genres": [
+    "Action",
+    "Shooter"
+  ],
+  "categories": [
+    "Multiplayer",
+    "Tactical",
+    "War"
+  ],
+  "players": {
+    "min": 1,
+    "max": 64
+  },
+  "addedAt": "2026-02-19",
+  "updatedAt": "2026-02-19",
+  "homepage": "https://oldgamesdownload.com/battlefield-2-ttry/",
+  "downloads": {
+    "windows": "https://oldgamesdownload.com/battlefield-2-ttry/"
+  },
+  "links": {
+    "steamgriddb": "https://www.steamgriddb.com/game/2964"
+  },
+  "media": {
+    "cover": "https://cdn2.steamgriddb.com/grid/6fa77d8a28f18e84d21d2ca54366996e.png",
+    "hero": "https://cdn2.steamgriddb.com/hero/b10e210fcf2fe447a737438af5efffde.png",
+    "icon": "https://cdn2.steamgriddb.com/icon/e02a35b1563d0db53486ec068ebab80f.png",
+    "screenshots": [
+      "https://cdn2.steamgriddb.com/hero/fa52ea3dc8c987eed10d4a8319ba2a0d.png",
+      "https://cdn2.steamgriddb.com/hero/a8f7663d8762e5ccb139236a868ccaf0.png"
+    ],
+    "video": ""
+  },
+  "tags": [
+    "Multiplayer",
+    "Tactical",
+    "War"
+  ]
+}
