@@ -17,7 +17,14 @@
       "Sci-Fi",
       "Singleplayer"
     ],
+<<<<<<< HEAD
     "players": null,
+=======
+    "players": {
+      "min": 1,
+      "max": 16
+    },
+>>>>>>> ea5979a70aeb8cb0c1999215e62605c70acd72f4
     "addedAt": "2026-02-19",
     "updatedAt": "2026-02-19",
     "media": {
@@ -45,7 +52,14 @@
       "Sci-Fi",
       "Singleplayer"
     ],
+<<<<<<< HEAD
     "players": null,
+=======
+    "players": {
+      "min": 1,
+      "max": 16
+    },
+>>>>>>> ea5979a70aeb8cb0c1999215e62605c70acd72f4
     "addedAt": "2026-02-19",
     "updatedAt": "2026-02-19",
     "media": {
