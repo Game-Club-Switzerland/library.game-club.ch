@@ -267,6 +267,29 @@ img {
   justify-content: flex-start;
 }
 
+.filter-options .filter-option {
+  cursor: pointer;
+}
+
+.filter-options .filter-option input[type="checkbox"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.filter-options .filter-option.selected {
+  background: rgba(60, 192, 162, 0.3);
+  border-color: rgba(84, 224, 194, 0.8);
+  color: var(--text);
+}
+
 .filter-toggle-button {
   padding: 4px 10px;
   font-size: 0.8rem;

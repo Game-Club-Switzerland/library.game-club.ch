@@ -28,7 +28,7 @@ const renderFilterOptions = (wrap, values, key) => {
   wrap.innerHTML = '';
   visibleValues.forEach((value) => {
     const label = document.createElement('label');
-    label.className = 'badge';
+    label.className = 'badge filter-option';
     label.style.cursor = 'pointer';
     label.style.display = 'block';
     label.style.width = '100%';
@@ -36,8 +36,11 @@ const renderFilterOptions = (wrap, values, key) => {
     const input = document.createElement('input');
     input.type = 'checkbox';
     input.value = value;
-    input.style.marginRight = '6px';
     input.checked = selectedValues.has(value);
+
+    if (input.checked) {
+      label.classList.add('selected');
+    }
 
     label.appendChild(input);
     label.append(value);
