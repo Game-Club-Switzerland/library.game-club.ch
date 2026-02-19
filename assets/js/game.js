@@ -13,7 +13,7 @@ const renderGame = (game) => {
         <h2>${game.name}</h2>
         <p class="card-meta">${game.description}</p>
         <div class="badges">
-          ${game.tags.map((tag) => `<span class="badge">${tag}</span>`).join('')}
+          ${(game.categories ?? []).map((category) => `<span class="badge">${category}</span>`).join('')}
         </div>
         <div class="gallery">
           ${game.media.screenshots.map((src) => `<img src="${src}" alt="${game.name} screenshot" loading="lazy" />`).join('')}

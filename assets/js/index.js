@@ -11,7 +11,7 @@ const renderCard = (game) => {
       <h4 class="card-title">${game.name}</h4>
       <div class="card-meta">${game.genres.join(' / ')}</div>
       <div class="badges">
-        ${game.tags.slice(0, 3).map((tag) => `<span class="badge">${tag}</span>`).join('')}
+        ${(game.categories ?? []).slice(0, 3).map((category) => `<span class="badge">${category}</span>`).join('')}
       </div>
     </div>
   `;
@@ -32,7 +32,7 @@ GameLibrary.fetchGames()
           <h4 class="card-title">${game.name}</h4>
           <p class="card-meta">${game.description}</p>
           <div class="badges">
-            ${game.tags.slice(0, 4).map((tag) => `<span class="badge">${tag}</span>`).join('')}
+            ${(game.categories ?? []).slice(0, 4).map((category) => `<span class="badge">${category}</span>`).join('')}
           </div>
         </div>
       `;

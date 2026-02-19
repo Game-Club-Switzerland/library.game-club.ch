@@ -7,7 +7,7 @@
       "Strategy",
       "RTS"
     ],
-    "tags": [
+    "categories": [
       "RTS",
       "Multiplayer"
     ],
@@ -35,7 +35,7 @@
       "Racing",
       "Sports"
     ],
-    "tags": [
+    "categories": [
       "Single-player",
       "Multi-player",
       "PvP",
@@ -84,7 +84,7 @@
       "Action",
       "Shooter"
     ],
-    "tags": [
+    "categories": [
       "Classic",
       "Vehicles",
       "Mods"
@@ -110,7 +110,7 @@
       "Action",
       "Shooter"
     ],
-    "tags": [
+    "categories": [
       "Classic",
       "Arena",
       "Mods"
@@ -136,7 +136,7 @@
       "Action",
       "Shooter"
     ],
-    "tags": [
+    "categories": [
       "Multiplayer",
       "Teamplay",
       "Sci-Fi"
@@ -162,7 +162,7 @@
       "Racing",
       "Party"
     ],
-    "tags": [
+    "categories": [
       "Open Source",
       "Split-Screen",
       "Family"

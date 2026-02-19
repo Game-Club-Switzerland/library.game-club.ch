@@ -2,22 +2,22 @@ const listBody = GameLibrary.qs('[data-library-body]');
 const searchInput = GameLibrary.qs('[data-search]');
 const genreSelect = GameLibrary.qs('[data-genre]');
 const playersSelect = GameLibrary.qs('[data-players]');
-const tagsWrap = GameLibrary.qs('[data-tags]');
+const categoriesWrap = GameLibrary.qs('[data-categories]');
 
 let allGames = [];
 
 const normalize = (value) => value.toLowerCase();
 
-const renderTags = (tags) => {
-  tagsWrap.innerHTML = '';
-  tags.forEach((tag) => {
+const renderCategories = (categories) => {
+  categoriesWrap.innerHTML = '';
+  categories.forEach((category) => {
     const label = document.createElement('label');
     label.className = 'badge';
     label.style.cursor = 'pointer';
     label.innerHTML = `
-      <input type="checkbox" value="${tag}" style="margin-right:6px" />${tag}
+      <input type="checkbox" value="${category}" style="margin-right:6px" />${category}
     `;
-    tagsWrap.appendChild(label);
+    categoriesWrap.appendChild(label);
   });
 };
 
@@ -34,7 +34,7 @@ const renderRows = (games) => {
       </td>
       <td>${game.genres.join(', ')}</td>
       <td>${GameLibrary.formatPlayers(game.players)}</td>
-      <td>${game.tags.slice(0, 4).join(', ')}</td>
+      <td>${(game.categories ?? []).slice(0, 4).join(', ')}</td>
       <td>${game.updatedAt}</td>
     `;
     listBody.appendChild(row);
@@ -45,7 +45,7 @@ const applyFilters = () => {
   const term = normalize(searchInput.value.trim());
   const genre = genreSelect.value;
   const players = playersSelect.value;
-  const selectedTags = GameLibrary.qsa('input[type="checkbox"]:checked', tagsWrap).map((input) => input.value);
+  const selectedCategories = GameLibrary.qsa('input[type="checkbox"]:checked', categoriesWrap).map((input) => input.value);
 
   let result = allGames.filter((game) => {
     if (term && !normalize(game.name).includes(term)) return false;
@@ -57,8 +57,9 @@ const applyFilters = () => {
       if (Number.isNaN(selectedPlayers)) return false;
       if (selectedPlayers < min || selectedPlayers > max) return false;
     }
-    if (selectedTags.length) {
-      return selectedTags.every((tag) => game.tags.includes(tag));
+    if (selectedCategories.length) {
+      const gameCategories = game.categories ?? [];
+      return selectedCategories.every((category) => gameCategories.includes(category));
     }
     return true;
   });
@@ -68,10 +69,10 @@ const applyFilters = () => {
 
 const initFilters = (games) => {
   const genres = new Set();
-  const tags = new Set();
+  const categories = new Set();
   games.forEach((game) => {
     game.genres.forEach((genre) => genres.add(genre));
-    game.tags.forEach((tag) => tags.add(tag));
+    (game.categories ?? []).forEach((category) => categories.add(category));
   });
 
   genreSelect.innerHTML = '<option value="">Alle Genres</option>';
@@ -82,14 +83,14 @@ const initFilters = (games) => {
     genreSelect.appendChild(option);
   });
 
-  renderTags(Array.from(tags).sort());
+  renderCategories(Array.from(categories).sort());
 
   [searchInput, genreSelect, playersSelect].forEach((el) => {
     el.addEventListener('input', applyFilters);
     el.addEventListener('change', applyFilters);
   });
 
-  tagsWrap.addEventListener('change', applyFilters);
+  categoriesWrap.addEventListener('change', applyFilters);
 };
 
 GameLibrary.fetchGames()

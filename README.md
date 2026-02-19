@@ -35,7 +35,7 @@ Static webapp for library.game-club.ch with SteamDB-like styling. Data is served
 - Sticky header with Game Club logo and navigation
 - Hero card with featured game
 - Card grid for latest games
-- Filters panel (search, genre, players, tags)
+- Filters panel (search, genre, players, categories)
 - SteamDB-style table view
 - Detail layout with media gallery and link list
 - Random picker result card
@@ -50,7 +50,7 @@ Every game entry uses the same core schema. `id` is used for routing and the API
   "name": "FlatOut 2",
   "description": "Arcade racing chaos.",
   "genres": ["Racing", "Action"],
-  "tags": ["Arcade", "Destruction"],
+  "categories": ["Arcade", "Destruction"],
   "players": {"min": 1, "max": 4},
   "addedAt": "2026-02-10",
   "updatedAt": "2026-02-16",
@@ -86,7 +86,7 @@ Every game entry uses the same core schema. `id` is used for routing and the API
     "name": "FlatOut 2",
     "description": "Arcade racing chaos with crash physics and split-screen action.",
     "genres": ["Racing", "Action"],
-    "tags": ["Arcade", "Destruction", "Split-Screen"],
+    "categories": ["Arcade", "Destruction", "Split-Screen"],
     "players": {"min": 1, "max": 4},
     "addedAt": "2026-02-10",
     "updatedAt": "2026-02-16",
@@ -112,7 +112,7 @@ Create or update a discussion in category Game. Add a JSON block in the body:
   "name": "My Game",
   "description": "Short summary.",
   "genres": ["Strategy"],
-  "tags": ["Coop", "LAN"],
+  "categories": ["Coop", "LAN"],
   "players": {"min": 2, "max": 8},
   "steamAppId": 123456,
   "homepage": "https://example.com",
@@ -125,7 +125,7 @@ Create or update a discussion in category Game. Add a JSON block in the body:
 }
 ```
 
-If `steamAppId` is present, the build script auto-fills SteamDB links and fetches `header_image`, `short_description`, `capsule_image`, `website`, `categories` (mapped to `tags`), `genres`, `screenshots`, and `movies` from Steam appdetails.
+If `steamAppId` is present, the build script auto-fills SteamDB links and fetches `header_image`, `short_description`, `capsule_image`, `website`, `categories`, `genres`, `screenshots`, and `movies` from Steam appdetails.
 
 ## GitHub Actions workflow sketch
 

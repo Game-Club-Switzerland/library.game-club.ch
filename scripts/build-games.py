@@ -190,6 +190,25 @@ def has_non_empty_items(values) -> bool:
     )
 
 
+def normalize_categories(game: dict) -> dict:
+    categories_value = game.get('categories')
+    if not has_non_empty_items(categories_value):
+        categories_value = game.get('tags')
+
+    categories = []
+    if isinstance(categories_value, list):
+        categories = [
+            item.strip()
+            for item in categories_value
+            if isinstance(item, str) and item.strip()
+        ]
+
+    normalized_game = dict(game)
+    normalized_game['categories'] = categories
+    normalized_game.pop('tags', None)
+    return normalized_game
+
+
 def is_placeholder_asset(value) -> bool:
     return isinstance(value, str) and value.strip().startswith('assets/img/placeholder-')
 
@@ -205,9 +224,10 @@ def has_meaningful_screenshots(values) -> bool:
 
 
 def normalize_media_with_steam(game: dict) -> dict:
-    steam_app_id = extract_steam_app_id(game)
+    normalized_game = normalize_categories(game)
+    steam_app_id = extract_steam_app_id(normalized_game)
     if not steam_app_id:
-        return game
+        return normalized_game
 
     steam_media = build_steam_media(steam_app_id)
     steam_details = fetch_steam_app_details(steam_app_id)
@@ -221,12 +241,18 @@ def normalize_media_with_steam(game: dict) -> dict:
     )
     steam_video = extract_steam_movie_url(steam_details.get('movies')) if isinstance(steam_details, dict) else ''
 
-    payload_media = game.get('media') if isinstance(game.get('media'), dict) else {}
+    payload_media = (
+        normalized_game.get('media')
+        if isinstance(normalized_game.get('media'), dict)
+        else {}
+    )
     payload_screenshots = payload_media.get('screenshots')
     payload_video = payload_media.get('video')
-    payload_movies_video = extract_movie_url(payload_media.get('movies') or game.get('movies'))
+    payload_movies_video = extract_movie_url(
+        payload_media.get('movies') or normalized_game.get('movies')
+    )
 
-    normalized_game = dict(game)
+    normalized_game = dict(normalized_game)
     normalized_game['media'] = {
         'cover': payload_media.get('cover') if has_meaningful_media_value(payload_media.get('cover')) else (steam_header_image or steam_media.get('cover') or 'assets/img/placeholder-cover.svg'),
         'hero': payload_media.get('hero') if has_meaningful_media_value(payload_media.get('hero')) else (steam_media.get('hero') or 'assets/img/placeholder-hero.svg'),
@@ -367,7 +393,7 @@ def build_game(discussion: dict):
         'name': payload.get('name') or discussion.get('title', ''),
         'description': steam_short_description or payload.get('description') or '',
         'genres': steam_genres or payload.get('genres') or [],
-        'tags': steam_categories or payload.get('tags') or [],
+        'categories': steam_categories or payload.get('categories') or payload.get('tags') or [],
         'players': payload.get('players') or {'min': 1, 'max': 1},
         'addedAt': payload.get('addedAt') or (discussion.get('createdAt', '')[:10]),
         'updatedAt': (discussion.get('updatedAt', '')[:10]),
@@ -378,7 +404,7 @@ def build_game(discussion: dict):
         'media': media,
     }
 
-    return normalize_media_with_steam(game)
+    return normalize_media_with_steam(normalize_categories(game))
 
 
 def main() -> None:
@@ -392,7 +418,7 @@ def main() -> None:
     for game in discussion_games:
         game_map[game['id']] = game
 
-    normalized_games = [normalize_media_with_steam(game) for game in game_map.values()]
+    normalized_games = [normalize_media_with_steam(normalize_categories(game)) for game in game_map.values()]
     games = sorted(normalized_games, key=get_updated_timestamp, reverse=True)
 
     if not games:
@@ -406,7 +432,7 @@ def main() -> None:
             'name': game.get('name'),
             'description': game.get('description'),
             'genres': game.get('genres'),
-            'tags': game.get('tags'),
+            'categories': game.get('categories'),
             'players': game.get('players'),
             'addedAt': game.get('addedAt'),
             'updatedAt': game.get('updatedAt'),

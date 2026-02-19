@@ -28,9 +28,26 @@ const GameLibrary = (() => {
     return response.json();
   };
 
-  const fetchGames = () => fetchJson(`${API_BASE}/games.json`);
+  const normalizeGameCategories = (game) => {
+    const categories = Array.isArray(game?.categories)
+      ? game.categories
+      : (Array.isArray(game?.tags) ? game.tags : []);
 
-  const fetchGame = (id) => fetchJson(`${API_BASE}/game/${id}.json`);
+    return {
+      ...game,
+      categories,
+    };
+  };
+
+  const fetchGames = async () => {
+    const games = await fetchJson(`${API_BASE}/games.json`);
+    return Array.isArray(games) ? games.map(normalizeGameCategories) : [];
+  };
+
+  const fetchGame = async (id) => {
+    const game = await fetchJson(`${API_BASE}/game/${id}.json`);
+    return normalizeGameCategories(game);
+  };
 
   return {
     qs,
