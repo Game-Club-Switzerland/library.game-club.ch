@@ -22,13 +22,16 @@
     "windows": "https://www.openra.net/",
     "linux": "https://www.openra.net/"
   },
+  "links": {
+    "steamgriddb": "https://www.steamgriddb.com/game/5284111"
+  },
   "media": {
-    "cover": "assets/img/placeholder-cover.svg",
-    "hero": "assets/img/placeholder-hero.svg",
-    "icon": "assets/img/placeholder-icon.svg",
+    "cover": "https://cdn2.steamgriddb.com/grid/cd9d009b1a6ee8cad69a3a3ebdafc0fb-fakepng.png",
+    "hero": "https://cdn2.steamgriddb.com/hero/fd4d562ce919ef9c26c8662ba91ab856.png",
+    "icon": "https://cdn2.steamgriddb.com/icon/7b41bfa5085806dfa24b8c9de0ce567f.png",
     "screenshots": [
-      "assets/img/placeholder-cover.svg",
-      "assets/img/placeholder-cover.svg"
+      "https://cdn2.steamgriddb.com/hero/b7d38a06204e4e1ed8b8810ddcd45d3d.png",
+      "https://cdn2.steamgriddb.com/hero/7af79e7cd2aeb009a51b6a421d8cb970.png"
     ],
     "video": ""
   },

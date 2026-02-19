@@ -22,13 +22,16 @@
     "windows": "https://totemarts.games/games/renegade-x/",
     "linux": "https://totemarts.games/games/renegade-x/"
   },
+  "links": {
+    "steamgriddb": "https://www.steamgriddb.com/game/5262711"
+  },
   "media": {
-    "cover": "assets/img/placeholder-cover.svg",
-    "hero": "assets/img/placeholder-hero.svg",
-    "icon": "assets/img/placeholder-icon.svg",
+    "cover": "https://cdn2.steamgriddb.com/grid/7276b4e634704d0a4149c2055fe6b2ca.png",
+    "hero": "https://cdn2.steamgriddb.com/hero/f8327b26a178ba557a59ace3378c2f95.png",
+    "icon": "https://cdn2.steamgriddb.com/icon/67d92f9a027b3aceaed819addd130ee0.png",
     "screenshots": [
-      "assets/img/placeholder-cover.svg",
-      "assets/img/placeholder-cover.svg"
+      "https://cdn2.steamgriddb.com/hero/89b11213b1e5512a69ae715e1f910aef.png",
+      "https://cdn2.steamgriddb.com/hero/2c7f99822c544e932ff26ee3885a9e00.png"
     ],
     "video": ""
   },
