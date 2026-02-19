@@ -17,14 +17,7 @@
       "Sci-Fi",
       "Singleplayer"
     ],
-<<<<<<< HEAD
     "players": null,
-=======
-    "players": {
-      "min": 1,
-      "max": 16
-    },
->>>>>>> ea5979a70aeb8cb0c1999215e62605c70acd72f4
     "addedAt": "2026-02-19",
     "updatedAt": "2026-02-19",
     "media": {
@@ -52,14 +45,7 @@
       "Sci-Fi",
       "Singleplayer"
     ],
-<<<<<<< HEAD
     "players": null,
-=======
-    "players": {
-      "min": 1,
-      "max": 16
-    },
->>>>>>> ea5979a70aeb8cb0c1999215e62605c70acd72f4
     "addedAt": "2026-02-19",
     "updatedAt": "2026-02-19",
     "media": {
@@ -92,11 +78,12 @@
     "addedAt": "2026-02-17",
     "updatedAt": "2026-02-18",
     "media": {
-      "cover": "https://cdn2.steamgriddb.com/grid/4f315989358cc0f3f7869f569887743d.png",
-      "hero": "https://cdn2.steamgriddb.com/hero/5fd28170bd0b91d09f02ae9983bc67e6.png",
-      "icon": "https://cdn2.steamgriddb.com/icon/bf15fc6473a38b79c0a233e9c6581775.png"
+      "cover": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
+      "hero": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/9/99/0_A.D._logo.svg"
     },
-    "homepage": "https://play0ad.com/"
+    "homepage": "https://play0ad.com/",
+    "steam": null
   },
   {
     "id": "rocket-league",
