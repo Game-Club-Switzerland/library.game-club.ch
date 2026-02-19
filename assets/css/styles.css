@@ -252,6 +252,21 @@ img {
   margin-bottom: 8px;
 }
 
+.badges.filter-options {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 6px;
+}
+
+.filter-options .badge,
+.filter-options .filter-toggle-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
 .filter-toggle-button {
   padding: 4px 10px;
   font-size: 0.8rem;
