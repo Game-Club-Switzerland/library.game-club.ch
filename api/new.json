@@ -171,34 +171,33 @@
     "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
   },
   {
-    "id": "renegade-x",
-    "name": "Renegade X",
-    "description": "Fan-made FPS/RTS hybrid in the C&C universe.",
+    "id": "unreal-tournament",
+    "name": "Unreal Tournament",
+    "description": "Arena shooter classic with fast movement and mods.",
     "genres": [
       "Action",
       "Shooter"
     ],
     "categories": [
-      "Multiplayer",
-      "Teamplay",
-      "Sci-Fi"
+      "Classic",
+      "Arena",
+      "Mods"
     ],
     "tags": [
-      "Multiplayer",
-      "Teamplay",
-      "Sci-Fi"
+      "Classic",
+      "Arena"
     ],
     "players": {
-      "min": 8,
-      "max": 64
+      "min": 1,
+      "max": 16
     },
     "addedAt": "2026-02-15",
     "updatedAt": "2026-02-15",
     "media": {
-      "cover": "https://cdn2.steamgriddb.com/grid/7276b4e634704d0a4149c2055fe6b2ca.png",
-      "hero": "https://cdn2.steamgriddb.com/hero/f8327b26a178ba557a59ace3378c2f95.png",
-      "icon": "https://cdn2.steamgriddb.com/icon/67d92f9a027b3aceaed819addd130ee0.png"
+      "cover": "https://oldunreal.com/site/assets/files/1040/liandri.jpg",
+      "hero": "https://oldunreal.com/site/assets/files/1040/liandri.jpg",
+      "icon": "https://cdn2.unrealengine.com/ut-badge-gold-161x160-ecbb9adf06da.png"
     },
-    "homepage": "https://totemarts.games/games/renegade-x/"
+    "homepage": "https://oldunreal.com/downloads/unrealtournament/"
   }
 ]
