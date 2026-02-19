@@ -233,11 +233,14 @@ img {
 }
 
 .library-filters {
+  grid-column: 1;
   position: sticky;
   top: 92px;
 }
 
 .library-table {
+  grid-column: 2;
+  min-width: 0;
   overflow-x: auto;
 }
 
@@ -421,11 +424,7 @@ button:hover {
   }
 
   .library-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .library-filters {
-    position: static;
+    grid-template-columns: 260px minmax(0, 1fr);
   }
 
   .nav {
