@@ -37,6 +37,7 @@ const renderFilterOptions = (wrap, values, key) => {
     input.type = 'checkbox';
     input.value = value;
     input.checked = selectedValues.has(value);
+    input.style.display = 'none';
 
     if (input.checked) {
       label.classList.add('selected');
@@ -45,6 +46,13 @@ const renderFilterOptions = (wrap, values, key) => {
     label.appendChild(input);
     label.append(value);
     wrap.appendChild(label);
+
+    label.addEventListener('click', (e) => {
+      e.preventDefault();
+      input.checked = !input.checked;
+      input.dispatchEvent(new Event('change', { bubbles: true }));
+      label.classList.toggle('selected', input.checked);
+    });
   });
 
   if (values.length > FILTER_OPTION_LIMIT) {
