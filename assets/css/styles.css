@@ -225,6 +225,14 @@ img {
   gap: 12px;
 }
 
+.filter-group-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+}
+
 input,
 select,
 button {
