@@ -23,7 +23,11 @@
       "icon": "https://upload.wikimedia.org/wikipedia/commons/9/99/0_A.D._logo.svg"
     },
     "homepage": "https://play0ad.com/",
-    "steam": null
+    "steam": null,
+    "tags": [
+      "RTS",
+      "Multiplayer"
+    ]
   },
   {
     "id": "rocket-league",
@@ -74,7 +78,30 @@
       "appid": 252950,
       "steamdb": "https://steamdb.info/app/252950/",
       "store": "https://store.steampowered.com/app/252950/"
-    }
+    },
+    "tags": [
+      "Single-player",
+      "Multi-player",
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP",
+      "Co-op",
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Shared/Split Screen",
+      "Cross-Platform Multiplayer",
+      "Steam Achievements",
+      "Steam Trading Cards",
+      "Steam Workshop",
+      "Partial Controller Support",
+      "Steam Cloud",
+      "Stats",
+      "Remote Play on Phone",
+      "Remote Play on Tablet",
+      "Remote Play on TV",
+      "Remote Play Together",
+      "Family Sharing"
+    ]
   },
   {
     "id": "unreal-tournament-2004",
@@ -100,7 +127,12 @@
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
     },
-    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
+    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/",
+    "tags": [
+      "Classic",
+      "Vehicles",
+      "Mods"
+    ]
   },
   {
     "id": "unreal-tournament",
@@ -126,7 +158,12 @@
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
     },
-    "homepage": "https://oldunreal.com/downloads/unrealtournament/"
+    "homepage": "https://oldunreal.com/downloads/unrealtournament/",
+    "tags": [
+      "Classic",
+      "Arena",
+      "Mods"
+    ]
   },
   {
     "id": "renegade-x",
@@ -152,7 +189,12 @@
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
     },
-    "homepage": "https://totemarts.games/games/renegade-x/"
+    "homepage": "https://totemarts.games/games/renegade-x/",
+    "tags": [
+      "Multiplayer",
+      "Teamplay",
+      "Sci-Fi"
+    ]
   },
   {
     "id": "supertuxkart",
@@ -178,6 +220,11 @@
       "hero": "https://supertuxkart.net/assets/images/header.jpg",
       "icon": "https://upload.wikimedia.org/wikipedia/commons/3/37/Logo_de_SuperTuxKart.png"
     },
-    "homepage": "https://supertuxkart.net/Main_Page"
+    "homepage": "https://supertuxkart.net/Main_Page",
+    "tags": [
+      "Open Source",
+      "Split-Screen",
+      "Family"
+    ]
   }
 ]

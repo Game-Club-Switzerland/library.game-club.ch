@@ -41,5 +41,10 @@
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223810/ss_1aa195523297a334fe43434b5e916cafa4b8a930.1920x1080.jpg?t=1700249227"
     ],
     "video": "https://video.akamai.steamstatic.com/store_trailers/2223810/517444/fc6b87e400167c936e64ee14814bc34a879290ed/1751092212/hls_264_master.m3u8?t=1669654628"
-  }
+  },
+  "tags": [
+    "Turn-Based",
+    "Multiplayer",
+    "Open Source"
+  ]
 }

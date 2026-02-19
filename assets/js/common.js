@@ -28,14 +28,26 @@ const GameLibrary = (() => {
     return response.json();
   };
 
+  const cleanStringList = (values) => {
+    if (!Array.isArray(values)) return [];
+    return values
+      .filter((value) => typeof value === 'string')
+      .map((value) => value.trim())
+      .filter(Boolean);
+  };
+
   const normalizeGameCategories = (game) => {
-    const categories = Array.isArray(game?.categories)
-      ? game.categories
-      : (Array.isArray(game?.tags) ? game.tags : []);
+    const categories = cleanStringList(
+      Array.isArray(game?.categories) ? game.categories : game?.tags
+    );
+    const tags = cleanStringList(
+      Array.isArray(game?.tags) ? game.tags : categories
+    );
 
     return {
       ...game,
       categories,
+      tags,
     };
   };
 

@@ -39,5 +39,10 @@
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/380840/ss_4186fd623ac73522798fd5dd207b13172a421f33.1920x1080.jpg?t=1578354106"
     ],
     "video": "https://video.akamai.steamstatic.com/store_trailers/380840/41166/46a0338174a89df2912940f669cfa48ff097aaa6/1751273117/hls_264_master.m3u8?t=1447377581"
-  }
+  },
+  "tags": [
+    "2D",
+    "Multiplayer",
+    "Open Source"
+  ]
 }

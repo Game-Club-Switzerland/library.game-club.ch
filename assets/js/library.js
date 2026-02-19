@@ -3,6 +3,7 @@ const searchInput = GameLibrary.qs('[data-search]');
 const genreSelect = GameLibrary.qs('[data-genre]');
 const playersSelect = GameLibrary.qs('[data-players]');
 const categoriesWrap = GameLibrary.qs('[data-categories]');
+const tagsWrap = GameLibrary.qs('[data-tags]');
 
 let allGames = [];
 
@@ -21,6 +22,19 @@ const renderCategories = (categories) => {
   });
 };
 
+const renderTags = (tags) => {
+  tagsWrap.innerHTML = '';
+  tags.forEach((tag) => {
+    const label = document.createElement('label');
+    label.className = 'badge';
+    label.style.cursor = 'pointer';
+    label.innerHTML = `
+      <input type="checkbox" value="${tag}" style="margin-right:6px" />${tag}
+    `;
+    tagsWrap.appendChild(label);
+  });
+};
+
 const renderRows = (games) => {
   listBody.innerHTML = '';
   games.forEach((game) => {
@@ -35,6 +49,7 @@ const renderRows = (games) => {
       <td>${game.genres.join(', ')}</td>
       <td>${GameLibrary.formatPlayers(game.players)}</td>
       <td>${(game.categories ?? []).slice(0, 4).join(', ')}</td>
+      <td>${(game.tags ?? []).slice(0, 4).join(', ')}</td>
       <td>${game.updatedAt}</td>
     `;
     listBody.appendChild(row);
@@ -46,6 +61,7 @@ const applyFilters = () => {
   const genre = genreSelect.value;
   const players = playersSelect.value;
   const selectedCategories = GameLibrary.qsa('input[type="checkbox"]:checked', categoriesWrap).map((input) => input.value);
+  const selectedTags = GameLibrary.qsa('input[type="checkbox"]:checked', tagsWrap).map((input) => input.value);
 
   let result = allGames.filter((game) => {
     if (term && !normalize(game.name).includes(term)) return false;
@@ -59,7 +75,15 @@ const applyFilters = () => {
     }
     if (selectedCategories.length) {
       const gameCategories = game.categories ?? [];
-      return selectedCategories.every((category) => gameCategories.includes(category));
+      if (!selectedCategories.every((category) => gameCategories.includes(category))) {
+        return false;
+      }
+    }
+    if (selectedTags.length) {
+      const gameTags = game.tags ?? [];
+      if (!selectedTags.every((tag) => gameTags.includes(tag))) {
+        return false;
+      }
     }
     return true;
   });
@@ -70,9 +94,11 @@ const applyFilters = () => {
 const initFilters = (games) => {
   const genres = new Set();
   const categories = new Set();
+  const tags = new Set();
   games.forEach((game) => {
     game.genres.forEach((genre) => genres.add(genre));
     (game.categories ?? []).forEach((category) => categories.add(category));
+    (game.tags ?? []).forEach((tag) => tags.add(tag));
   });
 
   genreSelect.innerHTML = '<option value="">Alle Genres</option>';
@@ -84,6 +110,7 @@ const initFilters = (games) => {
   });
 
   renderCategories(Array.from(categories).sort());
+  renderTags(Array.from(tags).sort());
 
   [searchInput, genreSelect, playersSelect].forEach((el) => {
     el.addEventListener('input', applyFilters);
@@ -91,6 +118,7 @@ const initFilters = (games) => {
   });
 
   categoriesWrap.addEventListener('change', applyFilters);
+  tagsWrap.addEventListener('change', applyFilters);
 };
 
 GameLibrary.fetchGames()
@@ -100,5 +128,5 @@ GameLibrary.fetchGames()
     renderRows(games);
   })
   .catch((error) => {
-    listBody.innerHTML = `<tr><td colspan="5">${error.message}</td></tr>`;
+    listBody.innerHTML = `<tr><td colspan="6">${error.message}</td></tr>`;
   });

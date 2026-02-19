@@ -195,6 +195,10 @@ def normalize_categories(game: dict) -> dict:
     if not has_non_empty_items(categories_value):
         categories_value = game.get('tags')
 
+    tags_value = game.get('tags')
+    if not has_non_empty_items(tags_value):
+        tags_value = categories_value
+
     categories = []
     if isinstance(categories_value, list):
         categories = [
@@ -203,9 +207,17 @@ def normalize_categories(game: dict) -> dict:
             if isinstance(item, str) and item.strip()
         ]
 
+    tags = []
+    if isinstance(tags_value, list):
+        tags = [
+            item.strip()
+            for item in tags_value
+            if isinstance(item, str) and item.strip()
+        ]
+
     normalized_game = dict(game)
     normalized_game['categories'] = categories
-    normalized_game.pop('tags', None)
+    normalized_game['tags'] = tags
     return normalized_game
 
 
@@ -394,6 +406,7 @@ def build_game(discussion: dict):
         'description': steam_short_description or payload.get('description') or '',
         'genres': steam_genres or payload.get('genres') or [],
         'categories': steam_categories or payload.get('categories') or payload.get('tags') or [],
+        'tags': payload.get('tags') or payload.get('categories') or steam_categories or [],
         'players': payload.get('players') or {'min': 1, 'max': 1},
         'addedAt': payload.get('addedAt') or (discussion.get('createdAt', '')[:10]),
         'updatedAt': (discussion.get('updatedAt', '')[:10]),
@@ -433,6 +446,7 @@ def main() -> None:
             'description': game.get('description'),
             'genres': game.get('genres'),
             'categories': game.get('categories'),
+            'tags': game.get('tags'),
             'players': game.get('players'),
             'addedAt': game.get('addedAt'),
             'updatedAt': game.get('updatedAt'),

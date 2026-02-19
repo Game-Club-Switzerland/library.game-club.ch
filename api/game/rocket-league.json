@@ -56,5 +56,28 @@
       "[assets/img/placeholder-cover.svg](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/448a46094a7f9eb3e856fb58dacfa64dae0b25d9/header_alt_assets_14.jpg?t=1765385510)"
     ],
     "video": "https://www.youtube.com/watch?v=SgSX3gOrj60"
-  }
+  },
+  "tags": [
+    "Single-player",
+    "Multi-player",
+    "PvP",
+    "Online PvP",
+    "Shared/Split Screen PvP",
+    "Co-op",
+    "Online Co-op",
+    "Shared/Split Screen Co-op",
+    "Shared/Split Screen",
+    "Cross-Platform Multiplayer",
+    "Steam Achievements",
+    "Steam Trading Cards",
+    "Steam Workshop",
+    "Partial Controller Support",
+    "Steam Cloud",
+    "Stats",
+    "Remote Play on Phone",
+    "Remote Play on Tablet",
+    "Remote Play on TV",
+    "Remote Play Together",
+    "Family Sharing"
+  ]
 }

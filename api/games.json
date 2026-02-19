@@ -23,7 +23,11 @@
       "icon": "https://upload.wikimedia.org/wikipedia/commons/9/99/0_A.D._logo.svg"
     },
     "homepage": "https://play0ad.com/",
-    "steam": null
+    "steam": null,
+    "tags": [
+      "RTS",
+      "Multiplayer"
+    ]
   },
   {
     "id": "rocket-league",
@@ -74,7 +78,30 @@
       "appid": 252950,
       "steamdb": "https://steamdb.info/app/252950/",
       "store": "https://store.steampowered.com/app/252950/"
-    }
+    },
+    "tags": [
+      "Single-player",
+      "Multi-player",
+      "PvP",
+      "Online PvP",
+      "Shared/Split Screen PvP",
+      "Co-op",
+      "Online Co-op",
+      "Shared/Split Screen Co-op",
+      "Shared/Split Screen",
+      "Cross-Platform Multiplayer",
+      "Steam Achievements",
+      "Steam Trading Cards",
+      "Steam Workshop",
+      "Partial Controller Support",
+      "Steam Cloud",
+      "Stats",
+      "Remote Play on Phone",
+      "Remote Play on Tablet",
+      "Remote Play on TV",
+      "Remote Play Together",
+      "Family Sharing"
+    ]
   },
   {
     "id": "unreal-tournament-2004",
@@ -100,7 +127,12 @@
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
     },
-    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
+    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/",
+    "tags": [
+      "Classic",
+      "Vehicles",
+      "Mods"
+    ]
   },
   {
     "id": "world-in-conflict",
@@ -130,7 +162,12 @@
       "appid": 21760,
       "steamdb": "https://steamdb.info/app/21760/",
       "store": "https://store.steampowered.com/app/21760/"
-    }
+    },
+    "tags": [
+      "Tactics",
+      "Cold War",
+      "Story"
+    ]
   },
   {
     "id": "supertuxkart",
@@ -156,7 +193,12 @@
       "hero": "https://supertuxkart.net/assets/images/header.jpg",
       "icon": "https://upload.wikimedia.org/wikipedia/commons/3/37/Logo_de_SuperTuxKart.png"
     },
-    "homepage": "https://supertuxkart.net/Main_Page"
+    "homepage": "https://supertuxkart.net/Main_Page",
+    "tags": [
+      "Open Source",
+      "Split-Screen",
+      "Family"
+    ]
   },
   {
     "id": "flatout-2",
@@ -186,7 +228,12 @@
       "appid": 2990,
       "steamdb": "https://steamdb.info/app/2990/",
       "store": "https://store.steampowered.com/app/2990/"
-    }
+    },
+    "tags": [
+      "Arcade",
+      "Destruction",
+      "Split-Screen"
+    ]
   },
   {
     "id": "beyond-all-reason",
@@ -212,7 +259,12 @@
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
     },
-    "homepage": "https://www.beyondallreason.info/"
+    "homepage": "https://www.beyondallreason.info/",
+    "tags": [
+      "Open Source",
+      "Multiplayer",
+      "Sci-Fi"
+    ]
   },
   {
     "id": "openra",
@@ -238,7 +290,12 @@
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
     },
-    "homepage": "https://www.openra.net/"
+    "homepage": "https://www.openra.net/",
+    "tags": [
+      "Open Source",
+      "Modding",
+      "Classic"
+    ]
   },
   {
     "id": "teeworlds",
@@ -269,7 +326,12 @@
       "appid": 380840,
       "steamdb": "https://steamdb.info/app/380840/",
       "store": "https://store.steampowered.com/app/380840/"
-    }
+    },
+    "tags": [
+      "2D",
+      "Multiplayer",
+      "Open Source"
+    ]
   },
   {
     "id": "unreal-tournament",
@@ -295,7 +357,12 @@
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
     },
-    "homepage": "https://oldunreal.com/downloads/unrealtournament/"
+    "homepage": "https://oldunreal.com/downloads/unrealtournament/",
+    "tags": [
+      "Classic",
+      "Arena",
+      "Mods"
+    ]
   },
   {
     "id": "hedgewars",
@@ -326,7 +393,12 @@
       "appid": 2223810,
       "steamdb": "https://steamdb.info/app/2223810/",
       "store": "https://store.steampowered.com/app/2223810"
-    }
+    },
+    "tags": [
+      "Turn-Based",
+      "Multiplayer",
+      "Open Source"
+    ]
   },
   {
     "id": "renegade-x",
@@ -352,7 +424,12 @@
       "hero": "assets/img/placeholder-hero.svg",
       "icon": "assets/img/placeholder-icon.svg"
     },
-    "homepage": "https://totemarts.games/games/renegade-x/"
+    "homepage": "https://totemarts.games/games/renegade-x/",
+    "tags": [
+      "Multiplayer",
+      "Teamplay",
+      "Sci-Fi"
+    ]
   },
   {
     "id": "soldat",
@@ -383,6 +460,11 @@
       "appid": 638490,
       "steamdb": "https://steamdb.info/app/638490/",
       "store": "https://store.steampowered.com/app/638490/"
-    }
+    },
+    "tags": [
+      "2D",
+      "Competitive",
+      "Community"
+    ]
   }
 ]
