@@ -1,43 +1,39 @@
 {
-	"id": "unreal2",
-	"name": "Unreal II: The Awakening",
-	"description": "Story-driven sci-fi FPS sequel in the Unreal universe.",
-	"genres": [
-		"Action",
-		"Shooter"
-	],
-	"categories": [
-		"Classic",
-		"Sci-Fi",
-		"Singleplayer"
-	],
-	"players": {
-		"min": 1,
-		"max": 16
-	},
-	"addedAt": "2026-02-19",
-	"updatedAt": "2026-02-19",
-	"homepage": "https://oldunreal.com/downloads/unreal2/",
-	"downloads": {
-		"windows": "https://oldunreal.com/downloads/unreal2/",
-		"linux": "https://oldunreal.com/downloads/unreal2/"
-	},
-	"links": {
-		"steamgriddb": "https://www.steamgriddb.com/game/1425"
-	},
-	"media": {
-		"cover": "https://cdn2.steamgriddb.com/grid/e20f793e651635554511138a6d91965d.png",
-		"hero": "https://cdn2.steamgriddb.com/hero/de594ef5c314372edec29b93cab9d72e.png",
-		"icon": "https://cdn2.steamgriddb.com/icon/9af045098a9f3886f936f8ad9d576d71.png",
-		"screenshots": [
-			"https://cdn2.steamgriddb.com/grid/3f0172a0a3a9c58206e413b3e5712354.png",
-			"https://cdn2.steamgriddb.com/grid/2a2ed09002606826d7a1eb9e7772d936.jpg"
-		],
-		"video": ""
-	},
-	"tags": [
-		"Classic",
-		"Sci-Fi",
-		"Singleplayer"
-	]
+  "id": "unreal2",
+  "name": "Unreal II: The Awakening",
+  "description": "Story-driven sci-fi FPS sequel in the Unreal universe.",
+  "genres": [
+    "Action",
+    "Shooter"
+  ],
+  "categories": [
+    "Classic",
+    "Sci-Fi",
+    "Singleplayer"
+  ],
+  "addedAt": "2026-02-19",
+  "updatedAt": "2026-02-19",
+  "homepage": "https://oldunreal.com/downloads/unreal2/",
+  "downloads": {
+    "windows": "https://oldunreal.com/downloads/unreal2/",
+    "linux": "https://oldunreal.com/downloads/unreal2/"
+  },
+  "links": {
+    "steamgriddb": "https://www.steamgriddb.com/game/1425"
+  },
+  "media": {
+    "cover": "https://cdn2.steamgriddb.com/grid/e20f793e651635554511138a6d91965d.png",
+    "hero": "https://cdn2.steamgriddb.com/hero/de594ef5c314372edec29b93cab9d72e.png",
+    "icon": "https://cdn2.steamgriddb.com/icon/9af045098a9f3886f936f8ad9d576d71.png",
+    "screenshots": [
+      "https://cdn2.steamgriddb.com/grid/3f0172a0a3a9c58206e413b3e5712354.png",
+      "https://cdn2.steamgriddb.com/grid/2a2ed09002606826d7a1eb9e7772d936.jpg"
+    ],
+    "video": ""
+  },
+  "tags": [
+    "Classic",
+    "Sci-Fi",
+    "Singleplayer"
+  ]
 }

@@ -1,5 +1,61 @@
 [
   {
+    "id": "unreal",
+    "name": "Unreal",
+    "description": "Classic sci-fi FPS with campaign and multiplayer modes.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "tags": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "players": null,
+    "addedAt": "2026-02-19",
+    "updatedAt": "2026-02-19",
+    "media": {
+      "cover": "https://cdn2.steamgriddb.com/grid/3bcc8997df233ab581f30dd65f14698c.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/11c77d5ee60af4f679780201bfe6790e.jpg",
+      "icon": "https://cdn2.steamgriddb.com/icon/a285fa36991e098383162bba75bf78d9.png"
+    },
+    "homepage": "https://oldunreal.com/downloads/unreal/"
+  },
+  {
+    "id": "unreal2",
+    "name": "Unreal II: The Awakening",
+    "description": "Story-driven sci-fi FPS sequel in the Unreal universe.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "tags": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "players": null,
+    "addedAt": "2026-02-19",
+    "updatedAt": "2026-02-19",
+    "media": {
+      "cover": "https://cdn2.steamgriddb.com/grid/e20f793e651635554511138a6d91965d.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/de594ef5c314372edec29b93cab9d72e.png",
+      "icon": "https://cdn2.steamgriddb.com/icon/9af045098a9f3886f936f8ad9d576d71.png"
+    },
+    "homepage": "https://oldunreal.com/downloads/unreal2/"
+  },
+  {
     "id": "0-a-d",
     "name": "0 A.D.",
     "description": "0 A.D. ist ein kostenloses, open-source Echtzeit-Strategiespiel von Wildfire Games, das sich in der Antike zwischen 500 v. Chr.  und 1 n. Chr. abspielt und den Aufbau einer Wirtschafts- und Kriegsproduktion zur Bekämpfung der Gegner mit historisch inspirierten Zivilisationen, realistischen Einheiten und ohne Magie bietet",
@@ -22,12 +78,11 @@
     "addedAt": "2026-02-17",
     "updatedAt": "2026-02-18",
     "media": {
-      "cover": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
-      "hero": "https://img.itch.zone/aW1nLzUzMDg2NDYuanBn/original/HYbSWM.jpg",
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/9/99/0_A.D._logo.svg"
+      "cover": "https://cdn2.steamgriddb.com/grid/4f315989358cc0f3f7869f569887743d.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/5fd28170bd0b91d09f02ae9983bc67e6.png",
+      "icon": "https://cdn2.steamgriddb.com/icon/bf15fc6473a38b79c0a233e9c6581775.png"
     },
-    "homepage": "https://play0ad.com/",
-    "steam": null
+    "homepage": "https://play0ad.com/"
   },
   {
     "id": "rocket-league",
@@ -85,6 +140,72 @@
     }
   },
   {
+    "id": "flatout-2",
+    "name": "FlatOut 2",
+    "description": "Arcade racing chaos with crash physics and split-screen action.",
+    "genres": [
+      "Racing",
+      "Action"
+    ],
+    "categories": [
+      "Arcade",
+      "Destruction",
+      "Split-Screen"
+    ],
+    "tags": [
+      "Arcade",
+      "Destruction",
+      "Split-Screen"
+    ],
+    "players": {
+      "min": 1,
+      "max": 4
+    },
+    "addedAt": "2026-02-10",
+    "updatedAt": "2026-02-16",
+    "media": {
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/header.jpg?t=1765237363",
+      "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/library_hero.jpg",
+      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/capsule_231x87.jpg?t=1765237363"
+    },
+    "steam": {
+      "appid": 2990,
+      "steamdb": "https://steamdb.info/app/2990/",
+      "store": "https://store.steampowered.com/app/2990/"
+    }
+  },
+  {
+    "id": "supertuxkart",
+    "name": "SuperTuxKart",
+    "description": "Open-source kart racer packed with tracks and modes.",
+    "genres": [
+      "Racing",
+      "Party"
+    ],
+    "categories": [
+      "Open Source",
+      "Split-Screen",
+      "Family"
+    ],
+    "tags": [
+      "Open Source",
+      "Split-Screen",
+      "Family"
+    ],
+    "players": {
+      "min": 1,
+      "max": 8
+    },
+    "addedAt": "2026-02-14",
+    "updatedAt": "2026-02-16",
+    "media": {
+      "cover": "https://supertuxkart.net/assets/images/header.jpg",
+      "hero": "https://supertuxkart.net/assets/images/header.jpg",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/3/37/Logo_de_SuperTuxKart.png"
+    },
+    "homepage": "https://supertuxkart.net/Main_Page"
+  },
+  {
     "id": "unreal-tournament-2004",
     "name": "Unreal Tournament 2004",
     "description": "Large-scale arena shooter with vehicles and mods.",
@@ -99,8 +220,7 @@
     ],
     "tags": [
       "Classic",
-      "Vehicles",
-      "Mods"
+      "Vehicles"
     ],
     "players": {
       "min": 1,
@@ -109,9 +229,9 @@
     "addedAt": "2026-02-16",
     "updatedAt": "2026-02-16",
     "media": {
-      "cover": "assets/img/placeholder-cover.svg",
-      "hero": "assets/img/placeholder-hero.svg",
-      "icon": "assets/img/placeholder-icon.svg"
+      "cover": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
+      "hero": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
+      "icon": "https://cdn2.unrealengine.com/ut-badge-tournament-2003-128x128-6a67dacd99ad.png"
     },
     "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
   },
@@ -151,72 +271,6 @@
     }
   },
   {
-    "id": "supertuxkart",
-    "name": "SuperTuxKart",
-    "description": "Open-source kart racer packed with tracks and modes.",
-    "genres": [
-      "Racing",
-      "Party"
-    ],
-    "categories": [
-      "Open Source",
-      "Split-Screen",
-      "Family"
-    ],
-    "tags": [
-      "Open Source",
-      "Split-Screen",
-      "Family"
-    ],
-    "players": {
-      "min": 1,
-      "max": 8
-    },
-    "addedAt": "2026-02-14",
-    "updatedAt": "2026-02-16",
-    "media": {
-      "cover": "https://supertuxkart.net/assets/images/header.jpg",
-      "hero": "https://supertuxkart.net/assets/images/header.jpg",
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/3/37/Logo_de_SuperTuxKart.png"
-    },
-    "homepage": "https://supertuxkart.net/Main_Page"
-  },
-  {
-    "id": "flatout-2",
-    "name": "FlatOut 2",
-    "description": "Arcade racing chaos with crash physics and split-screen action.",
-    "genres": [
-      "Racing",
-      "Action"
-    ],
-    "categories": [
-      "Arcade",
-      "Destruction",
-      "Split-Screen"
-    ],
-    "tags": [
-      "Arcade",
-      "Destruction",
-      "Split-Screen"
-    ],
-    "players": {
-      "min": 1,
-      "max": 4
-    },
-    "addedAt": "2026-02-10",
-    "updatedAt": "2026-02-16",
-    "media": {
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/header.jpg?t=1765237363",
-      "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/library_hero.jpg",
-      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/capsule_231x87.jpg?t=1765237363"
-    },
-    "steam": {
-      "appid": 2990,
-      "steamdb": "https://steamdb.info/app/2990/",
-      "store": "https://store.steampowered.com/app/2990/"
-    }
-  },
-  {
     "id": "beyond-all-reason",
     "name": "Beyond All Reason",
     "description": "Massive open-source RTS with large scale battles.",
@@ -246,104 +300,6 @@
       "icon": "assets/img/placeholder-icon.svg"
     },
     "homepage": "https://www.beyondallreason.info/"
-  },
-  {
-    "id": "openra",
-    "name": "OpenRA",
-    "description": "Modernized classic RTS with moddable missions.",
-    "genres": [
-      "Strategy",
-      "RTS"
-    ],
-    "categories": [
-      "Open Source",
-      "Modding",
-      "Classic"
-    ],
-    "tags": [
-      "Open Source",
-      "Modding",
-      "Classic"
-    ],
-    "players": {
-      "min": 1,
-      "max": 12
-    },
-    "addedAt": "2026-02-14",
-    "updatedAt": "2026-02-15",
-    "media": {
-      "cover": "assets/img/placeholder-cover.svg",
-      "hero": "assets/img/placeholder-hero.svg",
-      "icon": "assets/img/placeholder-icon.svg"
-    },
-    "homepage": "https://www.openra.net/"
-  },
-  {
-    "id": "teeworlds",
-    "name": "Teeworlds",
-    "description": "Fast 2D multiplayer shooter with simple controls.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "categories": [
-      "2D",
-      "Multiplayer",
-      "Open Source"
-    ],
-    "tags": [
-      "2D",
-      "Multiplayer",
-      "Open Source"
-    ],
-    "players": {
-      "min": 2,
-      "max": 16
-    },
-    "addedAt": "2026-02-13",
-    "updatedAt": "2026-02-15",
-    "media": {
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/380840/header.jpg?t=1578354106",
-      "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/380840/library_hero.jpg",
-      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/380840/capsule_231x87.jpg?t=1578354106"
-    },
-    "homepage": "https://teeworlds.com/",
-    "steam": {
-      "appid": 380840,
-      "steamdb": "https://steamdb.info/app/380840/",
-      "store": "https://store.steampowered.com/app/380840/"
-    }
-  },
-  {
-    "id": "unreal-tournament",
-    "name": "Unreal Tournament",
-    "description": "Arena shooter classic with fast movement and mods.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "categories": [
-      "Classic",
-      "Arena",
-      "Mods"
-    ],
-    "tags": [
-      "Classic",
-      "Arena",
-      "Mods"
-    ],
-    "players": {
-      "min": 1,
-      "max": 16
-    },
-    "addedAt": "2026-02-15",
-    "updatedAt": "2026-02-15",
-    "media": {
-      "cover": "assets/img/placeholder-cover.svg",
-      "hero": "assets/img/placeholder-hero.svg",
-      "icon": "assets/img/placeholder-icon.svg"
-    },
-    "homepage": "https://oldunreal.com/downloads/unrealtournament/"
   },
   {
     "id": "hedgewars",
@@ -380,6 +336,37 @@
       "steamdb": "https://steamdb.info/app/2223810/",
       "store": "https://store.steampowered.com/app/2223810"
     }
+  },
+  {
+    "id": "openra",
+    "name": "OpenRA",
+    "description": "Modernized classic RTS with moddable missions.",
+    "genres": [
+      "Strategy",
+      "RTS"
+    ],
+    "categories": [
+      "Open Source",
+      "Modding",
+      "Classic"
+    ],
+    "tags": [
+      "Open Source",
+      "Modding",
+      "Classic"
+    ],
+    "players": {
+      "min": 1,
+      "max": 12
+    },
+    "addedAt": "2026-02-14",
+    "updatedAt": "2026-02-15",
+    "media": {
+      "cover": "assets/img/placeholder-cover.svg",
+      "hero": "assets/img/placeholder-hero.svg",
+      "icon": "assets/img/placeholder-icon.svg"
+    },
+    "homepage": "https://www.openra.net/"
   },
   {
     "id": "renegade-x",
@@ -447,5 +434,71 @@
       "steamdb": "https://steamdb.info/app/638490/",
       "store": "https://store.steampowered.com/app/638490/"
     }
+  },
+  {
+    "id": "teeworlds",
+    "name": "Teeworlds",
+    "description": "Fast 2D multiplayer shooter with simple controls.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "2D",
+      "Multiplayer",
+      "Open Source"
+    ],
+    "tags": [
+      "2D",
+      "Multiplayer",
+      "Open Source"
+    ],
+    "players": {
+      "min": 2,
+      "max": 16
+    },
+    "addedAt": "2026-02-13",
+    "updatedAt": "2026-02-15",
+    "media": {
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/380840/header.jpg?t=1578354106",
+      "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/380840/library_hero.jpg",
+      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/380840/capsule_231x87.jpg?t=1578354106"
+    },
+    "homepage": "https://teeworlds.com/",
+    "steam": {
+      "appid": 380840,
+      "steamdb": "https://steamdb.info/app/380840/",
+      "store": "https://store.steampowered.com/app/380840/"
+    }
+  },
+  {
+    "id": "unreal-tournament",
+    "name": "Unreal Tournament",
+    "description": "Arena shooter classic with fast movement and mods.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "Classic",
+      "Arena",
+      "Mods"
+    ],
+    "tags": [
+      "Classic",
+      "Arena"
+    ],
+    "players": {
+      "min": 1,
+      "max": 16
+    },
+    "addedAt": "2026-02-15",
+    "updatedAt": "2026-02-15",
+    "media": {
+      "cover": "https://oldunreal.com/site/assets/files/1040/liandri.jpg",
+      "hero": "https://oldunreal.com/site/assets/files/1040/liandri.jpg",
+      "icon": "https://cdn2.unrealengine.com/ut-badge-gold-161x160-ecbb9adf06da.png"
+    },
+    "homepage": "https://oldunreal.com/downloads/unrealtournament/"
   }
 ]
