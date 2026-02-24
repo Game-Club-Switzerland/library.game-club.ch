@@ -409,6 +409,14 @@ button:hover {
   fill: currentColor;
 }
 
+.octicon-steam,
+.octicon-steamdb {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
 .action-buttons .button-link:hover {
   border-color: var(--accent-strong);
 }
