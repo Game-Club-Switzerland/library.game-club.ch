@@ -405,6 +405,10 @@ button:hover {
   text-decoration: none;
 }
 
+.action-buttons .button-link .octicon-steam {
+  fill: currentColor;
+}
+
 .action-buttons .button-link:hover {
   border-color: var(--accent-strong);
 }
