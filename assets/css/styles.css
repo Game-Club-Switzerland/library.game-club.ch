@@ -386,6 +386,29 @@ button:hover {
   gap: 12px;
 }
 
+.action-buttons {
+  display: grid;
+  gap: 8px;
+}
+
+.action-buttons .button-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(60, 192, 162, 0.4);
+  background: linear-gradient(120deg, rgba(60, 192, 162, 0.2), rgba(19, 33, 43, 0.9));
+  color: var(--text);
+  text-decoration: none;
+}
+
+.action-buttons .button-link:hover {
+  border-color: var(--accent-strong);
+}
+
 .meta-row {
   display: flex;
   justify-content: space-between;
