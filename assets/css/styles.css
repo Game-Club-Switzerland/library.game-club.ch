@@ -410,7 +410,8 @@ button:hover {
 }
 
 .octicon-steam,
-.octicon-steamdb {
+.octicon-steamdb,
+.octicon-gog {
   width: 16px;
   height: 16px;
   fill: currentColor;
