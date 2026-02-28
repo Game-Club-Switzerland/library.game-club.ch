@@ -27,6 +27,9 @@
     "steamdb": "https://steamdb.info/app/2990/",
     "store": "https://store.steampowered.com/app/2990/"
   },
+  "gog": {
+    "store": "https://www.gog.com/en/game/flatout_2"
+  },
   "media": {
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/header.jpg?t=1765237363",
     "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/library_hero.jpg",
