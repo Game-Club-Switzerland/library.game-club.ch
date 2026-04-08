@@ -1,5 +1,61 @@
 [
   {
+    "id": "unreal2",
+    "name": "Unreal II: The Awakening",
+    "description": "Story-driven sci-fi FPS sequel in the Unreal universe.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "tags": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "players": null,
+    "addedAt": "2026-02-19",
+    "updatedAt": "2026-02-19",
+    "media": {
+      "cover": "https://cdn2.steamgriddb.com/grid/e20f793e651635554511138a6d91965d.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/de594ef5c314372edec29b93cab9d72e.png",
+      "icon": "https://cdn2.steamgriddb.com/icon/9af045098a9f3886f936f8ad9d576d71.png"
+    },
+    "homepage": "https://oldunreal.com/downloads/unreal2/"
+  },
+  {
+    "id": "unreal",
+    "name": "Unreal",
+    "description": "Classic sci-fi FPS with campaign and multiplayer modes.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "tags": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "players": null,
+    "addedAt": "2026-02-19",
+    "updatedAt": "2026-02-19",
+    "media": {
+      "cover": "https://cdn2.steamgriddb.com/grid/3bcc8997df233ab581f30dd65f14698c.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/11c77d5ee60af4f679780201bfe6790e.jpg",
+      "icon": "https://cdn2.steamgriddb.com/icon/a285fa36991e098383162bba75bf78d9.png"
+    },
+    "homepage": "https://oldunreal.com/downloads/unreal/"
+  },
+  {
     "id": "deep-rock-galactic",
     "name": "Deep Rock Galactic",
     "description": "Award-winning co-op FPS featuring dwarven space miners exploring procedurally-generated destructible cave systems filled with alien hordes.",
@@ -39,34 +95,6 @@
     }
   },
   {
-    "id": "unreal",
-    "name": "Unreal",
-    "description": "Classic sci-fi FPS with campaign and multiplayer modes.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "categories": [
-      "Classic",
-      "Sci-Fi",
-      "Singleplayer"
-    ],
-    "tags": [
-      "Classic",
-      "Sci-Fi",
-      "Singleplayer"
-    ],
-    "players": null,
-    "addedAt": "2026-02-19",
-    "updatedAt": "2026-02-19",
-    "media": {
-      "cover": "https://cdn2.steamgriddb.com/grid/3bcc8997df233ab581f30dd65f14698c.png",
-      "hero": "https://cdn2.steamgriddb.com/hero/11c77d5ee60af4f679780201bfe6790e.jpg",
-      "icon": "https://cdn2.steamgriddb.com/icon/a285fa36991e098383162bba75bf78d9.png"
-    },
-    "homepage": "https://oldunreal.com/downloads/unreal/"
-  },
-  {
     "id": "battlefield-2",
     "name": "Battlefield 2",
     "description": "Classic team-based tactical shooter with large-scale battles.",
@@ -96,34 +124,6 @@
       "icon": "https://cdn2.steamgriddb.com/icon/e02a35b1563d0db53486ec068ebab80f.png"
     },
     "homepage": "https://oldgamesdownload.com/battlefield-2-ttry/"
-  },
-  {
-    "id": "unreal2",
-    "name": "Unreal II: The Awakening",
-    "description": "Story-driven sci-fi FPS sequel in the Unreal universe.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "categories": [
-      "Classic",
-      "Sci-Fi",
-      "Singleplayer"
-    ],
-    "tags": [
-      "Classic",
-      "Sci-Fi",
-      "Singleplayer"
-    ],
-    "players": null,
-    "addedAt": "2026-02-19",
-    "updatedAt": "2026-02-19",
-    "media": {
-      "cover": "https://cdn2.steamgriddb.com/grid/e20f793e651635554511138a6d91965d.png",
-      "hero": "https://cdn2.steamgriddb.com/hero/de594ef5c314372edec29b93cab9d72e.png",
-      "icon": "https://cdn2.steamgriddb.com/icon/9af045098a9f3886f936f8ad9d576d71.png"
-    },
-    "homepage": "https://oldunreal.com/downloads/unreal2/"
   },
   {
     "id": "0-a-d",
