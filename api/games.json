@@ -1,5 +1,33 @@
 [
   {
+    "id": "unreal",
+    "name": "Unreal",
+    "description": "Classic sci-fi FPS with campaign and multiplayer modes.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "tags": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "players": null,
+    "addedAt": "2026-02-19",
+    "updatedAt": "2026-02-19",
+    "media": {
+      "cover": "https://cdn2.steamgriddb.com/grid/3bcc8997df233ab581f30dd65f14698c.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/11c77d5ee60af4f679780201bfe6790e.jpg",
+      "icon": "https://cdn2.steamgriddb.com/icon/a285fa36991e098383162bba75bf78d9.png"
+    },
+    "homepage": "https://oldunreal.com/downloads/unreal/"
+  },
+  {
     "id": "battlefield-2",
     "name": "Battlefield 2",
     "description": "Classic team-based tactical shooter with large-scale battles.",
@@ -29,62 +57,6 @@
       "icon": "https://cdn2.steamgriddb.com/icon/e02a35b1563d0db53486ec068ebab80f.png"
     },
     "homepage": "https://oldgamesdownload.com/battlefield-2-ttry/"
-  },
-  {
-    "id": "unreal",
-    "name": "Unreal",
-    "description": "Classic sci-fi FPS with campaign and multiplayer modes.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "categories": [
-      "Classic",
-      "Sci-Fi",
-      "Singleplayer"
-    ],
-    "tags": [
-      "Classic",
-      "Sci-Fi",
-      "Singleplayer"
-    ],
-    "players": null,
-    "addedAt": "2026-02-19",
-    "updatedAt": "2026-02-19",
-    "media": {
-      "cover": "https://cdn2.steamgriddb.com/grid/3bcc8997df233ab581f30dd65f14698c.png",
-      "hero": "https://cdn2.steamgriddb.com/hero/11c77d5ee60af4f679780201bfe6790e.jpg",
-      "icon": "https://cdn2.steamgriddb.com/icon/a285fa36991e098383162bba75bf78d9.png"
-    },
-    "homepage": "https://oldunreal.com/downloads/unreal/"
-  },
-  {
-    "id": "unreal2",
-    "name": "Unreal II: The Awakening",
-    "description": "Story-driven sci-fi FPS sequel in the Unreal universe.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "categories": [
-      "Classic",
-      "Sci-Fi",
-      "Singleplayer"
-    ],
-    "tags": [
-      "Classic",
-      "Sci-Fi",
-      "Singleplayer"
-    ],
-    "players": null,
-    "addedAt": "2026-02-19",
-    "updatedAt": "2026-02-19",
-    "media": {
-      "cover": "https://cdn2.steamgriddb.com/grid/e20f793e651635554511138a6d91965d.png",
-      "hero": "https://cdn2.steamgriddb.com/hero/de594ef5c314372edec29b93cab9d72e.png",
-      "icon": "https://cdn2.steamgriddb.com/icon/9af045098a9f3886f936f8ad9d576d71.png"
-    },
-    "homepage": "https://oldunreal.com/downloads/unreal2/"
   },
   {
     "id": "deep-rock-galactic",
@@ -124,6 +96,34 @@
       "steamdb": "https://steamdb.info/app/548430/",
       "store": "https://store.steampowered.com/app/548430/Deep_Rock_Galactic/"
     }
+  },
+  {
+    "id": "unreal2",
+    "name": "Unreal II: The Awakening",
+    "description": "Story-driven sci-fi FPS sequel in the Unreal universe.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "tags": [
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
+    ],
+    "players": null,
+    "addedAt": "2026-02-19",
+    "updatedAt": "2026-02-19",
+    "media": {
+      "cover": "https://cdn2.steamgriddb.com/grid/e20f793e651635554511138a6d91965d.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/de594ef5c314372edec29b93cab9d72e.png",
+      "icon": "https://cdn2.steamgriddb.com/icon/9af045098a9f3886f936f8ad9d576d71.png"
+    },
+    "homepage": "https://oldunreal.com/downloads/unreal2/"
   },
   {
     "id": "0-a-d",
@@ -250,36 +250,6 @@
     }
   },
   {
-    "id": "unreal-tournament-2004",
-    "name": "Unreal Tournament 2004",
-    "description": "Large-scale arena shooter with vehicles and mods.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "categories": [
-      "Classic",
-      "Vehicles",
-      "Mods"
-    ],
-    "tags": [
-      "Classic",
-      "Vehicles"
-    ],
-    "players": {
-      "min": 1,
-      "max": 32
-    },
-    "addedAt": "2026-02-16",
-    "updatedAt": "2026-02-16",
-    "media": {
-      "cover": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
-      "hero": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
-      "icon": "https://cdn2.unrealengine.com/ut-badge-tournament-2003-128x128-6a67dacd99ad.png"
-    },
-    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
-  },
-  {
     "id": "flatout-2",
     "name": "FlatOut 2",
     "description": "Arcade racing chaos with crash physics and split-screen action.",
@@ -346,6 +316,36 @@
     "homepage": "https://supertuxkart.net/Main_Page"
   },
   {
+    "id": "unreal-tournament-2004",
+    "name": "Unreal Tournament 2004",
+    "description": "Large-scale arena shooter with vehicles and mods.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "Classic",
+      "Vehicles",
+      "Mods"
+    ],
+    "tags": [
+      "Classic",
+      "Vehicles"
+    ],
+    "players": {
+      "min": 1,
+      "max": 32
+    },
+    "addedAt": "2026-02-16",
+    "updatedAt": "2026-02-16",
+    "media": {
+      "cover": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
+      "hero": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
+      "icon": "https://cdn2.unrealengine.com/ut-badge-tournament-2003-128x128-6a67dacd99ad.png"
+    },
+    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
+  },
+  {
     "id": "openra",
     "name": "OpenRA",
     "description": "Modernized classic RTS with moddable missions.",
@@ -377,34 +377,34 @@
     "homepage": "https://www.openra.net/"
   },
   {
-    "id": "unreal-tournament",
-    "name": "Unreal Tournament",
-    "description": "Arena shooter classic with fast movement and mods.",
+    "id": "beyond-all-reason",
+    "name": "Beyond All Reason",
+    "description": "Massive open-source RTS with large scale battles.",
     "genres": [
-      "Action",
-      "Shooter"
+      "Strategy",
+      "RTS"
     ],
     "categories": [
-      "Classic",
-      "Arena",
-      "Mods"
+      "Multiplayer",
+      "Sci-Fi"
     ],
     "tags": [
-      "Classic",
-      "Arena"
+      "Open Source",
+      "Multiplayer",
+      "Sci-Fi"
     ],
     "players": {
       "min": 1,
       "max": 16
     },
-    "addedAt": "2026-02-15",
+    "addedAt": "2026-02-13",
     "updatedAt": "2026-02-15",
     "media": {
-      "cover": "https://oldunreal.com/site/assets/files/1040/liandri.jpg",
-      "hero": "https://oldunreal.com/site/assets/files/1040/liandri.jpg",
-      "icon": "https://cdn2.unrealengine.com/ut-badge-gold-161x160-ecbb9adf06da.png"
+      "cover": "https://cdn2.steamgriddb.com/grid/c1087a79059081544ffa1170bbaaa71d.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/b35e4923a2d76b2a870141c6f42dfe6c.jpg",
+      "icon": "https://cdn2.steamgriddb.com/icon/b4049a148eacf5ac3b5eac7c67e85758.png"
     },
-    "homepage": "https://oldunreal.com/downloads/unrealtournament/"
+    "homepage": "https://www.beyondallreason.info/"
   },
   {
     "id": "hedgewars",
@@ -440,36 +440,6 @@
       "steamdb": "https://steamdb.info/app/2223810/",
       "store": "https://store.steampowered.com/app/2223810"
     }
-  },
-  {
-    "id": "beyond-all-reason",
-    "name": "Beyond All Reason",
-    "description": "Massive open-source RTS with large scale battles.",
-    "genres": [
-      "Strategy",
-      "RTS"
-    ],
-    "categories": [
-      "Multiplayer",
-      "Sci-Fi"
-    ],
-    "tags": [
-      "Open Source",
-      "Multiplayer",
-      "Sci-Fi"
-    ],
-    "players": {
-      "min": 1,
-      "max": 16
-    },
-    "addedAt": "2026-02-13",
-    "updatedAt": "2026-02-15",
-    "media": {
-      "cover": "https://cdn2.steamgriddb.com/grid/c1087a79059081544ffa1170bbaaa71d.png",
-      "hero": "https://cdn2.steamgriddb.com/hero/b35e4923a2d76b2a870141c6f42dfe6c.jpg",
-      "icon": "https://cdn2.steamgriddb.com/icon/b4049a148eacf5ac3b5eac7c67e85758.png"
-    },
-    "homepage": "https://www.beyondallreason.info/"
   },
   {
     "id": "soldat",
@@ -537,6 +507,36 @@
       "icon": "https://cdn2.steamgriddb.com/icon/67d92f9a027b3aceaed819addd130ee0.png"
     },
     "homepage": "https://totemarts.games/games/renegade-x/"
+  },
+  {
+    "id": "unreal-tournament",
+    "name": "Unreal Tournament",
+    "description": "Arena shooter classic with fast movement and mods.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "Classic",
+      "Arena",
+      "Mods"
+    ],
+    "tags": [
+      "Classic",
+      "Arena"
+    ],
+    "players": {
+      "min": 1,
+      "max": 16
+    },
+    "addedAt": "2026-02-15",
+    "updatedAt": "2026-02-15",
+    "media": {
+      "cover": "https://oldunreal.com/site/assets/files/1040/liandri.jpg",
+      "hero": "https://oldunreal.com/site/assets/files/1040/liandri.jpg",
+      "icon": "https://cdn2.unrealengine.com/ut-badge-gold-161x160-ecbb9adf06da.png"
+    },
+    "homepage": "https://oldunreal.com/downloads/unrealtournament/"
   },
   {
     "id": "teeworlds",
