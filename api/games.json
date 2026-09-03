@@ -1,31 +1,34 @@
 [
   {
-    "id": "unreal",
-    "name": "Unreal",
-    "description": "Classic sci-fi FPS with campaign and multiplayer modes.",
+    "id": "battlefield-2",
+    "name": "Battlefield 2",
+    "description": "Classic team-based tactical shooter with large-scale battles.",
     "genres": [
       "Action",
       "Shooter"
     ],
     "categories": [
-      "Classic",
-      "Sci-Fi",
-      "Singleplayer"
+      "Multiplayer",
+      "Tactical",
+      "War"
     ],
     "tags": [
-      "Classic",
-      "Sci-Fi",
-      "Singleplayer"
+      "Multiplayer",
+      "Tactical",
+      "War"
     ],
-    "players": null,
+    "players": {
+      "min": 1,
+      "max": 64
+    },
     "addedAt": "2026-02-19",
     "updatedAt": "2026-02-19",
     "media": {
-      "cover": "https://cdn2.steamgriddb.com/grid/3bcc8997df233ab581f30dd65f14698c.png",
-      "hero": "https://cdn2.steamgriddb.com/hero/11c77d5ee60af4f679780201bfe6790e.jpg",
-      "icon": "https://cdn2.steamgriddb.com/icon/a285fa36991e098383162bba75bf78d9.png"
+      "cover": "https://cdn2.steamgriddb.com/grid/6fa77d8a28f18e84d21d2ca54366996e.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/b10e210fcf2fe447a737438af5efffde.png",
+      "icon": "https://cdn2.steamgriddb.com/icon/e02a35b1563d0db53486ec068ebab80f.png"
     },
-    "homepage": "https://oldunreal.com/downloads/unreal/"
+    "homepage": "https://oldgamesdownload.com/battlefield-2-ttry/"
   },
   {
     "id": "deep-rock-galactic",
@@ -67,35 +70,32 @@
     }
   },
   {
-    "id": "battlefield-2",
-    "name": "Battlefield 2",
-    "description": "Classic team-based tactical shooter with large-scale battles.",
+    "id": "unreal",
+    "name": "Unreal",
+    "description": "Classic sci-fi FPS with campaign and multiplayer modes.",
     "genres": [
       "Action",
       "Shooter"
     ],
     "categories": [
-      "Multiplayer",
-      "Tactical",
-      "War"
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
     ],
     "tags": [
-      "Multiplayer",
-      "Tactical",
-      "War"
+      "Classic",
+      "Sci-Fi",
+      "Singleplayer"
     ],
-    "players": {
-      "min": 1,
-      "max": 64
-    },
+    "players": null,
     "addedAt": "2026-02-19",
     "updatedAt": "2026-02-19",
     "media": {
-      "cover": "https://cdn2.steamgriddb.com/grid/6fa77d8a28f18e84d21d2ca54366996e.png",
-      "hero": "https://cdn2.steamgriddb.com/hero/b10e210fcf2fe447a737438af5efffde.png",
-      "icon": "https://cdn2.steamgriddb.com/icon/e02a35b1563d0db53486ec068ebab80f.png"
+      "cover": "https://cdn2.steamgriddb.com/grid/3bcc8997df233ab581f30dd65f14698c.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/11c77d5ee60af4f679780201bfe6790e.jpg",
+      "icon": "https://cdn2.steamgriddb.com/icon/a285fa36991e098383162bba75bf78d9.png"
     },
-    "homepage": "https://oldgamesdownload.com/battlefield-2-ttry/"
+    "homepage": "https://oldunreal.com/downloads/unreal/"
   },
   {
     "id": "unreal2",
@@ -215,34 +215,39 @@
     }
   },
   {
-    "id": "unreal-tournament-2004",
-    "name": "Unreal Tournament 2004",
-    "description": "Large-scale arena shooter with vehicles and mods.",
+    "id": "world-in-conflict",
+    "name": "World in Conflict",
+    "description": "Cold-war RTS with cinematic battles and squad tactics.",
     "genres": [
-      "Action",
-      "Shooter"
+      "Strategy",
+      "RTS"
     ],
     "categories": [
-      "Classic",
-      "Vehicles",
-      "Mods"
+      "Tactics",
+      "Cold War",
+      "Story"
     ],
     "tags": [
-      "Classic",
-      "Vehicles"
+      "Tactics",
+      "Cold War",
+      "Story"
     ],
     "players": {
       "min": 1,
-      "max": 32
+      "max": 16
     },
-    "addedAt": "2026-02-16",
+    "addedAt": "2026-02-11",
     "updatedAt": "2026-02-16",
     "media": {
-      "cover": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
-      "hero": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
-      "icon": "https://cdn2.unrealengine.com/ut-badge-tournament-2003-128x128-6a67dacd99ad.png"
+      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/21760/header.jpg",
+      "hero": "https://images.gog-statics.com/a09dbaf28268d605cb7ec7434c620008f3ac88c19b75377b5e171bca90b9b3b3_bg_crop_1366x655.jpg",
+      "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/21760/177d0b92597475f22d07c5e985cfe9e47032e12f.jpg"
     },
-    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
+    "steam": {
+      "appid": 21760,
+      "steamdb": "https://steamdb.info/app/21760/",
+      "store": "https://store.steampowered.com/app/21760/"
+    }
   },
   {
     "id": "supertuxkart",
@@ -274,6 +279,36 @@
       "icon": "https://upload.wikimedia.org/wikipedia/commons/3/37/Logo_de_SuperTuxKart.png"
     },
     "homepage": "https://supertuxkart.net/Main_Page"
+  },
+  {
+    "id": "unreal-tournament-2004",
+    "name": "Unreal Tournament 2004",
+    "description": "Large-scale arena shooter with vehicles and mods.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "Classic",
+      "Vehicles",
+      "Mods"
+    ],
+    "tags": [
+      "Classic",
+      "Vehicles"
+    ],
+    "players": {
+      "min": 1,
+      "max": 32
+    },
+    "addedAt": "2026-02-16",
+    "updatedAt": "2026-02-16",
+    "media": {
+      "cover": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
+      "hero": "https://cdn2.unrealengine.com/unreal-tournament-2003-01-48afedb199f9.webp",
+      "icon": "https://cdn2.unrealengine.com/ut-badge-tournament-2003-128x128-6a67dacd99ad.png"
+    },
+    "homepage": "https://www.oldunreal.com/downloads/ut2004/full-game-installers/"
   },
   {
     "id": "flatout-2",
@@ -311,39 +346,65 @@
     }
   },
   {
-    "id": "world-in-conflict",
-    "name": "World in Conflict",
-    "description": "Cold-war RTS with cinematic battles and squad tactics.",
+    "id": "openra",
+    "name": "OpenRA",
+    "description": "Modernized classic RTS with moddable missions.",
     "genres": [
       "Strategy",
       "RTS"
     ],
     "categories": [
-      "Tactics",
-      "Cold War",
-      "Story"
+      "Open Source",
+      "Modding",
+      "Classic"
     ],
     "tags": [
-      "Tactics",
-      "Cold War",
-      "Story"
+      "Open Source",
+      "Modding",
+      "Classic"
+    ],
+    "players": {
+      "min": 1,
+      "max": 12
+    },
+    "addedAt": "2026-02-14",
+    "updatedAt": "2026-02-15",
+    "media": {
+      "cover": "https://cdn2.steamgriddb.com/grid/cd9d009b1a6ee8cad69a3a3ebdafc0fb-fakepng.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/fd4d562ce919ef9c26c8662ba91ab856.png",
+      "icon": "https://cdn2.steamgriddb.com/icon/7b41bfa5085806dfa24b8c9de0ce567f.png"
+    },
+    "homepage": "https://www.openra.net/"
+  },
+  {
+    "id": "beyond-all-reason",
+    "name": "Beyond All Reason",
+    "description": "Massive open-source RTS with large scale battles.",
+    "genres": [
+      "Strategy",
+      "RTS"
+    ],
+    "categories": [
+      "Multiplayer",
+      "Sci-Fi"
+    ],
+    "tags": [
+      "Open Source",
+      "Multiplayer",
+      "Sci-Fi"
     ],
     "players": {
       "min": 1,
       "max": 16
     },
-    "addedAt": "2026-02-11",
-    "updatedAt": "2026-02-16",
+    "addedAt": "2026-02-13",
+    "updatedAt": "2026-02-15",
     "media": {
-      "cover": "https://cdn.akamai.steamstatic.com/steam/apps/21760/header.jpg",
-      "hero": "https://images.gog-statics.com/a09dbaf28268d605cb7ec7434c620008f3ac88c19b75377b5e171bca90b9b3b3_bg_crop_1366x655.jpg",
-      "icon": "https://shared.fastly.steamstatic.com/community_assets/images/apps/21760/177d0b92597475f22d07c5e985cfe9e47032e12f.jpg"
+      "cover": "https://cdn2.steamgriddb.com/grid/c1087a79059081544ffa1170bbaaa71d.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/b35e4923a2d76b2a870141c6f42dfe6c.jpg",
+      "icon": "https://cdn2.steamgriddb.com/icon/b4049a148eacf5ac3b5eac7c67e85758.png"
     },
-    "steam": {
-      "appid": 21760,
-      "steamdb": "https://steamdb.info/app/21760/",
-      "store": "https://store.steampowered.com/app/21760/"
-    }
+    "homepage": "https://www.beyondallreason.info/"
   },
   {
     "id": "unreal-tournament",
@@ -374,6 +435,72 @@
       "icon": "https://cdn2.unrealengine.com/ut-badge-gold-161x160-ecbb9adf06da.png"
     },
     "homepage": "https://oldunreal.com/downloads/unrealtournament/"
+  },
+  {
+    "id": "renegade-x",
+    "name": "Renegade X",
+    "description": "Fan-made FPS/RTS hybrid in the C&C universe.",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "categories": [
+      "Multiplayer",
+      "Teamplay",
+      "Sci-Fi"
+    ],
+    "tags": [
+      "Multiplayer",
+      "Teamplay",
+      "Sci-Fi"
+    ],
+    "players": {
+      "min": 8,
+      "max": 64
+    },
+    "addedAt": "2026-02-15",
+    "updatedAt": "2026-02-15",
+    "media": {
+      "cover": "https://cdn2.steamgriddb.com/grid/7276b4e634704d0a4149c2055fe6b2ca.png",
+      "hero": "https://cdn2.steamgriddb.com/hero/f8327b26a178ba557a59ace3378c2f95.png",
+      "icon": "https://cdn2.steamgriddb.com/icon/67d92f9a027b3aceaed819addd130ee0.png"
+    },
+    "homepage": "https://totemarts.games/games/renegade-x/"
+  },
+  {
+    "id": "hedgewars",
+    "name": "Hedgewars",
+    "description": "Turn-based artillery with hedgehogs, tools, and chaos.",
+    "genres": [
+      "Strategy",
+      "Party"
+    ],
+    "categories": [
+      "Turn-Based",
+      "Multiplayer"
+    ],
+    "tags": [
+      "Turn-Based",
+      "Multiplayer",
+      "Open Source"
+    ],
+    "players": {
+      "min": 1,
+      "max": 8
+    },
+    "addedAt": "2026-02-12",
+    "updatedAt": "2026-02-15",
+    "media": {
+      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223810/header.jpg?t=1700249227",
+      "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223810/library_hero.jpg",
+      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223810/capsule_231x87.jpg?t=1700249227"
+    },
+    "homepage": "https://hedgewars.org/",
+    "steam": {
+      "appid": 2223810,
+      "steamdb": "https://steamdb.info/app/2223810/",
+      "store": "https://store.steampowered.com/app/2223810"
+    }
   },
   {
     "id": "soldat",
@@ -412,71 +539,6 @@
     }
   },
   {
-    "id": "beyond-all-reason",
-    "name": "Beyond All Reason",
-    "description": "Massive open-source RTS with large scale battles.",
-    "genres": [
-      "Strategy",
-      "RTS"
-    ],
-    "categories": [
-      "Multiplayer",
-      "Sci-Fi"
-    ],
-    "tags": [
-      "Open Source",
-      "Multiplayer",
-      "Sci-Fi"
-    ],
-    "players": {
-      "min": 1,
-      "max": 16
-    },
-    "addedAt": "2026-02-13",
-    "updatedAt": "2026-02-15",
-    "media": {
-      "cover": "https://cdn2.steamgriddb.com/grid/c1087a79059081544ffa1170bbaaa71d.png",
-      "hero": "https://cdn2.steamgriddb.com/hero/b35e4923a2d76b2a870141c6f42dfe6c.jpg",
-      "icon": "https://cdn2.steamgriddb.com/icon/b4049a148eacf5ac3b5eac7c67e85758.png"
-    },
-    "homepage": "https://www.beyondallreason.info/"
-  },
-  {
-    "id": "hedgewars",
-    "name": "Hedgewars",
-    "description": "Turn-based artillery with hedgehogs, tools, and chaos.",
-    "genres": [
-      "Strategy",
-      "Party"
-    ],
-    "categories": [
-      "Turn-Based",
-      "Multiplayer"
-    ],
-    "tags": [
-      "Turn-Based",
-      "Multiplayer",
-      "Open Source"
-    ],
-    "players": {
-      "min": 1,
-      "max": 8
-    },
-    "addedAt": "2026-02-12",
-    "updatedAt": "2026-02-15",
-    "media": {
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223810/header.jpg?t=1700249227",
-      "hero": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223810/library_hero.jpg",
-      "icon": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223810/capsule_231x87.jpg?t=1700249227"
-    },
-    "homepage": "https://hedgewars.org/",
-    "steam": {
-      "appid": 2223810,
-      "steamdb": "https://steamdb.info/app/2223810/",
-      "store": "https://store.steampowered.com/app/2223810"
-    }
-  },
-  {
     "id": "teeworlds",
     "name": "Teeworlds",
     "description": "Fast 2D multiplayer shooter with simple controls.",
@@ -511,67 +573,5 @@
       "steamdb": "https://steamdb.info/app/380840/",
       "store": "https://store.steampowered.com/app/380840/"
     }
-  },
-  {
-    "id": "renegade-x",
-    "name": "Renegade X",
-    "description": "Fan-made FPS/RTS hybrid in the C&C universe.",
-    "genres": [
-      "Action",
-      "Shooter"
-    ],
-    "categories": [
-      "Multiplayer",
-      "Teamplay",
-      "Sci-Fi"
-    ],
-    "tags": [
-      "Multiplayer",
-      "Teamplay",
-      "Sci-Fi"
-    ],
-    "players": {
-      "min": 8,
-      "max": 64
-    },
-    "addedAt": "2026-02-15",
-    "updatedAt": "2026-02-15",
-    "media": {
-      "cover": "https://cdn2.steamgriddb.com/grid/7276b4e634704d0a4149c2055fe6b2ca.png",
-      "hero": "https://cdn2.steamgriddb.com/hero/f8327b26a178ba557a59ace3378c2f95.png",
-      "icon": "https://cdn2.steamgriddb.com/icon/67d92f9a027b3aceaed819addd130ee0.png"
-    },
-    "homepage": "https://totemarts.games/games/renegade-x/"
-  },
-  {
-    "id": "openra",
-    "name": "OpenRA",
-    "description": "Modernized classic RTS with moddable missions.",
-    "genres": [
-      "Strategy",
-      "RTS"
-    ],
-    "categories": [
-      "Open Source",
-      "Modding",
-      "Classic"
-    ],
-    "tags": [
-      "Open Source",
-      "Modding",
-      "Classic"
-    ],
-    "players": {
-      "min": 1,
-      "max": 12
-    },
-    "addedAt": "2026-02-14",
-    "updatedAt": "2026-02-15",
-    "media": {
-      "cover": "https://cdn2.steamgriddb.com/grid/cd9d009b1a6ee8cad69a3a3ebdafc0fb-fakepng.png",
-      "hero": "https://cdn2.steamgriddb.com/hero/fd4d562ce919ef9c26c8662ba91ab856.png",
-      "icon": "https://cdn2.steamgriddb.com/icon/7b41bfa5085806dfa24b8c9de0ce567f.png"
-    },
-    "homepage": "https://www.openra.net/"
   }
 ]
